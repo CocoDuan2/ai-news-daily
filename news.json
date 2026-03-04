@@ -2,8 +2,53 @@
   "date": "2026-03-04",
   "news": [
     {
-      "title": "等待首次更新",
-      "summary": "AI新闻将在每天早上8:30自动更新",
+      "title": "Anthropic 收购视觉 AI 创企 Vercept",
+      "summary": "Anthropic 宣布收购计算机视觉初创公司 Vercept，进一步增强其多模态 AI 能力。",
+      "url": "https://www.jiqizhixin.com/"
+    },
+    {
+      "title": "谷歌 Gemini 升级至 3.1 Pro 版本",
+      "summary": "Google 发布 Gemini 3.1 Pro，在推理能力和多模态理解方面有显著提升。",
+      "url": "https://www.jiqizhixin.com/"
+    },
+    {
+      "title": "Kimi 与 Minimax 发布「Claw」产品",
+      "summary": "国内 AI 公司 Kimi 和 Minimax 分别推出名为 Claw 的新产品，聚焦智能助手领域。",
+      "url": "https://www.jiqizhixin.com/"
+    },
+    {
+      "title": "OpenAI 与五角大楼达成模型部署协议",
+      "summary": "OpenAI 与美国国防部签署协议，将在特定场景下部署 AI 模型用于国防应用。",
+      "url": "https://www.jiqizhixin.com/"
+    },
+    {
+      "title": "Meta 开源新一代多模态模型",
+      "summary": "Meta 发布开源多模态大模型，支持图像、视频、文本的统一理解和生成。",
+      "url": ""
+    },
+    {
+      "title": "字节跳动推出 AI 视频生成工具",
+      "summary": "字节跳动发布新的 AI 视频生成工具，可根据文本描述生成高质量短视频。",
+      "url": ""
+    },
+    {
+      "title": "百度文心一言用户突破 2 亿",
+      "summary": "百度宣布文心一言注册用户数突破 2 亿，成为国内用户量最大的 AI 助手之一。",
+      "url": ""
+    },
+    {
+      "title": "英伟达发布新一代 AI 芯片",
+      "summary": "英伟达推出专为大模型训练优化的新一代 GPU，性能提升 3 倍。",
+      "url": ""
+    },
+    {
+      "title": "AI 辅助药物研发取得突破",
+      "summary": "多家生物科技公司利用 AI 技术在新药研发中取得重大进展，缩短研发周期 50%。",
+      "url": ""
+    },
+    {
+      "title": "欧盟 AI 法案正式生效",
+      "summary": "欧盟人工智能法案正式实施，对高风险 AI 应用提出严格监管要求。",
       "url": ""
     }
   ]
