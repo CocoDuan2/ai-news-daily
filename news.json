@@ -2,54 +2,54 @@
   "date": "2026-03-04",
   "news": [
     {
-      "title": "Anthropic 收购视觉 AI 创企 Vercept",
-      "summary": "Anthropic 宣布收购计算机视觉初创公司 Vercept，进一步增强其多模态 AI 能力。",
-      "url": "https://www.jiqizhixin.com/"
+      "title": "Anthropic 年化收入逼近 200 亿美元，与五角大楼对峙期间增长迅猛",
+      "summary": "据彭博社报道，Anthropic 年化收入已超 190 亿美元，较 2025 年底的 90 亿翻倍，Claude Code 等产品采用强劲。",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-nears-20-billion-revenue-run-rate-amid-pentagon-feud"
     },
     {
-      "title": "谷歌 Gemini 升级至 3.1 Pro 版本",
-      "summary": "Google 发布 Gemini 3.1 Pro，在推理能力和多模态理解方面有显著提升。",
-      "url": "https://www.jiqizhixin.com/"
+      "title": "OpenAI 修改国防部合同条款，Sam Altman 承认交易达成过于仓促",
+      "summary": "OpenAI 在 Anthropic 被列为\"供应链风险\"后迅速签约国防部，引发内部和公众强烈反弹，Altman 称原始协议看起来\"草率\"。",
+      "url": "https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt"
     },
     {
-      "title": "Kimi 与 Minimax 发布「Claw」产品",
-      "summary": "国内 AI 公司 Kimi 和 Minimax 分别推出名为 Claw 的新产品，聚焦智能助手领域。",
-      "url": "https://www.jiqizhixin.com/"
+      "title": "ChatGPT 卸载量暴增 295%，用户用脚投票抗议 OpenAI 军方合作",
+      "summary": "OpenAI 与国防部签约后，美国 ChatGPT 卸载量激增 295%，同时 Anthropic 的 Claude 登顶 App Store 榜首获得用户支持。",
+      "url": "https://gigazine.net/gsc_news/en/20260304-chatgpt-uninstalls-surged-by-295-after-deal/"
     },
     {
-      "title": "OpenAI 与五角大楼达成模型部署协议",
-      "summary": "OpenAI 与美国国防部签署协议，将在特定场景下部署 AI 模型用于国防应用。",
-      "url": "https://www.jiqizhixin.com/"
+      "title": "Meta 成立新 AI 应用工程部门，加速推进超级智能计划",
+      "summary": "Meta 正建立新的应用 AI 工程组织，每位经理管理多达 50 人的团队，加速向超级智能迈进。",
+      "url": "https://www.businessinsider.com/meta-ai-new-applied-engineering-team-2026-3"
     },
     {
-      "title": "Meta 开源新一代多模态模型",
-      "summary": "Meta 发布开源多模态大模型，支持图像、视频、文本的统一理解和生成。",
-      "url": ""
+      "title": "Claude Code 推出语音模式，开发者可通过语音指令编程",
+      "summary": "Anthropic 为其 AI 编程助手 Claude Code 上线语音交互功能，开发者可直接用语音与代码助手对话。",
+      "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/"
     },
     {
-      "title": "字节跳动推出 AI 视频生成工具",
-      "summary": "字节跳动发布新的 AI 视频生成工具，可根据文本描述生成高质量短视频。",
-      "url": ""
+      "title": "Google 员工呼吁限制 AI 军事用途，近千名科技工作者联名反对",
+      "summary": "在美国对伊朗动武和 Anthropic 被五角大楼拉黑后，Google、OpenAI 等公司逾 900 名员工签署公开信，要求限制 AI 军事应用。",
+      "url": "https://www.cnbc.com/2026/03/03/anthropic-fallout-iran-war-tech-military-ai.html"
     },
     {
-      "title": "百度文心一言用户突破 2 亿",
-      "summary": "百度宣布文心一言注册用户数突破 2 亿，成为国内用户量最大的 AI 助手之一。",
-      "url": ""
+      "title": "MiniMax 创始人身家翻倍至 78 亿美元，2025 年营收暴涨 159%",
+      "summary": "中国 AI 模型公司 MiniMax 2025 年营收达 7900 万美元同比增 159%，IPO 后创始人闫俊杰财富翻倍。",
+      "url": "https://www.forbes.com/sites/ywang/2026/03/03/minimax-founders-net-worth-more-than-doubles-amid-rapid-growth/"
     },
     {
-      "title": "英伟达发布新一代 AI 芯片",
-      "summary": "英伟达推出专为大模型训练优化的新一代 GPU，性能提升 3 倍。",
-      "url": ""
+      "title": "AI 游说支出创新高，2025 年华盛顿 AI 相关游说费用近 1.3 亿美元",
+      "summary": "据彭博法律分析，2025 年第四季度 AI 游说支出达创纪录的 3720 万美元，全年近 1.3 亿美元，微软、Meta、谷歌等巨头主导。",
+      "url": "https://news.bloomberglaw.com/privacy-and-data-security/ai-influence-spending-booms-signaling-monumental-clashes-ahead"
     },
     {
-      "title": "AI 辅助药物研发取得突破",
-      "summary": "多家生物科技公司利用 AI 技术在新药研发中取得重大进展，缩短研发周期 50%。",
-      "url": ""
+      "title": "华为在 MWC 2026 发布 AI 中心网络解决方案，推动全面智能化",
+      "summary": "华为在巴塞罗那 MWC 2026 展示 Atlas 950 SuperPod 等 AI 计算产品，帮助运营商迎接 Agent AI 时代。",
+      "url": "https://totaltele.com/huawei-launches-enhanced-ai-centric-network-solutions-for-all-intelligence-at-mwc-2026/"
     },
     {
-      "title": "欧盟 AI 法案正式生效",
-      "summary": "欧盟人工智能法案正式实施，对高风险 AI 应用提出严格监管要求。",
-      "url": ""
+      "title": "印度最高法院怒斥法官使用 AI 生成的虚假判例进行裁决",
+      "summary": "一名印度法官在审理财产纠纷时引用 AI 生成的虚假判决书，最高法院称此事关\"司法裁判过程的完整性\"，警告将追究法律责任。",
+      "url": "https://www.bbc.com/news/articles/c178zzw780xo"
     }
   ]
 }
