@@ -30,6 +30,27 @@
         }
         header h1 { font-size: 1.8em; }
         header .meta { color: #666; margin-top: 6px; font-size: 0.9em; }
+        .filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .filter-btn {
+            padding: 4px 14px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            background: #fff;
+            cursor: pointer;
+            font-size: 0.85em;
+            color: #555;
+            transition: all 0.2s;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: #4CAF50;
+            color: #fff;
+            border-color: #4CAF50;
+        }
         .news-item {
             background: #fff;
             border: 1px solid #e0e0e0;
@@ -40,6 +61,7 @@
             transition: box-shadow 0.2s;
         }
         .news-item:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .news-item.hidden { display: none; }
         .news-item h3 {
             font-size: 1.05em;
             margin-bottom: 8px;
@@ -51,12 +73,32 @@
             margin-right: 6px;
         }
         .news-item p { color: #555; font-size: 0.95em; margin-bottom: 8px; }
+        .news-item .tag {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 500;
+            margin-right: 6px;
+        }
+        .tag-agent { background: #E3F2FD; color: #1565C0; }
+        .tag-model { background: #F3E5F5; color: #7B1FA2; }
+        .tag-company { background: #FFF3E0; color: #E65100; }
+        .tag-tech { background: #E8F5E9; color: #2E7D32; }
+        .tag-policy { background: #FCE4EC; color: #C62828; }
+        .tag-product { background: #E0F7FA; color: #00838F; }
+        .tag-open-source { background: #F1F8E9; color: #558B2F; }
         .news-item a {
             color: #4CAF50;
             text-decoration: none;
             font-size: 0.9em;
         }
         .news-item a:hover { text-decoration: underline; }
+        .news-item .bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
         .nav {
             display: flex;
             justify-content: space-between;
@@ -64,11 +106,7 @@
             padding-top: 20px;
             border-top: 1px solid #e0e0e0;
         }
-        .nav a {
-            color: #4CAF50;
-            text-decoration: none;
-            font-size: 0.95em;
-        }
+        .nav a { color: #4CAF50; text-decoration: none; font-size: 0.95em; }
         .nav a:hover { text-decoration: underline; }
         .empty { text-align: center; color: #999; padding: 60px 0; }
         footer {
@@ -86,6 +124,7 @@
         <h1 id="title">🤖 AI新闻</h1>
         <div class="meta" id="meta"></div>
     </header>
+    <div class="filter-bar" id="filter-bar"></div>
     <div id="news-container">
         <div class="empty">加载中...</div>
     </div>
@@ -96,17 +135,45 @@
     </footer>
     <script>
         const weekdays = ['周日','周一','周二','周三','周四','周五','周六'];
+        const categoryNames = {
+            'agent': '🤖 Agent',
+            'model': '🧠 大模型',
+            'company': '🏢 公司',
+            'tech': '⚡ 技术',
+            'policy': '📋 政策',
+            'product': '📦 产品',
+            'open-source': '🔓 开源'
+        };
+        
         const params = new URLSearchParams(window.location.search);
         const date = params.get('date');
-        
-        if (!date) {
-            window.location.href = 'index.html';
-        }
+        if (!date) window.location.href = 'index.html';
         
         document.title = `AI新闻 - ${date}`;
         const d = new Date(date + 'T00:00:00');
         document.getElementById('title').textContent = `🤖 ${date} AI新闻精选`;
-        document.getElementById('meta').textContent = weekdays[d.getDay()] + ` · 共 ? 条新闻`;
+        
+        let currentFilter = 'all';
+        
+        function renderFilter(categories) {
+            const bar = document.getElementById('filter-bar');
+            const cats = [...new Set(categories)].filter(Boolean);
+            if (cats.length <= 1) { bar.style.display = 'none'; return; }
+            
+            bar.innerHTML = `<button class="filter-btn active" data-cat="all">全部</button>` +
+                cats.map(c => `<button class="filter-btn" data-cat="${c}">${categoryNames[c] || c}</button>`).join('');
+            
+            bar.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    currentFilter = btn.dataset.cat;
+                    bar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    document.querySelectorAll('.news-item').forEach(item => {
+                        item.classList.toggle('hidden', currentFilter !== 'all' && item.dataset.cat !== currentFilter);
+                    });
+                });
+            });
+        }
         
         async function loadNews() {
             try {
@@ -119,15 +186,24 @@
                 document.getElementById('meta').textContent = 
                     weekdays[d.getDay()] + ` · 共 ${news.length} 条新闻`;
                 
-                container.innerHTML = news.map((item, i) => `
-                    <div class="news-item">
-                        <h3><span class="num">${i + 1}.</span>${item.title}</h3>
-                        <p>${item.summary}</p>
-                        ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener">阅读原文 →</a>` : ''}
-                    </div>
-                `).join('');
+                renderFilter(news.map(n => n.category));
                 
-                // 加载导航
+                container.innerHTML = news.map((item, i) => {
+                    const cat = item.category || '';
+                    const tagClass = cat ? `tag-${cat}` : '';
+                    const tagLabel = categoryNames[cat] || cat;
+                    return `
+                        <div class="news-item" data-cat="${cat}">
+                            <h3><span class="num">${i + 1}.</span>${item.title}</h3>
+                            <p>${item.summary}</p>
+                            <div class="bottom">
+                                ${cat ? `<span class="tag ${tagClass}">${tagLabel}</span>` : '<span></span>'}
+                                ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener">阅读原文 →</a>` : ''}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                
                 const indexRes = await fetch('data/index.json');
                 const dates = (await indexRes.json()).sort();
                 const idx = dates.indexOf(date);
