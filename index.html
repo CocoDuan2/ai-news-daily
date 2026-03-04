@@ -5,33 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>每日AI新闻</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
-        h1 { color: #333; border-bottom: 3px solid #4CAF50; padding-bottom: 10px; }
-        .date { color: #666; font-size: 0.9em; }
-        .news-item { margin: 20px 0; padding: 15px; background: #f9f9f9; border-left: 4px solid #4CAF50; }
-        .news-item h3 { margin-top: 0; }
-        a { color: #4CAF50; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 3px solid #4CAF50;
+            margin-bottom: 30px;
+        }
+        header h1 { font-size: 2em; margin-bottom: 8px; }
+        header p { color: #666; font-size: 0.95em; }
+        .date-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        .date-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-left: 4px solid #4CAF50;
+            border-radius: 6px;
+            padding: 16px 20px;
+            text-decoration: none;
+            color: #333;
+            transition: box-shadow 0.2s, transform 0.1s;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .date-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        .date-card .icon { font-size: 1.5em; }
+        .date-card .info { flex: 1; }
+        .date-card .date { font-weight: 600; font-size: 1.1em; }
+        .date-card .weekday { color: #888; font-size: 0.85em; }
+        .empty { text-align: center; color: #999; padding: 60px 0; }
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #aaa;
+            font-size: 0.85em;
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
-    <h1>🤖 每日AI新闻精选</h1>
-    <p class="date">最后更新：<span id="update-time">加载中...</span></p>
-    <div id="news-container">加载中...</div>
+    <header>
+        <h1>🤖 每日AI新闻精选</h1>
+        <p>每天自动抓取最有价值的 AI 新闻，点击日期查看详情</p>
+    </header>
+    <div id="date-list" class="date-list">
+        <div class="empty">加载中...</div>
+    </div>
+    <footer>
+        Powered by OpenClaw + Tavily · 
+        <a href="https://github.com/CocoDuan2/ai-news-daily" style="color:#4CAF50;">GitHub</a>
+    </footer>
     <script>
-        fetch('news.json')
-            .then(r => r.json())
-            .then(data => {
-                document.getElementById('update-time').textContent = data.date;
-                const container = document.getElementById('news-container');
-                container.innerHTML = data.news.map((item, i) => `
-                    <div class="news-item">
-                        <h3>${i + 1}. ${item.title}</h3>
-                        <p>${item.summary}</p>
-                        ${item.url ? `<a href="${item.url}" target="_blank">阅读原文 →</a>` : ''}
-                    </div>
-                `).join('');
-            });
+        const weekdays = ['周日','周一','周二','周三','周四','周五','周六'];
+        
+        async function loadDates() {
+            try {
+                const res = await fetch('data/index.json');
+                const dates = await res.json();
+                const container = document.getElementById('date-list');
+                
+                if (!dates.length) {
+                    container.innerHTML = '<div class="empty">暂无新闻数据</div>';
+                    return;
+                }
+                
+                container.innerHTML = dates
+                    .sort((a, b) => b.localeCompare(a))
+                    .map(date => {
+                        const d = new Date(date + 'T00:00:00');
+                        const wd = weekdays[d.getDay()];
+                        return `
+                            <a class="date-card" href="day.html?date=${date}">
+                                <span class="icon">📰</span>
+                                <div class="info">
+                                    <div class="date">${date}</div>
+                                    <div class="weekday">${wd}</div>
+                                </div>
+                            </a>
+                        `;
+                    }).join('');
+            } catch(e) {
+                document.getElementById('date-list').innerHTML = 
+                    '<div class="empty">加载失败，请稍后重试</div>';
+            }
+        }
+        
+        loadDates();
     </script>
 </body>
 </html>
