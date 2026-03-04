@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>历史归档 - 每日AI新闻</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .back {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 0.95em;
+        }
+        .back:hover { text-decoration: underline; }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 3px solid #4CAF50;
+            margin-bottom: 30px;
+        }
+        header h1 { font-size: 2em; margin-bottom: 8px; }
+        header p { color: #666; font-size: 0.95em; }
+        .date-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        .date-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-left: 4px solid #4CAF50;
+            border-radius: 6px;
+            padding: 16px 20px;
+            text-decoration: none;
+            color: #333;
+            transition: box-shadow 0.2s, transform 0.1s;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .date-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        .date-card .icon { font-size: 1.5em; }
+        .date-card .info { flex: 1; }
+        .date-card .date { font-weight: 600; font-size: 1.1em; }
+        .date-card .weekday { color: #888; font-size: 0.85em; }
+        .empty { text-align: center; color: #999; padding: 60px 0; }
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #aaa;
+            font-size: 0.85em;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <a class="back" href="index.html">← 返回首页</a>
+    <header>
+        <h1>📅 历史归档</h1>
+        <p>按日期浏览往期 AI 新闻</p>
+    </header>
+    <div id="date-list" class="date-list">
+        <div class="empty">加载中...</div>
+    </div>
+    <footer>
+        Powered by OpenClaw + Tavily · 
+        <a href="https://github.com/CocoDuan2/ai-news-daily" style="color:#4CAF50;">GitHub</a>
+    </footer>
+    <script>
+        const weekdays = ['周日','周一','周二','周三','周四','周五','周六'];
+        
+        async function loadDates() {
+            try {
+                const res = await fetch('data/index.json');
+                const dates = await res.json();
+                const container = document.getElementById('date-list');
+                
+                if (!dates.length) {
+                    container.innerHTML = '<div class="empty">暂无归档数据</div>';
+                    return;
+                }
+                
+                container.innerHTML = dates
+                    .sort((a, b) => b.localeCompare(a))
+                    .map(date => {
+                        const d = new Date(date + 'T00:00:00');
+                        const wd = weekdays[d.getDay()];
+                        return `
+                            <a class="date-card" href="day.html?date=${date}">
+                                <span class="icon">📰</span>
+                                <div class="info">
+                                    <div class="date">${date}</div>
+                                    <div class="weekday">${wd}</div>
+                                </div>
+                            </a>
+                        `;
+                    }).join('');
+            } catch(e) {
+                document.getElementById('date-list').innerHTML = 
+                    '<div class="empty">加载失败，请稍后重试</div>';
+            }
+        }
+        
+        loadDates();
+    </script>
+</body>
+</html>

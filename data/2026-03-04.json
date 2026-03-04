@@ -1,12 +1,13 @@
 {
   "date": "2026-03-04",
+  "summary": "Anthropic 与五角大楼对峙引发行业震荡，Claude 登顶 App Store 并推出记忆功能正面挑战 ChatGPT；Cursor 年化收入突破 20 亿美元，AI 编程赛道爆发；Meta 测试 AI 购物助手进军电商；阿里通义千问技术负责人林俊旸宣布卸任；AI Agent 支付在欧洲落地，Mastercard 和 Santander 完成首笔实时支付；MS-Agent 框架爆出严重安全漏洞。",
   "news": [
     {
       "title": "Anthropic 与五角大楼对峙反获用户青睐，Claude 登顶 App Store",
-      "summary": "Anthropic 与五角大楼的公开争端意外为其赢得大量用户，Claude 应用登顶 iPhone 下载榜，WSJ 称其\"在反击中赢得粉丝\"。",
-      "url": "https://www.cnn.com/2026/03/03/tech/anthropic-claude-ai-app-pentagon",
+      "summary": "Anthropic 与五角大楼的公开争端意外为其赢得大量用户，Claude 应用登顶 iPhone 下载榜，WSJ 称其在反击中赢得粉丝。",
+      "url": "https://www.wsj.com/tech/ai/anthropics-feud-with-pentagon-earns-it-fans-amid-the-blowback-f7e2bb83",
       "category": "company",
-      "source": "CNN"
+      "source": "WSJ"
     },
     {
       "title": "Anthropic 推出 Claude 记忆功能，正面挑战 ChatGPT 用户粘性",
@@ -30,8 +31,8 @@
       "source": "BBC"
     },
     {
-      "title": "Anthropic vs OpenAI 之争开启\"聊天机器人忠诚度\"时代",
-      "summary": "Business Insider 分析，两大 AI 巨头围绕军方合作的公开对抗正迫使用户\"站队\"，AI 助手市场走向品牌忠诚竞争。",
+      "title": "Anthropic vs OpenAI 之争开启聊天机器人忠诚度时代",
+      "summary": "Business Insider 分析，两大 AI 巨头围绕军方合作的公开对抗正迫使用户站队，AI 助手市场走向品牌忠诚竞争。",
       "url": "https://www.businessinsider.com/anthropic-openai-chatgpt-claude-katy-perry-pentagon-subscription-2026-3",
       "category": "company",
       "source": "Business Insider"
@@ -56,13 +57,6 @@
       "url": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
       "category": "product",
       "source": "TechCrunch"
-    },
-    {
-      "title": "Meta 成立新 AI 应用工程部门，推进超级智能",
-      "summary": "WSJ 独家报道，Meta 在 Reality Labs 下成立新的 AI 应用工程组织，每位经理管理最多 50 人团队，全力推进超级智能。",
-      "url": "https://www.businessinsider.com/meta-ai-new-applied-engineering-team-2026-3",
-      "category": "company",
-      "source": "Business Insider"
     },
     {
       "title": "Meta 测试 AI 购物助手，挑战 ChatGPT 和 Gemini",
@@ -93,13 +87,6 @@
       "source": "Finextra"
     },
     {
-      "title": "Klarna 为 Stripe AI Agent 提供灵活支付，先买后付进入自主购物时代",
-      "summary": "Klarna 宣布其灵活支付选项将支持 Stripe 上的 AI Agent 驱动购物体验，确保自主 Agent 结账时可选择分期付款。",
-      "url": "https://fintechmagazine.com/news/flexible-finance-available-to-stripe-ai-agents-with-klarna",
-      "category": "agent",
-      "source": "FinTech Magazine"
-    },
-    {
       "title": "MS-Agent AI 框架爆出严重漏洞，可导致系统完全被控制",
       "summary": "SecurityWeek 报道，基于 MCP 协议的开源 AI Agent 框架 MS-Agent 存在严重安全漏洞，攻击者可通过提示注入实现任意代码执行。",
       "url": "https://www.securityweek.com/vulnerability-in-ms-agent-ai-framework-can-allow-full-system-compromise/",
@@ -128,18 +115,32 @@
       "source": "Law360"
     },
     {
-      "title": "微软称 Copilot 屏蔽\"Microslop\"等词不是审查",
-      "summary": "Forbes 报道，微软 Copilot AI 屏蔽了\"Microslop\"等对微软的贬义词汇，微软官方回应称这不构成审查。",
-      "url": "https://www.forbes.com/sites/daveywinder/2026/03/03/copilot-ai-microslop-chat-ban-is-not-censorship-says-microsoft/",
-      "category": "product",
-      "source": "Forbes"
-    },
-    {
       "title": "研究发现 AI Agent 在自主决策中更偏好比特币",
       "summary": "Forbes 报道，Bitcoin Policy Institute 对 36 个前沿 AI 模型进行 9072 次实验，发现 AI Agent 一致选择比特币作为储蓄工具。",
       "url": "https://www.forbes.com/sites/digital-assets/2026/03/03/ai-agents-prefer-bitcoin-over-fiat-new-study-finds/",
       "category": "tech",
       "source": "Forbes"
+    },
+    {
+      "title": "OpenAI 正在开发 GitHub 替代品",
+      "summary": "Reuters 报道，OpenAI 正在开发微软 GitHub 的替代产品，可能进一步加剧与微软的竞争关系。",
+      "url": "https://www.reuters.com/business/openai-is-developing-alternative-microsofts-github-information-reports-2026-03-03/",
+      "category": "company",
+      "source": "Reuters"
+    },
+    {
+      "title": "林俊旸深夜宣布离开千问，上一条还是感谢马斯克表扬",
+      "summary": "36氪报道，阿里通义千问技术负责人林俊旸深夜宣布离职，此前刚因 Qwen 模型获马斯克点赞，投资人已开始争抢。",
+      "url": "https://www.36kr.com/p/3708083033387396",
+      "category": "company",
+      "source": "36氪"
+    },
+    {
+      "title": "AI Agent 搞定世纪首次菲尔兹奖成果形式化，一周独立完成",
+      "summary": "量子位报道，AI Agent 在一周时间内独立完成了菲尔兹奖获奖成果的形式化证明，展示了 AI 在数学领域的突破性能力。",
+      "url": "https://www.qbitai.com/2026/03/383368.html",
+      "category": "tech",
+      "source": "量子位"
     }
   ]
 }
