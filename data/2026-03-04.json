@@ -2,123 +2,123 @@
   "date": "2026-03-04",
   "news": [
     {
-      "title": "Anthropic 年化收入逼近 200 亿美元，Claude Code 等产品采用强劲",
-      "summary": "据彭博社报道，Anthropic 年化收入已超 190 亿美元，较 2025 年底翻倍增长，Claude Code 和企业 API 是主要增长驱动力。",
+      "title": "Anthropic 年化收入逼近 200 亿美元，五角大楼争端中逆势增长",
+      "summary": "据彭博社报道，Anthropic 年化收入已超 190 亿美元，较 2025 年底翻倍，Claude Code 和企业 API 是主要增长驱动力。",
       "url": "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-nears-20-billion-revenue-run-rate-amid-pentagon-feud",
       "category": "company"
     },
     {
-      "title": "ChatGPT 卸载量暴增 295%，用户抗议 OpenAI 与军方合作",
-      "summary": "OpenAI 与美国国防部签约后，ChatGPT 卸载量激增 295%，Claude 登顶 App Store 榜首，用户用脚投票。",
-      "url": "https://gigazine.net/gsc_news/en/20260304-chatgpt-uninstalls-surged-by-295-after-deal/",
+      "title": "Claude 登顶 iPhone 应用榜，Anthropic 在五角大楼争端中赢得用户",
+      "summary": "Anthropic 与五角大楼的公开对峙反而为其赢得大量用户，Claude 应用登顶 App Store 下载榜。",
+      "url": "https://www.cnn.com/2026/03/03/tech/anthropic-claude-ai-app-pentagon",
       "category": "company"
     },
     {
-      "title": "OpenAI 修改国防部合同条款，Sam Altman 承认交易达成过于仓促",
-      "summary": "OpenAI 在争议声中修改与五角大楼合同条款，Altman 公开承认原始协议\"看起来草率\"，内部反弹强烈。",
-      "url": "https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt",
+      "title": "OpenAI 修改军方合同条款，BBC 报道引发公众关注",
+      "summary": "在 Anthropic 被五角大楼列为\"供应链风险\"后的争议持续发酵，OpenAI 迫于压力修改与美国军方的合同条款。",
+      "url": "https://www.bbc.com/news/articles/c3rz1nd0egro",
       "category": "company"
     },
     {
-      "title": "MiniMax M2.5 霸榜全球调用量，月收入突破 1.5 亿美元",
-      "summary": "MiniMax M2.5 登顶 OpenRouter 全球调用量榜首，7 天消耗超 3 万亿 Token，国产三强（MiniMax、Kimi、GLM）包揽前三。",
-      "url": "https://news.aibase.com/zh/news/25908",
-      "category": "model"
+      "title": "Anthropic 的 Claude AI 被美军用于伊朗军事行动",
+      "summary": "CBS 独家报道，美军在对伊朗的军事行动中使用了 Anthropic 的 Claude AI 工具，引发科技伦理讨论。",
+      "url": "https://www.cbsnews.com/news/anthropic-claude-ai-iran-war-u-s/",
+      "category": "policy"
     },
     {
-      "title": "DeepSeek V4 Lite 暗中升级，2000 亿参数小模型性能直逼海外顶流",
-      "summary": "DeepSeek V4 Lite 经持续迭代后性能大幅飞跃，综合表现已媲美 Claude 3.5 Sonnet，正式版 V4 下周发布。",
-      "url": "https://www.aitop100.cn/ai-daily-2026-03-03",
-      "category": "model"
+      "title": "Google 员工联名呼吁限制 AI 军事用途",
+      "summary": "在 Anthropic 与五角大楼争端和伊朗空袭背景下，Google 员工联名要求公司限制 AI 在军事领域的应用。",
+      "url": "https://www.cnbc.com/2026/03/03/anthropic-fallout-iran-war-tech-military-ai.html",
+      "category": "policy"
     },
     {
-      "title": "Claude Code 推出语音模式，开发者可通过语音指令编程",
-      "summary": "Anthropic 为 Claude Code 上线语音交互功能，输入 /voice 后按住空格即可语音编程，转录 Token 全免费。",
+      "title": "Cursor 年化收入突破 20 亿美元",
+      "summary": "AI 编程工具 Cursor 年化收入据报已突破 20 亿美元，成为 AI coding 赛道增长最快的产品之一。",
+      "url": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+      "category": "product"
+    },
+    {
+      "title": "Claude Code 推出语音模式，开发者可语音指令编程",
+      "summary": "Anthropic 为 Claude Code 上线语音交互功能，输入 /voice 后按住空格即可语音编程，转录 Token 免费。",
       "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/",
       "category": "agent"
     },
     {
-      "title": "Claude Opus 4.6 发布，编码能力全面升级",
-      "summary": "Anthropic 发布新一代旗舰模型 Claude Opus 4.6，在编码任务中表现更出色，规划能力显著增强。",
-      "url": "https://www.anthropic.com/news/claude-opus-4-6",
-      "category": "model"
+      "title": "Anthropic 推出 Claude 记忆功能，争夺 ChatGPT 用户",
+      "summary": "Anthropic 为 Claude 上线个性化记忆功能，可跨对话记住用户偏好，直接挑战 ChatGPT 的用户粘性。",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-tries-to-win-users-from-chatgpt-with-memory-feature",
+      "category": "product"
     },
     {
-      "title": "GPT-5.4 意外泄露？GitHub 源码曝光 200 万超长上下文",
-      "summary": "OpenAI 工程师意外在代码仓库泄露 gpt-5.4 型号信息，暗示 200 万 Token 超长上下文和状态化 AI 即将到来。",
-      "url": "https://news.softunis.com/52663.html",
-      "category": "model"
+      "title": "Anthropic vs OpenAI 之争可能开启\"聊天机器人一夫一妻制\"时代",
+      "summary": "Business Insider 分析，两大 AI 巨头的公开对抗正迫使用户\"站队\"，AI 助手市场可能走向品牌忠诚度竞争。",
+      "url": "https://www.businessinsider.com/anthropic-openai-chatgpt-claude-katy-perry-pentagon-subscription-2026-3",
+      "category": "company"
     },
     {
-      "title": "Meta 成立新 AI 应用工程部门，加速超级智能计划",
-      "summary": "Meta 正建立新的应用 AI 工程组织，同时与 Google 签署数十亿美元 TPU 租赁协议，全力推进超级智能。",
+      "title": "Meta 成立新 AI 应用工程部门，推进超级智能计划",
+      "summary": "WSJ 独家报道，Meta 在 Reality Labs 下建立新的 AI 应用工程组织，每位经理管理最多 50 人团队。",
       "url": "https://www.businessinsider.com/meta-ai-new-applied-engineering-team-2026-3",
       "category": "company"
     },
     {
-      "title": "阿里通义千问开源 Qwen3.5 系列小模型，马斯克点赞智能密度",
-      "summary": "阿里开源多款小尺寸模型，9B 参数性能硬刚 120B 大模型，适配消费级显卡，马斯克称赞其智能密度。",
-      "url": "https://www.sina.cn/news/detail/5269868373085032.html",
-      "category": "open-source"
-    },
-    {
-      "title": "Codex vs Claude Code vs Cursor 2026：AI 编程工具终极对决",
-      "summary": "OpenAI Codex、Claude Code 和 Cursor 三大 AI 编程工具全面对比，各有优势，开发者选择更加多元化。",
-      "url": "https://www.nxcode.io/resources/news/openai-codex-app-review-2026",
-      "category": "agent"
-    },
-    {
-      "title": "Zopia AI 视频导演工具亮相，一句话生成电影级短剧",
-      "summary": "全球首个端到端 AI 视频导演 Agent Zopia 发布，支持多 Agent 协作，一键交付从剧本到成片的全流程。",
-      "url": "https://www.aitop100.cn/ai-daily-2026-03-03",
+      "title": "Meta 测试 AI 购物助手，挑战 ChatGPT 和 Gemini",
+      "summary": "Meta 正秘密测试 AI 购物功能，利用 30 亿社交用户画像数据提供个性化推荐，进军 AI 电商领域。",
+      "url": "https://www.cnet.com/tech/services-and-software/meta-new-ai-shopping-tool/",
       "category": "product"
     },
     {
-      "title": "MiniMax 上市首份财报：全年收入 7904 万美元，海外占比超 70%",
-      "summary": "MiniMax 发布上市后首份年报，收入同比增长 158.9%，从\"大模型\"向\"AI 平台\"战略转型，但年内亏损 18.72 亿美元。",
-      "url": "https://www.aitop100.cn/ai-daily-2026-03-03",
+      "title": "阿里通义千问技术负责人林俊旸宣布卸任",
+      "summary": "TechCrunch 报道，阿里通义千问（Qwen）技术负责人在推动 AI 重大进展后宣布卸任，引发业界关注。",
+      "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
       "category": "company"
     },
     {
-      "title": "LangChain 和 LangGraph 达到 v1.0：AI Agent 框架进入成熟期",
-      "summary": "LangChain 和 LangGraph 在 2025 年 10 月达到 v1.0 里程碑，2026 年向更高层抽象和意图驱动开发演进。",
-      "url": "https://anmol-gupta.medium.com/mastering-langchain-and-langgraph-building-stateful-production-ready-ai-agents-in-2026-8f76a36e134e",
-      "category": "agent"
+      "title": "AI 专利平台 DeepIP 获 2500 万美元 B 轮融资",
+      "summary": "AI 专利分析平台 DeepIP 宣布完成 2500 万美元 B 轮融资，反映 AI 在知识产权领域的应用持续升温。",
+      "url": "https://www.law360.com/articles/2447185/ai-patent-platform-deepip-secures-25m-series-b-investment",
+      "category": "company"
     },
     {
-      "title": "RAG-MCP 论文：工具选择准确率提升三倍，Prompt Token 减少 50%",
-      "summary": "最新研究将 RAG 与 MCP 结合，工具选择准确率提升三倍以上，Prompt Token 减少超 50%，让模型更高效。",
-      "url": "https://writer.com/engineering/rag-mcp/",
+      "title": "AI 热潮正以前所未有的速度催生创业公司百万富翁",
+      "summary": "Business Insider 报道，AI 公司估值暴涨使得创始人和早期员工快速实现财富自由，速度超过以往任何科技浪潮。",
+      "url": "https://www.businessinsider.com/anthropic-ai-boom-mint-startup-multimillionaires-unprecedented-speed-2026-3",
+      "category": "company"
+    },
+    {
+      "title": "MS-Agent AI 框架爆出严重漏洞，可导致系统被完全攻破",
+      "summary": "SecurityWeek 报道，微软 AI Agent 框架发现严重安全漏洞，攻击者可利用该漏洞实现系统完全控制。",
+      "url": "https://www.securityweek.com/vulnerability-in-ms-agent-ai-framework-can-allow-full-system-compromise/",
       "category": "tech"
     },
     {
-      "title": "Google 员工近千人联名反对 AI 军事用途",
-      "summary": "继 OpenAI 与五角大楼签约后，Google 近千名员工联名呼吁限制 AI 在军事领域的使用，科技界反战情绪升温。",
-      "url": "https://dentro.de/ai/news/",
+      "title": "AI 驱动的网络攻击工具开源化，CyberStrikeAI 或只是开始",
+      "summary": "AI 驱动的攻击工具包开始走向开源，安全专家警告这可能大幅降低网络攻击门槛。",
+      "url": "https://www.csoonline.com/article/4140221/ai-powered-attack-kits-go-open-source-and-cyberstrikeai-may-be-just-the-beginning.html",
+      "category": "tech"
+    },
+    {
+      "title": "美国官员：AI 合同限制可能威胁军事任务执行",
+      "summary": "美国官员表态称，对 AI 合同的过度限制可能影响军事任务能力，呼吁在安全与能力之间找到平衡。",
+      "url": "https://www.itnews.com.au/news/ai-contract-restrictions-could-threaten-military-missions-us-official-says-624003",
       "category": "policy"
     },
     {
-      "title": "美团光年之外发布 Tabbit AI 浏览器，聚合国内外主流大模型",
-      "summary": "美团旗下光年之外推出 Tabbit AI 浏览器，集成 DeepSeek、Kimi、通义千问等多款大模型，但因代码争议引发开源合规讨论。",
-      "url": "http://www.cb.com.cn/index/show/gs1/cv/cv12546392132",
-      "category": "product"
-    },
-    {
-      "title": "微信严查 AI 魔改内容，2 月清理近 4000 条违规视频",
-      "summary": "微信发布专项治理公告，2 月累计处置 3956 条 AI 魔改短视频，将相关治理纳入长效机制。",
-      "url": "https://www.aitop100.cn/ai-daily-2026-03-03",
-      "category": "policy"
-    },
-    {
-      "title": "OpenClaw 技能生态突破 5400+，Coding Agent 类目成焦点",
-      "summary": "OpenClaw 技能注册表已收录超 5400 个技能，其中 Coding Agent 和 IDE 集成类成为开发者最关注的方向。",
-      "url": "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/categories/coding-agents-and-ides.md",
+      "title": "Santander 和 Mastercard 完成 AI Agent 支付测试",
+      "summary": "Santander 银行与万事达卡完成 AI Agent 驱动的自主支付测试，金融领域 Agent 应用迈出实质性一步。",
+      "url": "https://www.fintechfutures.com/ai-in-fintech/mastercard-santander-complete-agentic-payment",
       "category": "agent"
     },
     {
-      "title": "Context Engineering 取代 Prompt Engineering，成为 Agentic AI 新范式",
-      "summary": "Elasticsearch 等厂商提出 Context Engineering 概念，从单次提示优化转向全链路上下文管理，解决 RAG 上下文限制和 Agent 记忆问题。",
-      "url": "https://www.elastic.co/search-labs/blog/context-engineering-llm-evolution-agentic-ai",
+      "title": "韩国 SKT 公布 AI 转型计划应对\"危机\"",
+      "summary": "韩国电信巨头 SK Telecom 发布全面 AI 转型计划，称不转型将面临\"生存危机\"，拟大幅投资 AI 基础设施。",
+      "url": "https://www.lightreading.com/ai-machine-learning/skt-unveils-ai-transformation-plan-to-tackle-looming-crisis-",
+      "category": "company"
+    },
+    {
+      "title": "研究发现 AI Agent 在自主选择中更偏好比特币而非法定货币",
+      "summary": "Forbes 报道，最新研究显示 AI Agent 在自主决策中倾向选择比特币进行交易，引发对 AI 经济行为的讨论。",
+      "url": "https://www.forbes.com/sites/digital-assets/2026/03/03/ai-agents-prefer-bitcoin-over-fiat-new-study-finds/",
       "category": "tech"
     }
   ]
