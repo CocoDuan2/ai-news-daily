@@ -2,54 +2,124 @@
   "date": "2026-03-04",
   "news": [
     {
-      "title": "Anthropic 年化收入逼近 200 亿美元，与五角大楼对峙期间增长迅猛",
-      "summary": "据彭博社报道，Anthropic 年化收入已超 190 亿美元，较 2025 年底的 90 亿翻倍，Claude Code 等产品采用强劲。",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-nears-20-billion-revenue-run-rate-amid-pentagon-feud"
+      "title": "Anthropic 年化收入逼近 200 亿美元，Claude Code 等产品采用强劲",
+      "summary": "据彭博社报道，Anthropic 年化收入已超 190 亿美元，较 2025 年底翻倍增长，Claude Code 和企业 API 是主要增长驱动力。",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-nears-20-billion-revenue-run-rate-amid-pentagon-feud",
+      "category": "company"
+    },
+    {
+      "title": "ChatGPT 卸载量暴增 295%，用户抗议 OpenAI 与军方合作",
+      "summary": "OpenAI 与美国国防部签约后，ChatGPT 卸载量激增 295%，Claude 登顶 App Store 榜首，用户用脚投票。",
+      "url": "https://gigazine.net/gsc_news/en/20260304-chatgpt-uninstalls-surged-by-295-after-deal/",
+      "category": "company"
     },
     {
       "title": "OpenAI 修改国防部合同条款，Sam Altman 承认交易达成过于仓促",
-      "summary": "OpenAI 在 Anthropic 被列为\"供应链风险\"后迅速签约国防部，引发内部和公众强烈反弹，Altman 称原始协议看起来\"草率\"。",
-      "url": "https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt"
+      "summary": "OpenAI 在争议声中修改与五角大楼合同条款，Altman 公开承认原始协议\"看起来草率\"，内部反弹强烈。",
+      "url": "https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt",
+      "category": "company"
     },
     {
-      "title": "ChatGPT 卸载量暴增 295%，用户用脚投票抗议 OpenAI 军方合作",
-      "summary": "OpenAI 与国防部签约后，美国 ChatGPT 卸载量激增 295%，同时 Anthropic 的 Claude 登顶 App Store 榜首获得用户支持。",
-      "url": "https://gigazine.net/gsc_news/en/20260304-chatgpt-uninstalls-surged-by-295-after-deal/"
+      "title": "MiniMax M2.5 霸榜全球调用量，月收入突破 1.5 亿美元",
+      "summary": "MiniMax M2.5 登顶 OpenRouter 全球调用量榜首，7 天消耗超 3 万亿 Token，国产三强（MiniMax、Kimi、GLM）包揽前三。",
+      "url": "https://news.aibase.com/zh/news/25908",
+      "category": "model"
     },
     {
-      "title": "Meta 成立新 AI 应用工程部门，加速推进超级智能计划",
-      "summary": "Meta 正建立新的应用 AI 工程组织，每位经理管理多达 50 人的团队，加速向超级智能迈进。",
-      "url": "https://www.businessinsider.com/meta-ai-new-applied-engineering-team-2026-3"
+      "title": "DeepSeek V4 Lite 暗中升级，2000 亿参数小模型性能直逼海外顶流",
+      "summary": "DeepSeek V4 Lite 经持续迭代后性能大幅飞跃，综合表现已媲美 Claude 3.5 Sonnet，正式版 V4 下周发布。",
+      "url": "https://www.aitop100.cn/ai-daily-2026-03-03",
+      "category": "model"
     },
     {
       "title": "Claude Code 推出语音模式，开发者可通过语音指令编程",
-      "summary": "Anthropic 为其 AI 编程助手 Claude Code 上线语音交互功能，开发者可直接用语音与代码助手对话。",
-      "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/"
+      "summary": "Anthropic 为 Claude Code 上线语音交互功能，输入 /voice 后按住空格即可语音编程，转录 Token 全免费。",
+      "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/",
+      "category": "agent"
     },
     {
-      "title": "Google 员工呼吁限制 AI 军事用途，近千名科技工作者联名反对",
-      "summary": "在美国对伊朗动武和 Anthropic 被五角大楼拉黑后，Google、OpenAI 等公司逾 900 名员工签署公开信，要求限制 AI 军事应用。",
-      "url": "https://www.cnbc.com/2026/03/03/anthropic-fallout-iran-war-tech-military-ai.html"
+      "title": "Claude Opus 4.6 发布，编码能力全面升级",
+      "summary": "Anthropic 发布新一代旗舰模型 Claude Opus 4.6，在编码任务中表现更出色，规划能力显著增强。",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "category": "model"
     },
     {
-      "title": "MiniMax 创始人身家翻倍至 78 亿美元，2025 年营收暴涨 159%",
-      "summary": "中国 AI 模型公司 MiniMax 2025 年营收达 7900 万美元同比增 159%，IPO 后创始人闫俊杰财富翻倍。",
-      "url": "https://www.forbes.com/sites/ywang/2026/03/03/minimax-founders-net-worth-more-than-doubles-amid-rapid-growth/"
+      "title": "GPT-5.4 意外泄露？GitHub 源码曝光 200 万超长上下文",
+      "summary": "OpenAI 工程师意外在代码仓库泄露 gpt-5.4 型号信息，暗示 200 万 Token 超长上下文和状态化 AI 即将到来。",
+      "url": "https://news.softunis.com/52663.html",
+      "category": "model"
     },
     {
-      "title": "AI 游说支出创新高，2025 年华盛顿 AI 相关游说费用近 1.3 亿美元",
-      "summary": "据彭博法律分析，2025 年第四季度 AI 游说支出达创纪录的 3720 万美元，全年近 1.3 亿美元，微软、Meta、谷歌等巨头主导。",
-      "url": "https://news.bloomberglaw.com/privacy-and-data-security/ai-influence-spending-booms-signaling-monumental-clashes-ahead"
+      "title": "Meta 成立新 AI 应用工程部门，加速超级智能计划",
+      "summary": "Meta 正建立新的应用 AI 工程组织，同时与 Google 签署数十亿美元 TPU 租赁协议，全力推进超级智能。",
+      "url": "https://www.businessinsider.com/meta-ai-new-applied-engineering-team-2026-3",
+      "category": "company"
     },
     {
-      "title": "华为在 MWC 2026 发布 AI 中心网络解决方案，推动全面智能化",
-      "summary": "华为在巴塞罗那 MWC 2026 展示 Atlas 950 SuperPod 等 AI 计算产品，帮助运营商迎接 Agent AI 时代。",
-      "url": "https://totaltele.com/huawei-launches-enhanced-ai-centric-network-solutions-for-all-intelligence-at-mwc-2026/"
+      "title": "阿里通义千问开源 Qwen3.5 系列小模型，马斯克点赞智能密度",
+      "summary": "阿里开源多款小尺寸模型，9B 参数性能硬刚 120B 大模型，适配消费级显卡，马斯克称赞其智能密度。",
+      "url": "https://www.sina.cn/news/detail/5269868373085032.html",
+      "category": "open-source"
     },
     {
-      "title": "印度最高法院怒斥法官使用 AI 生成的虚假判例进行裁决",
-      "summary": "一名印度法官在审理财产纠纷时引用 AI 生成的虚假判决书，最高法院称此事关\"司法裁判过程的完整性\"，警告将追究法律责任。",
-      "url": "https://www.bbc.com/news/articles/c178zzw780xo"
+      "title": "Codex vs Claude Code vs Cursor 2026：AI 编程工具终极对决",
+      "summary": "OpenAI Codex、Claude Code 和 Cursor 三大 AI 编程工具全面对比，各有优势，开发者选择更加多元化。",
+      "url": "https://www.nxcode.io/resources/news/openai-codex-app-review-2026",
+      "category": "agent"
+    },
+    {
+      "title": "Zopia AI 视频导演工具亮相，一句话生成电影级短剧",
+      "summary": "全球首个端到端 AI 视频导演 Agent Zopia 发布，支持多 Agent 协作，一键交付从剧本到成片的全流程。",
+      "url": "https://www.aitop100.cn/ai-daily-2026-03-03",
+      "category": "product"
+    },
+    {
+      "title": "MiniMax 上市首份财报：全年收入 7904 万美元，海外占比超 70%",
+      "summary": "MiniMax 发布上市后首份年报，收入同比增长 158.9%，从\"大模型\"向\"AI 平台\"战略转型，但年内亏损 18.72 亿美元。",
+      "url": "https://www.aitop100.cn/ai-daily-2026-03-03",
+      "category": "company"
+    },
+    {
+      "title": "LangChain 和 LangGraph 达到 v1.0：AI Agent 框架进入成熟期",
+      "summary": "LangChain 和 LangGraph 在 2025 年 10 月达到 v1.0 里程碑，2026 年向更高层抽象和意图驱动开发演进。",
+      "url": "https://anmol-gupta.medium.com/mastering-langchain-and-langgraph-building-stateful-production-ready-ai-agents-in-2026-8f76a36e134e",
+      "category": "agent"
+    },
+    {
+      "title": "RAG-MCP 论文：工具选择准确率提升三倍，Prompt Token 减少 50%",
+      "summary": "最新研究将 RAG 与 MCP 结合，工具选择准确率提升三倍以上，Prompt Token 减少超 50%，让模型更高效。",
+      "url": "https://writer.com/engineering/rag-mcp/",
+      "category": "tech"
+    },
+    {
+      "title": "Google 员工近千人联名反对 AI 军事用途",
+      "summary": "继 OpenAI 与五角大楼签约后，Google 近千名员工联名呼吁限制 AI 在军事领域的使用，科技界反战情绪升温。",
+      "url": "https://dentro.de/ai/news/",
+      "category": "policy"
+    },
+    {
+      "title": "美团光年之外发布 Tabbit AI 浏览器，聚合国内外主流大模型",
+      "summary": "美团旗下光年之外推出 Tabbit AI 浏览器，集成 DeepSeek、Kimi、通义千问等多款大模型，但因代码争议引发开源合规讨论。",
+      "url": "http://www.cb.com.cn/index/show/gs1/cv/cv12546392132",
+      "category": "product"
+    },
+    {
+      "title": "微信严查 AI 魔改内容，2 月清理近 4000 条违规视频",
+      "summary": "微信发布专项治理公告，2 月累计处置 3956 条 AI 魔改短视频，将相关治理纳入长效机制。",
+      "url": "https://www.aitop100.cn/ai-daily-2026-03-03",
+      "category": "policy"
+    },
+    {
+      "title": "OpenClaw 技能生态突破 5400+，Coding Agent 类目成焦点",
+      "summary": "OpenClaw 技能注册表已收录超 5400 个技能，其中 Coding Agent 和 IDE 集成类成为开发者最关注的方向。",
+      "url": "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/categories/coding-agents-and-ides.md",
+      "category": "agent"
+    },
+    {
+      "title": "Context Engineering 取代 Prompt Engineering，成为 Agentic AI 新范式",
+      "summary": "Elasticsearch 等厂商提出 Context Engineering 概念，从单次提示优化转向全链路上下文管理，解决 RAG 上下文限制和 Agent 记忆问题。",
+      "url": "https://www.elastic.co/search-labs/blog/context-engineering-llm-evolution-agentic-ai",
+      "category": "tech"
     }
   ]
 }
