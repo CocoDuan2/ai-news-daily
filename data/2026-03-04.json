@@ -2,122 +2,122 @@
   "date": "2026-03-04",
   "news": [
     {
-      "title": "Anthropic 年化收入逼近 200 亿美元，五角大楼争端中逆势增长",
-      "summary": "据彭博社报道，Anthropic 年化收入已超 190 亿美元，较 2025 年底翻倍，Claude Code 和企业 API 是主要增长驱动力。",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-nears-20-billion-revenue-run-rate-amid-pentagon-feud",
-      "category": "company"
-    },
-    {
-      "title": "Claude 登顶 iPhone 应用榜，Anthropic 在五角大楼争端中赢得用户",
-      "summary": "Anthropic 与五角大楼的公开对峙反而为其赢得大量用户，Claude 应用登顶 App Store 下载榜。",
+      "title": "Anthropic 与五角大楼对峙反获用户青睐，Claude 登顶 App Store",
+      "summary": "Anthropic 与五角大楼的公开争端意外为其赢得大量用户，Claude 应用登顶 iPhone 下载榜，WSJ 称其\"在反击中赢得粉丝\"。",
       "url": "https://www.cnn.com/2026/03/03/tech/anthropic-claude-ai-app-pentagon",
       "category": "company"
     },
     {
-      "title": "OpenAI 修改军方合同条款，BBC 报道引发公众关注",
-      "summary": "在 Anthropic 被五角大楼列为\"供应链风险\"后的争议持续发酵，OpenAI 迫于压力修改与美国军方的合同条款。",
-      "url": "https://www.bbc.com/news/articles/c3rz1nd0egro",
-      "category": "company"
-    },
-    {
-      "title": "Anthropic 的 Claude AI 被美军用于伊朗军事行动",
-      "summary": "CBS 独家报道，美军在对伊朗的军事行动中使用了 Anthropic 的 Claude AI 工具，引发科技伦理讨论。",
-      "url": "https://www.cbsnews.com/news/anthropic-claude-ai-iran-war-u-s/",
-      "category": "policy"
-    },
-    {
-      "title": "Google 员工联名呼吁限制 AI 军事用途",
-      "summary": "在 Anthropic 与五角大楼争端和伊朗空袭背景下，Google 员工联名要求公司限制 AI 在军事领域的应用。",
-      "url": "https://www.cnbc.com/2026/03/03/anthropic-fallout-iran-war-tech-military-ai.html",
-      "category": "policy"
-    },
-    {
-      "title": "Cursor 年化收入突破 20 亿美元",
-      "summary": "AI 编程工具 Cursor 年化收入据报已突破 20 亿美元，成为 AI coding 赛道增长最快的产品之一。",
-      "url": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
-      "category": "product"
-    },
-    {
-      "title": "Claude Code 推出语音模式，开发者可语音指令编程",
-      "summary": "Anthropic 为 Claude Code 上线语音交互功能，输入 /voice 后按住空格即可语音编程，转录 Token 免费。",
-      "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/",
-      "category": "agent"
-    },
-    {
-      "title": "Anthropic 推出 Claude 记忆功能，争夺 ChatGPT 用户",
-      "summary": "Anthropic 为 Claude 上线个性化记忆功能，可跨对话记住用户偏好，直接挑战 ChatGPT 的用户粘性。",
+      "title": "Anthropic 推出 Claude 记忆功能，正面挑战 ChatGPT 用户粘性",
+      "summary": "彭博社报道，Anthropic 为 Claude 上线跨对话记忆功能，可记住用户偏好和上下文，直接对标 ChatGPT 的个性化能力。",
       "url": "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-tries-to-win-users-from-chatgpt-with-memory-feature",
       "category": "product"
     },
     {
-      "title": "Anthropic vs OpenAI 之争可能开启\"聊天机器人一夫一妻制\"时代",
-      "summary": "Business Insider 分析，两大 AI 巨头的公开对抗正迫使用户\"站队\"，AI 助手市场可能走向品牌忠诚度竞争。",
+      "title": "Claude AI 被美军用于伊朗军事行动，引发科技伦理争议",
+      "summary": "CBS 独家报道，美军在对伊朗的军事打击中使用了 Anthropic 的 Claude AI，加剧了科技界关于 AI 军事化的讨论。",
+      "url": "https://www.cbsnews.com/news/anthropic-claude-ai-iran-war-u-s/",
+      "category": "policy"
+    },
+    {
+      "title": "OpenAI 迫于压力修改军方合同条款",
+      "summary": "BBC 报道，OpenAI 在公众和员工强烈反弹后修改与美国军方的合作协议，调整 AI 在军事中的使用范围。",
+      "url": "https://www.bbc.com/news/articles/c3rz1nd0egro",
+      "category": "company"
+    },
+    {
+      "title": "Anthropic vs OpenAI 之争开启\"聊天机器人忠诚度\"时代",
+      "summary": "Business Insider 分析，两大 AI 巨头围绕军方合作的公开对抗正迫使用户\"站队\"，AI 助手市场走向品牌忠诚竞争。",
       "url": "https://www.businessinsider.com/anthropic-openai-chatgpt-claude-katy-perry-pentagon-subscription-2026-3",
       "category": "company"
     },
     {
-      "title": "Meta 成立新 AI 应用工程部门，推进超级智能计划",
-      "summary": "WSJ 独家报道，Meta 在 Reality Labs 下建立新的 AI 应用工程组织，每位经理管理最多 50 人团队。",
+      "title": "Google 员工联名呼吁限制 AI 军事用途",
+      "summary": "CNBC 报道，在伊朗空袭和 Anthropic 争端背景下，Google 员工联名要求公司限制 AI 在军事领域的应用。",
+      "url": "https://www.cnbc.com/2026/03/03/anthropic-fallout-iran-war-tech-military-ai.html",
+      "category": "policy"
+    },
+    {
+      "title": "Claude Code 推出语音模式，按住空格即可语音编程",
+      "summary": "Anthropic 为 Claude Code 上线语音交互功能，输入 /voice 后按住空格即可语音编程，转录 Token 完全免费。",
+      "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/",
+      "category": "agent"
+    },
+    {
+      "title": "Cursor 年化收入突破 20 亿美元，AI 编程赛道爆发",
+      "summary": "TechCrunch 报道，AI 编程工具 Cursor 年化收入据报已突破 20 亿美元，成为 AI coding 赛道增长最快的产品。",
+      "url": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+      "category": "product"
+    },
+    {
+      "title": "Meta 成立新 AI 应用工程部门，推进超级智能",
+      "summary": "WSJ 独家报道，Meta 在 Reality Labs 下成立新的 AI 应用工程组织，每位经理管理最多 50 人团队，全力推进超级智能。",
       "url": "https://www.businessinsider.com/meta-ai-new-applied-engineering-team-2026-3",
       "category": "company"
     },
     {
       "title": "Meta 测试 AI 购物助手，挑战 ChatGPT 和 Gemini",
-      "summary": "Meta 正秘密测试 AI 购物功能，利用 30 亿社交用户画像数据提供个性化推荐，进军 AI 电商领域。",
+      "summary": "CNET 报道，Meta 正秘密测试 AI 购物功能，利用 30 亿社交用户画像提供个性化推荐，进军 AI 电商。",
       "url": "https://www.cnet.com/tech/services-and-software/meta-new-ai-shopping-tool/",
       "category": "product"
     },
     {
       "title": "阿里通义千问技术负责人林俊旸宣布卸任",
-      "summary": "TechCrunch 报道，阿里通义千问（Qwen）技术负责人在推动 AI 重大进展后宣布卸任，引发业界关注。",
+      "summary": "TechCrunch 报道，阿里通义千问（Qwen）技术负责人在推动 AI 重大进展后宣布卸任，引发业界对 Qwen 未来方向的关注。",
       "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
       "category": "company"
     },
     {
-      "title": "AI 专利平台 DeepIP 获 2500 万美元 B 轮融资",
-      "summary": "AI 专利分析平台 DeepIP 宣布完成 2500 万美元 B 轮融资，反映 AI 在知识产权领域的应用持续升温。",
-      "url": "https://www.law360.com/articles/2447185/ai-patent-platform-deepip-secures-25m-series-b-investment",
-      "category": "company"
-    },
-    {
-      "title": "AI 热潮正以前所未有的速度催生创业公司百万富翁",
-      "summary": "Business Insider 报道，AI 公司估值暴涨使得创始人和早期员工快速实现财富自由，速度超过以往任何科技浪潮。",
-      "url": "https://www.businessinsider.com/anthropic-ai-boom-mint-startup-multimillionaires-unprecedented-speed-2026-3",
-      "category": "company"
-    },
-    {
-      "title": "MS-Agent AI 框架爆出严重漏洞，可导致系统被完全攻破",
-      "summary": "SecurityWeek 报道，微软 AI Agent 框架发现严重安全漏洞，攻击者可利用该漏洞实现系统完全控制。",
-      "url": "https://www.securityweek.com/vulnerability-in-ms-agent-ai-framework-can-allow-full-system-compromise/",
-      "category": "tech"
-    },
-    {
-      "title": "AI 驱动的网络攻击工具开源化，CyberStrikeAI 或只是开始",
-      "summary": "AI 驱动的攻击工具包开始走向开源，安全专家警告这可能大幅降低网络攻击门槛。",
-      "url": "https://www.csoonline.com/article/4140221/ai-powered-attack-kits-go-open-source-and-cyberstrikeai-may-be-just-the-beginning.html",
-      "category": "tech"
-    },
-    {
-      "title": "美国官员：AI 合同限制可能威胁军事任务执行",
-      "summary": "美国官员表态称，对 AI 合同的过度限制可能影响军事任务能力，呼吁在安全与能力之间找到平衡。",
-      "url": "https://www.itnews.com.au/news/ai-contract-restrictions-could-threaten-military-missions-us-official-says-624003",
-      "category": "policy"
-    },
-    {
-      "title": "Santander 和 Mastercard 完成 AI Agent 支付测试",
-      "summary": "Santander 银行与万事达卡完成 AI Agent 驱动的自主支付测试，金融领域 Agent 应用迈出实质性一步。",
+      "title": "Mastercard 和 Santander 完成欧洲首笔 AI Agent 实时支付",
+      "summary": "万事达卡与桑坦德银行完成欧洲首笔由 AI Agent 自主发起和执行的端到端实时支付，金融领域 Agent 落地迈出实质一步。",
       "url": "https://www.fintechfutures.com/ai-in-fintech/mastercard-santander-complete-agentic-payment",
       "category": "agent"
     },
     {
-      "title": "韩国 SKT 公布 AI 转型计划应对\"危机\"",
-      "summary": "韩国电信巨头 SK Telecom 发布全面 AI 转型计划，称不转型将面临\"生存危机\"，拟大幅投资 AI 基础设施。",
-      "url": "https://www.lightreading.com/ai-machine-learning/skt-unveils-ai-transformation-plan-to-tackle-looming-crisis-",
+      "title": "Nexi 与 Google Cloud 签署合作备忘录，推动 Agent 支付在欧洲落地",
+      "summary": "欧洲支付巨头 Nexi 与 Google Cloud 合作，聚焦 AI Agent 自主完成购物和安全支付的 Agentic Commerce 场景。",
+      "url": "https://www.finextra.com/newsarticle/47382/nexi-signs-mou-with-google-cloud-to-drive-agentic-payments-across-europe",
+      "category": "agent"
+    },
+    {
+      "title": "Klarna 为 Stripe AI Agent 提供灵活支付，先买后付进入自主购物时代",
+      "summary": "Klarna 宣布其灵活支付选项将支持 Stripe 上的 AI Agent 驱动购物体验，确保自主 Agent 结账时可选择分期付款。",
+      "url": "https://fintechmagazine.com/news/flexible-finance-available-to-stripe-ai-agents-with-klarna",
+      "category": "agent"
+    },
+    {
+      "title": "MS-Agent AI 框架爆出严重漏洞，可导致系统完全被控制",
+      "summary": "SecurityWeek 报道，基于 MCP 协议的开源 AI Agent 框架 MS-Agent 存在严重安全漏洞，攻击者可通过提示注入实现任意代码执行。",
+      "url": "https://www.securityweek.com/vulnerability-in-ms-agent-ai-framework-can-allow-full-system-compromise/",
+      "category": "tech"
+    },
+    {
+      "title": "AI 驱动的网络攻击工具开源化，安全专家警告风险加剧",
+      "summary": "CSO 报道，AI 驱动的攻击工具包 CyberStrikeAI 开始走向开源，大幅降低网络攻击门槛，或只是冰山一角。",
+      "url": "https://www.csoonline.com/article/4140221/ai-powered-attack-kits-go-open-source-and-cyberstrikeai-may-be-just-the-beginning.html",
+      "category": "tech"
+    },
+    {
+      "title": "AI 热潮正以前所未有的速度催生创业公司百万富翁",
+      "summary": "Business Insider 报道，AI 公司估值暴涨使创始人和早期员工快速实现财富自由，速度超过以往任何科技浪潮。",
+      "url": "https://www.businessinsider.com/anthropic-ai-boom-mint-startup-multimillionaires-unprecedented-speed-2026-3",
       "category": "company"
     },
     {
-      "title": "研究发现 AI Agent 在自主选择中更偏好比特币而非法定货币",
-      "summary": "Forbes 报道，最新研究显示 AI Agent 在自主决策中倾向选择比特币进行交易，引发对 AI 经济行为的讨论。",
+      "title": "AI 专利平台 DeepIP 获 2500 万美元 B 轮融资",
+      "summary": "AI 专利分析平台 DeepIP 完成 2500 万美元 B 轮融资，AI 在知识产权领域的应用持续升温。",
+      "url": "https://www.law360.com/articles/2447185/ai-patent-platform-deepip-secures-25m-series-b-investment",
+      "category": "company"
+    },
+    {
+      "title": "微软称 Copilot 屏蔽\"Microslop\"等词不是审查",
+      "summary": "Forbes 报道，微软 Copilot AI 屏蔽了\"Microslop\"等对微软的贬义词汇，微软官方回应称这不构成审查。",
+      "url": "https://www.forbes.com/sites/daveywinder/2026/03/03/copilot-ai-microslop-chat-ban-is-not-censorship-says-microsoft/",
+      "category": "product"
+    },
+    {
+      "title": "研究发现 AI Agent 在自主决策中更偏好比特币",
+      "summary": "Forbes 报道，Bitcoin Policy Institute 对 36 个前沿 AI 模型进行 9072 次实验，发现 AI Agent 一致选择比特币作为储蓄工具。",
       "url": "https://www.forbes.com/sites/digital-assets/2026/03/03/ai-agents-prefer-bitcoin-over-fiat-new-study-finds/",
       "category": "tech"
     }
