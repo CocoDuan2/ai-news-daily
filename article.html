@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI日报 · 文章</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 780px; margin: 0 auto; }
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        header h1 { font-size: 1.8em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        header a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.9em; }
+        header a:hover { color: white; }
+
+        .article-card {
+            background: white;
+            border-radius: 16px;
+            padding: 48px 52px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+
+        .article-date {
+            color: #999;
+            font-size: 0.85em;
+            margin-bottom: 16px;
+        }
+
+        .article-title {
+            font-size: 1.9em;
+            font-weight: 700;
+            color: #1a1a1a;
+            line-height: 1.4;
+            margin-bottom: 36px;
+            padding-bottom: 24px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .article-body {
+            color: #333;
+            font-size: 1.05em;
+            line-height: 2;
+        }
+
+        .article-body p {
+            margin-bottom: 20px;
+        }
+
+        .article-body hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 32px 0;
+        }
+
+        .article-body .section-title {
+            font-weight: 600;
+            color: #667eea;
+            margin: 32px 0 16px;
+            font-size: 1.05em;
+        }
+
+        .copy-btn {
+            display: block;
+            margin: 40px auto 0;
+            padding: 12px 32px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-btn:hover { opacity: 0.9; }
+        .copy-btn.copied { background: #52c41a; }
+
+        footer {
+            text-align: center;
+            color: rgba(255,255,255,0.7);
+            margin-top: 24px;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI 日报</h1>
+            <p style="margin-top:8px"><a href="index.html">← 返回首页</a></p>
+        </header>
+
+        <div class="article-card">
+            <div class="article-date" id="article-date">加载中...</div>
+            <div class="article-title" id="article-title">加载中...</div>
+            <div class="article-body" id="article-body"></div>
+            <button class="copy-btn" id="copy-btn" onclick="copyArticle()">复制全文</button>
+        </div>
+
+        <footer>每日 8:30 自动更新</footer>
+    </div>
+
+    <script>
+        function parseMarkdown(md) {
+            const lines = md.split('\n');
+            let html = '';
+            let title = '';
+            let date = '';
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+
+                // 跳过第一个H1标题（已单独显示）
+                if (line.startsWith('# ') && !title) {
+                    title = line.slice(2).trim();
+                    continue;
+                }
+
+                // 日期行
+                if (line.startsWith('*写于') || line.startsWith('*写於')) {
+                    date = line.replace(/\*/g, '').trim();
+                    continue;
+                }
+
+                // 分隔线
+                if (line.trim() === '---') {
+                    html += '<hr>';
+                    continue;
+                }
+
+                // 空行
+                if (line.trim() === '') {
+                    continue;
+                }
+
+                // 普通段落
+                if (line.trim()) {
+                    const text = line
+                        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                        .replace(/\*(.*?)\*/g, '<em>$1</em>');
+                    html += `<p>${text}</p>`;
+                }
+            }
+
+            return { title, date, html };
+        }
+
+        async function loadArticle() {
+            const params = new URLSearchParams(location.search);
+            const date = params.get('date');
+
+            if (!date) {
+                document.getElementById('article-title').textContent = '未指定文章日期';
+                return;
+            }
+
+            try {
+                const res = await fetch(`articles/${date}.md`);
+                if (!res.ok) throw new Error('文章不存在');
+                const md = await res.text();
+                const { title, html } = parseMarkdown(md);
+
+                document.title = `${title} · AI日报`;
+                document.getElementById('article-date').textContent = date;
+                document.getElementById('article-title').textContent = title;
+                document.getElementById('article-body').innerHTML = html;
+            } catch (e) {
+                document.getElementById('article-title').textContent = '文章加载失败';
+                document.getElementById('article-body').innerHTML = '<p style="color:#999">请检查文章是否存在</p>';
+            }
+        }
+
+        async function copyArticle() {
+            const title = document.getElementById('article-title').textContent;
+            const body = document.getElementById('article-body').innerText;
+            const full = `${title}\n\n${body}`;
+            await navigator.clipboard.writeText(full);
+            const btn = document.getElementById('copy-btn');
+            btn.textContent = '✓ 已复制';
+            btn.classList.add('copied');
+            setTimeout(() => {
+                btn.textContent = '复制全文';
+                btn.classList.remove('copied');
+            }, 2000);
+        }
+
+        loadArticle();
+    </script>
+</body>
+</html>
