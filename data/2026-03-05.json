@@ -1,0 +1,145 @@
+{
+  "date": "2026-03-05",
+  "news": [
+    {
+      "title": "OpenAI 发布 GPT-5.3 Instant 优化日常交互模型",
+      "summary": "OpenAI 发布 GPT-5.3 Instant，专注优化处理日常查询的前线模型，提升响应质量、对话流畅度和可靠性",
+      "url": "https://thenextweb.com/news/openai-launches-gpt-5-3-instant-to-improve-chatgpts-most-used-model",
+      "category": "model",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI 与五角大楼签约引发用户抵制，ChatGPT 卸载量暴增 295%",
+      "summary": "OpenAI 与美国国防部签订 AI 合同后，ChatGPT 应用卸载量单日暴增 295%，用户发起抵制运动支持 Anthropic",
+      "url": "https://gigazine.net/gsc_news/en/20260304-chatgpt-uninstalls-surged-by-295-after-deal/",
+      "category": "company",
+      "source": "GIGAZINE"
+    },
+    {
+      "title": "Google Gemini 被控导致用户自杀，面临首起 AI 致死诉讼",
+      "summary": "36 岁男子因与 Gemini 聊天机器人深度互动产生 AI 精神病最终自杀，家属起诉 Google 设计缺陷威胁公共安全",
+      "url": "https://techcrunch.com/2026/03/04/father-sues-google-claiming-gemini-chatbot-drove-son-into-fatal-delusion/",
+      "category": "policy",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Anthropic 投资者施压缓和与五角大楼冲突",
+      "summary": "Anthropic 因拒绝五角大楼无限制访问 AI 工具被列为供应链风险，投资者包括亚马逊 CEO 正推动寻找解决方案",
+      "url": "https://www.reuters.com/business/retail-consumer/anthropic-investors-push-de-escalate-pentagon-clash-over-ai-safeguards-sources-2026-03-04/",
+      "category": "company",
+      "source": "Reuters"
+    },
+    {
+      "title": "OpenAI 后训练负责人 Max Schwarzer 离职加入 Anthropic",
+      "summary": "GPT-5 系列核心推手 Max Schwarzer 从 OpenAI 离职转投 Anthropic，回归强化学习研究，揭示人才迁徙趋势",
+      "url": "https://www.36kr.com/p/3708498615660936",
+      "category": "company",
+      "source": "36氪"
+    },
+    {
+      "title": "Google Gemini Canvas 功能向全美用户开放",
+      "summary": "Google 将 Canvas in AI Mode 功能扩展至全美用户，帮助用户组织项目和深度研究，与 ChatGPT Canvas 竞争",
+      "url": "https://techcrunch.com/2026/03/04/googles-gemini-rolls-out-canvas-in-ai-mode-to-all-us-users/",
+      "category": "product",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "UnityAI 获 850 万美元融资，扩展医疗 AI Agent",
+      "summary": "UnityAI 完成 850 万美元 A 轮融资，其 AI Agent 每月处理超 30 万次患者互动，90% 排班任务完全自主完成",
+      "url": "https://hitconsultant.net/2026/03/04/unityai-agentic-ai-healthcare-operations/",
+      "category": "agent",
+      "source": "HIT Consultant"
+    },
+    {
+      "title": "AI 安全公司 JetStream 获 3400 万美元种子轮融资",
+      "summary": "JetStream Security 获 3400 万美元融资，推出 AI 治理平台帮助企业安全部署生成式和 Agent AI 工具",
+      "url": "https://www.securityweek.com/ai-security-firm-jetstream-launches-with-34-million-in-seed-funding/",
+      "category": "company",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "华为发布 AUTINOps AI 原生智能运维解决方案",
+      "summary": "华为在 MWC 2026 发布业界首个 AI 原生智能运维方案 AUTINOps，推出超 20 个场景化 AI Agent 实现自主闭环运维",
+      "url": "https://www.developingtelecoms.com/telecom-technology/oss-service-management/19890-huawei-launches-autinops-solution-to-redefine-the-new-paradigm-of-intelligent-operations.html",
+      "category": "product",
+      "source": "Developing Telecoms"
+    },
+    {
+      "title": "Sam Altman 承认 OpenAI 与五角大楼交易仓促且草率",
+      "summary": "OpenAI CEO Sam Altman 承认与国防部的协议看起来机会主义且草率，正与五角大楼合作明确原则和限制",
+      "url": "https://www.latimes.com/business/story/2026-03-04/sam-altman-admits-openais-pentagon-deal-was-rushed-sloppy",
+      "category": "company",
+      "source": "Los Angeles Times"
+    },
+    {
+      "title": "CollectivIQ 推出多模型聚合 AI 答案平台",
+      "summary": "波士顿创业公司 CollectivIQ 同时调用 ChatGPT、Gemini、Claude、Grok 等 10+ 模型提供更可靠的 AI 答案",
+      "url": "https://techcrunch.com/2026/03/04/one-startups-pitch-to-provide-more-reliable-ai-answers-crowdsource-the-chatbots/",
+      "category": "product",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Harvey AI 与微软 Copilot 集成，进军法律科技",
+      "summary": "Harvey 的生成式 AI 助手将集成到微软 Copilot，用户可通过 @Harvey 执行法律研究和合同分析",
+      "url": "https://www.law.com/legaltechnews/2026/03/04/harvey-teams-up-with-microsoft-for-copilot-integration/",
+      "category": "product",
+      "source": "Law.com"
+    },
+    {
+      "title": "OpenAI 与亚马逊宣布战略合作伙伴关系",
+      "summary": "OpenAI 与 AWS 合作为客户创建由 OpenAI 模型驱动的环境，用于构建、部署和管理生成式 AI 应用和 Agent",
+      "url": "https://www.practicalecommerce.com/new-ecommerce-tools-march-4-2026",
+      "category": "company",
+      "source": "Practical Ecommerce"
+    },
+    {
+      "title": "广告公司采用 Vibe Coding 构建 GEO 产品",
+      "summary": "广告公司使用 Anthropic Claude 等编码助手快速构建定制工具，分析品牌在 AI 生成答案中的呈现方式",
+      "url": "https://www.adweek.com/agencies/ad-agencies-embrace-vibe-coding/",
+      "category": "agent",
+      "source": "ADWEEK"
+    },
+    {
+      "title": "清华吴翼博士分享 AReaL 框架：Agent 时代的强化学习",
+      "summary": "清华交叉信息院吴翼博士在 QCon 分享 AReaL 强化学习训练系统，展示如何高效构建 AI Agent 系统",
+      "url": "https://www.36kr.com/p/3708363640172676",
+      "category": "tech",
+      "source": "36氪"
+    },
+    {
+      "title": "中国 AI 创业公司 Tripo AI 90% 用户来自海外",
+      "summary": "中国图像转 3D 模型公司 Tripo AI 表示 90% 用户来自海外，中国 AI 创业公司从第一天起就瞄准全球市场",
+      "url": "https://www.cnbc.com/2026/03/04/cnbc-china-connection-newsletter-ai-startups-global-expansion-nvidia-warning-tripo-isales.html",
+      "category": "company",
+      "source": "CNBC"
+    },
+    {
+      "title": "零售业 AI Agent 重塑采购、风险和成本控制",
+      "summary": "零售和 CPG 企业部署 AI Agent 作为数字采购工作者，持续应对供应链波动并管理风险",
+      "url": "https://www.retailtouchpoints.com/executive-viewpoints/retails-next-workforce-shift-how-ai-agents-are-reshaping-procurement-risk-and-cost-control/617440/",
+      "category": "agent",
+      "source": "Retail TouchPoints"
+    },
+    {
+      "title": "美国各州 CIO 探索 Agentic AI 应用",
+      "summary": "NASCIO 报告显示 8 个州已部署 Agentic AI 工具，阿拉斯加正测试在 myAlaska 应用中嵌入 AI Agent",
+      "url": "https://www.govtech.com/artificial-intelligence/nascio-report-offers-new-data-guidance-around-agentic-ai",
+      "category": "policy",
+      "source": "GovTech"
+    },
+    {
+      "title": "英国国防科技公司 Mutable Tactics 获 180 万欧元融资",
+      "summary": "Mutable Tactics 获 180 万欧元融资开发无人机 AI 协作软件，实现通信中断时的自主操作和决策",
+      "url": "https://thenextweb.com/news/mutable-tactics-raises-e1-8-million-in-a-pre-seed-fund-to-develop-drone-automation-with-ai",
+      "category": "company",
+      "source": "The Next Web"
+    },
+    {
+      "title": "FreeScout 曝严重漏洞可导致服务器完全沦陷",
+      "summary": "开源帮助台解决方案 FreeScout 存在严重漏洞，可被利用进行零点击远程代码执行攻击，完全控制服务器",
+      "url": "https://www.securityweek.com/critical-freescout-vulnerability-leads-to-full-server-compromise/",
+      "category": "tech",
+      "source": "SecurityWeek"
+    }
+  ]
+}
