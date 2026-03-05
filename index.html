@@ -12,24 +12,33 @@
             min-height: 100vh;
             padding: 20px;
         }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
+        .container { max-width: 900px; margin: 0 auto; }
+        header { text-align: center; color: white; margin-bottom: 30px; }
+        h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .subtitle { font-size: 1.1em; opacity: 0.9; }
+        
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: center;
         }
-        header {
-            text-align: center;
+        .tab {
+            background: rgba(255,255,255,0.2);
             color: white;
-            margin-bottom: 30px;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s;
         }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-        .subtitle {
-            font-size: 1.1em;
-            opacity: 0.9;
-        }
+        .tab:hover { background: rgba(255,255,255,0.3); }
+        .tab.active { background: white; color: #667eea; font-weight: 600; }
+        
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        
         .summary-card {
             background: white;
             border-radius: 12px;
@@ -37,15 +46,9 @@
             margin-bottom: 20px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
-        .summary-card h2 {
-            color: #667eea;
-            margin-bottom: 15px;
-            font-size: 1.3em;
-        }
-        .summary-card p {
-            line-height: 1.8;
-            color: #333;
-        }
+        .summary-card h2 { color: #667eea; margin-bottom: 15px; font-size: 1.3em; }
+        .summary-card p { line-height: 1.8; color: #333; }
+        
         .news-list {
             background: white;
             border-radius: 12px;
@@ -57,21 +60,14 @@
             border-bottom: 1px solid #eee;
         }
         .news-item:last-child { border-bottom: none; }
-        .news-item h3 {
-            color: #333;
-            margin-bottom: 8px;
-            font-size: 1.1em;
-        }
-        .news-item p {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 10px;
-        }
+        .news-item h3 { color: #333; margin-bottom: 8px; font-size: 1.1em; }
+        .news-item p { color: #666; line-height: 1.6; margin-bottom: 10px; }
         .news-item .bottom {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
+        
         .tag {
             display: inline-block;
             padding: 2px 10px;
@@ -87,6 +83,7 @@
         .tag-policy { background: #FCE4EC; color: #C62828; }
         .tag-product { background: #E0F7FA; color: #00838F; }
         .tag-open-source { background: #F1F8E9; color: #558B2F; }
+        
         .source {
             display: inline-block;
             padding: 2px 8px;
@@ -96,34 +93,114 @@
             color: #888;
             margin-left: 6px;
         }
-        .news-item a {
-            color: #667eea;
-            text-decoration: none;
-            font-size: 0.9em;
-        }
+        .news-item a { color: #667eea; text-decoration: none; font-size: 0.9em; }
         .news-item a:hover { text-decoration: underline; }
-        footer {
-            text-align: center;
-            color: white;
-            margin-top: 30px;
-            opacity: 0.8;
+        
+        .day-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: all 0.3s;
         }
+        .day-card:hover { transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0,0,0,0.15); }
+        .day-card h3 { color: #667eea; margin-bottom: 10px; }
+        .day-card.expanded { cursor: default; }
+        .day-card.expanded:hover { transform: none; }
+        .day-summary { color: #666; line-height: 1.6; }
+        .day-news { margin-top: 15px; display: none; }
+        .day-card.expanded .day-news { display: block; }
+        
+        .search-box {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .search-box input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #eee;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border 0.3s;
+        }
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .archive-list {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .month-group { margin-bottom: 25px; }
+        .month-group h3 { color: #667eea; margin-bottom: 10px; }
+        .date-item {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .date-item:hover { background: #f5f5f5; }
+        .date-item:last-child { border-bottom: none; }
+        
+        .search-result {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .search-result .date { color: #999; font-size: 0.9em; margin-bottom: 5px; }
+        .search-result h4 { color: #333; margin-bottom: 8px; }
+        .search-result p { color: #666; line-height: 1.6; }
+        .highlight { background: #fff59d; padding: 2px 4px; border-radius: 2px; }
+        
+        footer { text-align: center; color: white; margin-top: 30px; opacity: 0.8; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>🤖 AI 新闻日报</h1>
-            <p class="subtitle" id="date-display">加载中...</p>
+            <p class="subtitle">每日精选 AI 行业动态</p>
         </header>
 
-        <div class="summary-card">
-            <h2>📰 今日要闻</h2>
-            <p id="summary">加载中...</p>
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('today')">今日</button>
+            <button class="tab" onclick="switchTab('recent')">近期</button>
+            <button class="tab" onclick="switchTab('archive')">归档</button>
         </div>
 
-        <div class="news-list" id="news-list">
-            <p style="text-align: center; color: #999;">加载中...</p>
+        <!-- 今日 Tab -->
+        <div id="tab-today" class="tab-content active">
+            <div class="summary-card">
+                <h2>📰 今日要闻</h2>
+                <p id="today-summary">加载中...</p>
+            </div>
+            <div class="news-list" id="today-news">
+                <p style="text-align: center; color: #999;">加载中...</p>
+            </div>
+        </div>
+
+        <!-- 近期 Tab -->
+        <div id="tab-recent" class="tab-content">
+            <div id="recent-days"></div>
+        </div>
+
+        <!-- 归档 Tab -->
+        <div id="tab-archive" class="tab-content">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="🔍 搜索新闻标题、摘要或标签..." />
+            </div>
+            <div id="search-results" style="display: none;"></div>
+            <div id="archive-list" class="archive-list"></div>
         </div>
 
         <footer>
@@ -133,53 +210,160 @@
 
     <script>
         const tagLabels = {
-            'agent': 'Agent',
-            'model': '模型',
-            'company': '公司',
-            'tech': '技术',
-            'policy': '政策',
-            'product': '产品',
-            'open-source': '开源'
+            'agent': 'Agent', 'model': '模型', 'company': '公司',
+            'tech': '技术', 'policy': '政策', 'product': '产品', 'open-source': '开源'
         };
 
-        async function loadLatestNews() {
-            try {
-                const indexRes = await fetch('data/index.json');
-                const dates = await indexRes.json();
-                const latestDate = dates[dates.length - 1];
+        let allDates = [];
+        let allNewsData = {};
 
-                document.getElementById('date-display').textContent = latestDate;
-
-                const newsRes = await fetch(`data/${latestDate}.json`);
-                const data = await newsRes.json();
-
-                document.getElementById('summary').textContent = data.summary || '暂无总结';
-
-                const newsList = document.getElementById('news-list');
-                newsList.innerHTML = data.news.map((item, idx) => {
-                    const cat = item.category || '';
-                    const tagClass = cat ? `tag-${cat}` : '';
-                    const tagLabel = tagLabels[cat] || '';
-                    return `
-                        <div class="news-item">
-                            <h3>${idx + 1}. ${item.title}</h3>
-                            <p>${item.summary}</p>
-                            <div class="bottom">
-                                <div>
-                                    ${cat ? `<span class="tag ${tagClass}">${tagLabel}</span>` : ''}
-                                    ${item.source ? `<span class="source">${item.source}</span>` : ''}
-                                </div>
-                                ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener">阅读原文 →</a>` : ''}
-                            </div>
-                        </div>
-                    `;
-                }).join('');
-            } catch (err) {
-                document.getElementById('news-list').innerHTML = '<p style="text-align: center; color: #999;">加载失败</p>';
+        function switchTab(tab) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            event.target.classList.add('active');
+            document.getElementById(`tab-${tab}`).classList.add('active');
+            
+            if (tab === 'recent' && document.getElementById('recent-days').innerHTML === '') {
+                loadRecentDays();
+            } else if (tab === 'archive' && document.getElementById('archive-list').innerHTML === '') {
+                loadArchive();
             }
         }
 
-        loadLatestNews();
+        function renderNewsItem(item, idx) {
+            const cat = item.category || '';
+            const tagClass = cat ? `tag-${cat}` : '';
+            const tagLabel = tagLabels[cat] || '';
+            return `
+                <div class="news-item">
+                    <h3>${idx + 1}. ${item.title}</h3>
+                    <p>${item.summary}</p>
+                    <div class="bottom">
+                        <div>
+                            ${cat ? `<span class="tag ${tagClass}">${tagLabel}</span>` : ''}
+                            ${item.source ? `<span class="source">${item.source}</span>` : ''}
+                        </div>
+                        ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener">阅读原文 →</a>` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        async function loadToday() {
+            try {
+                const indexRes = await fetch('data/index.json');
+                allDates = await indexRes.json();
+                const latestDate = allDates[allDates.length - 1];
+
+                const newsRes = await fetch(`data/${latestDate}.json`);
+                const data = await newsRes.json();
+                allNewsData[latestDate] = data;
+
+                document.getElementById('today-summary').textContent = data.summary || '暂无总结';
+                document.getElementById('today-news').innerHTML = data.news.map(renderNewsItem).join('');
+            } catch (err) {
+                document.getElementById('today-news').innerHTML = '<p style="text-align: center; color: #999;">加载失败</p>';
+            }
+        }
+
+        async function loadRecentDays() {
+            const recentDates = allDates.slice(-7).reverse();
+            const container = document.getElementById('recent-days');
+            
+            for (const date of recentDates) {
+                if (!allNewsData[date]) {
+                    const res = await fetch(`data/${date}.json`);
+                    allNewsData[date] = await res.json();
+                }
+                const data = allNewsData[date];
+                const card = document.createElement('div');
+                card.className = 'day-card';
+                card.innerHTML = `
+                    <h3>📅 ${date}</h3>
+                    <div class="day-summary">${data.summary || '暂无总结'}</div>
+                    <div class="day-news">${data.news.map(renderNewsItem).join('')}</div>
+                `;
+                card.onclick = (e) => {
+                    if (e.target.tagName === 'A') return;
+                    card.classList.toggle('expanded');
+                };
+                container.appendChild(card);
+            }
+        }
+
+        function loadArchive() {
+            const byMonth = {};
+            allDates.forEach(date => {
+                const month = date.substring(0, 7);
+                if (!byMonth[month]) byMonth[month] = [];
+                byMonth[month].push(date);
+            });
+            
+            const container = document.getElementById('archive-list');
+            Object.keys(byMonth).reverse().forEach(month => {
+                const group = document.createElement('div');
+                group.className = 'month-group';
+                group.innerHTML = `<h3>📅 ${month}</h3>`;
+                byMonth[month].reverse().forEach(date => {
+                    const item = document.createElement('div');
+                    item.className = 'date-item';
+                    item.textContent = `• ${date}`;
+                    item.onclick = () => window.open(`day.html?date=${date}`, '_blank');
+                    group.appendChild(item);
+                });
+                container.appendChild(group);
+            });
+        }
+
+        document.getElementById('search-input').addEventListener('input', async (e) => {
+            const query = e.target.value.trim().toLowerCase();
+            const resultsDiv = document.getElementById('search-results');
+            const archiveDiv = document.getElementById('archive-list');
+            
+            if (!query) {
+                resultsDiv.style.display = 'none';
+                archiveDiv.style.display = 'block';
+                return;
+            }
+            
+            archiveDiv.style.display = 'none';
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = '<p style="text-align: center; color: #999;">搜索中...</p>';
+            
+            const results = [];
+            for (const date of allDates) {
+                if (!allNewsData[date]) {
+                    const res = await fetch(`data/${date}.json`);
+                    allNewsData[date] = await res.json();
+                }
+                const data = allNewsData[date];
+                data.news.forEach(item => {
+                    const text = `${item.title} ${item.summary} ${item.category || ''}`.toLowerCase();
+                    if (text.includes(query)) {
+                        results.push({ date, item });
+                    }
+                });
+            }
+            
+            if (results.length === 0) {
+                resultsDiv.innerHTML = '<p style="text-align: center; color: #999;">未找到相关新闻</p>';
+                return;
+            }
+            
+            resultsDiv.innerHTML = results.map(({ date, item }) => {
+                const highlightText = (text) => text.replace(new RegExp(query, 'gi'), m => `<span class="highlight">${m}</span>`);
+                return `
+                    <div class="search-result">
+                        <div class="date">${date}</div>
+                        <h4>${highlightText(item.title)}</h4>
+                        <p>${highlightText(item.summary)}</p>
+                        ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener">阅读原文 →</a>` : ''}
+                    </div>
+                `;
+            }).join('');
+        });
+
+        loadToday();
     </script>
 </body>
 </html>
