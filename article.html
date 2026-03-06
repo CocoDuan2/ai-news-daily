@@ -68,20 +68,7 @@
             font-size: 1.05em;
         }
 
-        .copy-btn {
-            display: block;
-            margin: 40px auto 0;
-            padding: 12px 32px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 1em;
-            cursor: pointer;
-            transition: opacity 0.2s;
-        }
-        .copy-btn:hover { opacity: 0.9; }
-        .copy-btn.copied { background: #52c41a; }
+
 
         footer {
             text-align: center;
@@ -102,7 +89,6 @@
             <div class="article-date" id="article-date">加载中...</div>
             <div class="article-title" id="article-title">加载中...</div>
             <div class="article-body" id="article-body"></div>
-            <button class="copy-btn" id="copy-btn" onclick="copyArticle()">复制全文</button>
         </div>
 
         <footer>每日 8:30 自动更新</footer>
@@ -176,20 +162,6 @@
                 document.getElementById('article-title').textContent = '文章加载失败';
                 document.getElementById('article-body').innerHTML = '<p style="color:#999">请检查文章是否存在</p>';
             }
-        }
-
-        async function copyArticle() {
-            const title = document.getElementById('article-title').textContent;
-            const body = document.getElementById('article-body').innerText;
-            const full = `${title}\n\n${body}`;
-            await navigator.clipboard.writeText(full);
-            const btn = document.getElementById('copy-btn');
-            btn.textContent = '✓ 已复制';
-            btn.classList.add('copied');
-            setTimeout(() => {
-                btn.textContent = '复制全文';
-                btn.classList.remove('copied');
-            }, 2000);
         }
 
         loadArticle();
