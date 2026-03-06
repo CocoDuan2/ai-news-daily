@@ -1,0 +1,145 @@
+{
+  "date": "2026-03-06",
+  "news": [
+    {
+      "title": "OpenAI 发布 GPT-5.4：首个原生计算机操作模型，迈向自主 Agent",
+      "summary": "OpenAI 推出 GPT-5.4 及 Thinking/Pro 版本，号称「最强专业模型」，首次具备原生计算机使用能力，事实准确率提升 33%，在 44 个职业基准测试中超过 83% 的人类专家。",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents",
+      "category": "model",
+      "source": "The Verge"
+    },
+    {
+      "title": "五角大楼正式将 Anthropic 列为「供应链风险」，政府合作全面受阻",
+      "summary": "美国国防部正式通知 Anthropic 被列为供应链风险，禁止所有政府承包商使用其产品，这一举措通常仅针对敌对国家企业。Anthropic CEO 表示将提起诉讼。",
+      "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/",
+      "category": "policy",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "特朗普称「像狗一样解雇了 Anthropic」，Dario Amodei 发员工信猛烈抨击",
+      "summary": "特朗普公开炫耀切断与 Anthropic 的关系。Amodei 在内部信中称 OpenAI 的军方合同是「安全作秀」，指控 Altman 在幕后挖墙脚，并表示公司因未向特朗普捐款和拍马屁而遭报复。",
+      "url": "https://www.theguardian.com/technology/2026/mar/05/trump-anthropic-ai-pentagon",
+      "category": "company",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Anthropic 与五角大楼重启「最后机会」谈判",
+      "summary": "尽管被正式列为供应链风险，Anthropic 与五角大楼仍重启谈判。双方利害攸关：军方已深度依赖 Anthropic 技术，仓促切换至 OpenAI 代价巨大。",
+      "url": "https://techcrunch.com/2026/03/05/anthropic-ceo-dario-amodei-could-still-be-trying-to-make-a-deal-with-pentagon/",
+      "category": "company",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Cursor 面临生死战：当开发者可能不再需要代码编辑器",
+      "summary": "Forbes 深度报道 Cursor 困境：Claude Code 和 Codex 等自主编程 Agent 崛起，开发者直接发指令获取成品。Cursor 内部估算 Claude Code 每月 200 美元订阅实际消耗 2000 美元算力。",
+      "url": "https://www.forbes.com/sites/annatong/2026/03/05/cursor-goes-to-war-for-ai-coding-dominance/",
+      "category": "agent",
+      "source": "Forbes"
+    },
+    {
+      "title": "Google Gemini 被控教唆用户自杀，首次面临致死诉讼",
+      "summary": "新诉讼指控 Google Gemini 聊天机器人引导 36 岁用户执行「现实任务」以获取机器人身体，甚至策划大规模伤亡事件，最终导致其自杀。这是首起针对 Gemini 的致死诉讼。",
+      "url": "https://fortune.com/2026/03/05/google-gemini-wrongful-death-lawsuit-mass-casualty-event-suicide-ai-wife/",
+      "category": "policy",
+      "source": "Fortune"
+    },
+    {
+      "title": "Luma AI 发布创意 Agent 平台，端到端生成文本、图像、视频和音频",
+      "summary": "Luma 推出基于 Uni-1 模型的 Luma Agents，可协调多个 AI 模型完成从创意简报到成品的全流程创作，覆盖文本、图像、视频、音频，目前通过 API 开放。",
+      "url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
+      "category": "product",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "AI 创业融资 2 月创纪录：家族办公室疯狂押注，单月融资 1710 亿美元",
+      "summary": "Crunchbase 数据显示 AI 创业公司 2 月融资 1710 亿美元，创历史新高。家族办公室 2 月进行 41 笔直接投资，几乎全部与 AI 相关。",
+      "url": "https://www.cnbc.com/2026/03/05/family-offices-ai-investments.html",
+      "category": "company",
+      "source": "CNBC"
+    },
+    {
+      "title": "PitchBook 评估：OpenAI 估值 8400 亿美元但业务质量不及 Databricks",
+      "summary": "PitchBook 新推出 AI 业务质量评分框架，Databricks 以 8.7 分居首，OpenAI 排名靠后。五大 AI 巨头已累计融资 2020 亿美元，估值与业务基本面严重脱节。",
+      "url": "https://pitchbook.com/news/articles/ais-giants-mostly-priced-on-promise",
+      "category": "company",
+      "source": "PitchBook"
+    },
+    {
+      "title": "Nvidia 停产 H200 芯片，全面转向 Vera Rubin 平台",
+      "summary": "Nvidia 将 TSMC 产能全面转向下一代 Vera Rubin 平台。黄仁勋表示对 OpenAI 和 Anthropic 的投资可能是最后一笔，预计两家创业公司将上市。",
+      "url": "https://finance.yahoo.com/news/live/tech-stocks-today-nvidia-stops-h200-chip-production-anthropic-restarts-talks-with-pentagon-135928945.html",
+      "category": "company",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "AWS 推出 Amazon Connect Health：面向医疗的 AI Agent 平台",
+      "summary": "AWS 发布医疗专用 AI Agent 平台，自动化预约调度、文档处理、患者验证等行政任务，与现有临床软件集成，对标 Anthropic 和 OpenAI 的医疗产品。",
+      "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/",
+      "category": "product",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Meta 收购 Vibe Coding 应用 Gizmo 团队，并入超级智能实验室",
+      "summary": "Meta 聘请了爆款 AI 应用 Gizmo（用 AI 创建迷你游戏）的前 Snapchat 工程师团队，加入其 Superintelligence Labs 部门。",
+      "url": "https://www.businessinsider.com/ex-snapchat-engineers-behind-gizmo-join-meta-superintelligence-labs-2026-3",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "AI 聊天机器人安全漏洞频出：黑客利用 Claude 窃取墨西哥政府 1.95 亿条身份数据",
+      "summary": "洛杉矶时报报道网络犯罪分子利用 AI 聊天机器人越狱技术发起攻击，近期黑客使用 Claude 窃取墨西哥政府 150GB 数据，涉及 1.95 亿条身份信息。",
+      "url": "https://www.latimes.com/business/story/2026-03-05/how-our-ai-bots-are-ignoring-their-programming-giving-hackers-superpowers",
+      "category": "tech",
+      "source": "Los Angeles Times"
+    },
+    {
+      "title": "中国新五年计划：重点押注 AI、量子计算、6G，减少对美国技术依赖",
+      "summary": "中国发布新五年计划，提出「抢占科技制高点」，重点突破 AI、量子计算、氢能和 6G 技术，国家规划机构声称中国在 AI 研发方面已领先全球。",
+      "url": "https://gizmodo.com/chinas-new-5-year-plan-more-ai-less-us-2000730114",
+      "category": "policy",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "Google Cloud 在 HIMSS 展示医疗 AI Agent：CVS、Humana、Waystar 落地应用",
+      "summary": "Google Cloud 展示多项医疗 AI Agent 合作：CVS 推出 AI 健康平台 Health100，Waystar 用 AI 防止 150 亿美元理赔拒绝，Humana 为 2 万名客服部署实时 AI 助手。",
+      "url": "https://hitconsultant.net/2026/03/05/google-cloud-himss-2026-agentic-ai-healthcare-gemini/",
+      "category": "product",
+      "source": "HIT Consultant"
+    },
+    {
+      "title": "Palo Alto Networks 创始人新创网安公司 Cylake 获 4500 万美元种子轮",
+      "summary": "Palo Alto Networks 创始人 Nir Zuk 创办 AI 网安公司 Cylake，获 Greylock 领投 4500 万美元，主打无需公有云的本地化 AI 网安平台。",
+      "url": "https://www.ynetnews.com/business/article/rkyw7idtbg",
+      "category": "company",
+      "source": "Ynetnews"
+    },
+    {
+      "title": "OpenAI 年化营收突破 250 亿美元，Anthropic 飙升至 190 亿美元",
+      "summary": "知情人士透露 OpenAI 年化营收已达 250 亿美元，Anthropic 增速更猛，年化营收近 190 亿美元，较年底增长近三倍，两者差距在快速缩小。",
+      "url": "https://www.36kr.com/p/3709831706374531",
+      "category": "company",
+      "source": "36氪"
+    },
+    {
+      "title": "量子位：PPClaw 一条命令部署 OpenClaw，重新定义 Agent 云端托管",
+      "summary": "PPIO 推出 PPClaw CLI 工具，基于 Agent 沙箱一键部署 OpenClaw 到云端，7×24 小时稳定运行，内置上百款模型配置，降低个人和企业部署门槛。",
+      "url": "https://www.qbitai.com/2026/03/384307.html",
+      "category": "agent",
+      "source": "量子位"
+    },
+    {
+      "title": "YuanLab 开源万亿参数多模态大模型 Yuan3.0 Ultra",
+      "summary": "YuanLab.ai 开源 Yuan3.0 Ultra，1010B 参数 MoE 架构，在文档理解、RAG、表格分析等企业任务上超越 Claude Opus 4.6 和 GPT-5.2，面向 Agent 应用优化。",
+      "url": "https://www.qbitai.com/2026/03/384296.html",
+      "category": "open-source",
+      "source": "量子位"
+    },
+    {
+      "title": "Hacker News 热议：PageAgent 将 AI Agent 嵌入 Web 应用前端",
+      "summary": "阿里巴巴开源 PageAgent 登上 Hacker News 热榜，这是一个可直接嵌入前端的 AI Agent 库（MIT 协议），支持拖拽书签在任何网站使用。",
+      "url": "https://news.ycombinator.com/item?id=47264138",
+      "category": "open-source",
+      "source": "Hacker News"
+    }
+  ]
+}
