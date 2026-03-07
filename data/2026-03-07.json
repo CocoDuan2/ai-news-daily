@@ -1,0 +1,145 @@
+{
+  "date": "2026-03-07",
+  "news": [
+    {
+      "title": "Anthropic 被美国国防部列为供应链风险，禁止联邦合同",
+      "summary": "因拒绝在自主武器和大规模监控上妥协，Anthropic 被五角大楼列为国家安全风险，OpenAI 接替其 2 亿美元合同",
+      "url": "https://www.nbcnews.com/tech/tech-news/anthropic-says-pentagon-declared-national-security-risk-rcna262013",
+      "category": "policy",
+      "source": "NBC News"
+    },
+    {
+      "title": "Anthropic CEO 宣布将就供应链风险标签提起诉讼",
+      "summary": "Dario Amodei 称该决定「法律上站不住脚」，并表示大多数客户不受影响，将在法庭上挑战五角大楼的决定",
+      "url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
+      "category": "policy",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "微软、谷歌、亚马逊表示将继续在非国防项目中使用 Anthropic",
+      "summary": "三大云服务商确认 Claude 模型仍可供客户使用，仅排除国防部相关工作",
+      "url": "https://www.cnbc.com/2026/03/06/google-says-anthropic-remains-available-outside-of-defense-projects.html",
+      "category": "company",
+      "source": "CNBC"
+    },
+    {
+      "title": "Anthropic 追踪 AI 对就业影响，这 10 个职业风险最高",
+      "summary": "Anthropic 发布早期预警系统，追踪美国职业对 AI 的暴露程度，白领岗位首当其冲",
+      "url": "https://www.cbsnews.com/news/anthropic-ai-jobs-most-exposed-risk/",
+      "category": "tech",
+      "source": "CBS News"
+    },
+    {
+      "title": "Anthropic 的 Claude 在两周内发现 Firefox 浏览器 100+ 漏洞",
+      "summary": "Claude 在内部测试中 20 分钟发现首个漏洞，其中 14 个为高危漏洞，展示 AI 在网络安全领域的潜力",
+      "url": "https://www.wsj.com/tech/ai/send-us-more-anthropics-claude-sniffs-out-bevy-of-bugs-c6822075",
+      "category": "tech",
+      "source": "WSJ"
+    },
+    {
+      "title": "Google 发布 Android 应用开发最佳 AI 模型排行榜",
+      "summary": "Google Gemini 2.5 Pro 排名第一，Claude Opus 4.6 第二，OpenAI GPT 5.2 Codex 第三",
+      "url": "https://9to5google.com/2026/03/06/google-says-these-ai-models-are-best-at-coding-android-apps/",
+      "category": "model",
+      "source": "9to5Google"
+    },
+    {
+      "title": "微软发布 Phi-4-reasoning-vision-15B 多模态模型",
+      "summary": "150 亿参数模型可处理图像和文本，选择性激活推理能力，训练数据仅 2000 亿 token",
+      "url": "https://www.forbes.com/sites/janakirammsv/2026/03/06/microsoft-builds-a-compact-ai-model-that-decides-when-to-think/",
+      "category": "model",
+      "source": "Forbes"
+    },
+    {
+      "title": "Cursor 争夺 AI 编程主导地位，估值飙升",
+      "summary": "AI 编程工具从协作助手进化为自主代理，Cursor 将「构建最佳编程模型」列为 P0 优先级",
+      "url": "https://www.forbes.com/sites/daniellechemtob/2026/03/06/forbes-daily-stocks-fall-as-oil-prices-reach-nearly-two-year-high/",
+      "category": "agent",
+      "source": "Forbes"
+    },
+    {
+      "title": "OpenClaw 粉丝大会 ClawCon 在纽约举办",
+      "summary": "数百名 OpenClaw 爱好者聚集讨论开源 AI Agent，展示 AI 社区热情",
+      "url": "https://www.businessinsider.com/clawcon-nyc-meetup-openclaw-photos-2026-3",
+      "category": "agent",
+      "source": "Business Insider"
+    },
+    {
+      "title": "AI 编程工具引发开发者身份危机",
+      "summary": "软件工程师角色从编写代码转向监督 AI Agent，带来效率提升但也失去编程的「工匠感」",
+      "url": "https://www.businessinsider.com/ai-creating-identity-crisis-for-software-engineers-coders-2026-3",
+      "category": "tech",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Teamily AI 推出首个人类-AI 社交平台",
+      "summary": "基于浏览器的消息平台，AI Agent 直接参与群组对话，实现人类与 AI 实时协作",
+      "url": "https://www.forbes.com/sites/charliefink/2026/03/06/teamily-ai-brings-agent-teams-to-human-teams/",
+      "category": "product",
+      "source": "Forbes"
+    },
+    {
+      "title": "Oracle 和 OpenAI 取消德州旗舰数据中心扩建计划",
+      "summary": "因融资和需求变化，双方终止合作，Meta 考虑接手该扩建项目",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-flagship-data-center",
+      "category": "company",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "软银出售 Nvidia 股票，借款 400 亿美元投资 OpenAI",
+      "summary": "孙正义去年 10 月出售 58 亿美元 Nvidia 股票为 OpenAI 投资提供资金，押注应用层而非芯片层",
+      "url": "https://www.forbes.com/sites/renanaashkenazi/2026/03/06/softbank-sold-nvidia-borrowed-40-billion-for-openai---here-is-why/",
+      "category": "company",
+      "source": "Forbes"
+    },
+    {
+      "title": "挪威 Unleash 融资 3500 万美元，治理 AI 生成代码",
+      "summary": "开源特性管理平台帮助企业在 AI 编写代码加速发布时提供安全网，可单独回滚故障功能",
+      "url": "https://thenextweb.com/news/oslos-unleash-raises-35m-to-govern-ai-generated-code-as-european-enterprise-bets-grow-bolder",
+      "category": "open-source",
+      "source": "The Next Web"
+    },
+    {
+      "title": "TransferMate 全球部署 Vivox AI Agent 自动化 KYB 合规",
+      "summary": "B2B 支付基础设施提供商使用可解释 AI Agent 处理 KYB 流程，符合 EU AI Act 等监管要求",
+      "url": "https://thefintechtimes.com/transfermate-deploys-vivox-ai-agents-globally-to-automate-kyb-compliance/",
+      "category": "product",
+      "source": "The Fintech Times"
+    },
+    {
+      "title": "Context7 MCP Server 曝出 ContextCrush 漏洞",
+      "summary": "广泛用于向 AI 助手提供编程文档的 MCP Server 存在严重漏洞，攻击者可注入恶意指令",
+      "url": "https://www.scworld.com/brief/context7-mcp-server-flaw-could-allow-malicious-instructions-for-ai-assistants",
+      "category": "tech",
+      "source": "SC Media"
+    },
+    {
+      "title": "ArmorCode 融资 1600 万美元用于暴露管理平台",
+      "summary": "统一暴露管理平台扩展 AI 暴露管理能力，增加自主多步安全工作流和 MCP Server 支持",
+      "url": "https://www.securityweek.com/armorcode-raises-16-million-for-exposure-management-platform/",
+      "category": "company",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "City Detect 融资 1300 万美元，用 AI 帮助城市保持安全清洁",
+      "summary": "使用视觉 AI 帮助地方政府监控建筑和社区健康，发布负责任 AI 政策应对政府需求",
+      "url": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/",
+      "category": "company",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "DealFlowAgent 融资 75 万美元，用 AI 自动化中小企业并购",
+      "summary": "AI 原生投资银行为中小企业并购提供混合模式：人类顾问 + 全天候 AI Deal Concierge",
+      "url": "https://thenextweb.com/news/dealflowagent-ai-sme-ma-long-journey-ventures",
+      "category": "company",
+      "source": "The Next Web"
+    },
+    {
+      "title": "第一批部署 AI Agent 的公司撞上「三堵墙」",
+      "summary": "国内企业部署 AI Agent 遇到技术、组织和成本三大挑战，OpenClaw 等轻量化方案受关注",
+      "url": "https://www.36kr.com/p/3710999017517828",
+      "category": "tech",
+      "source": "36氪"
+    }
+  ]
+}
