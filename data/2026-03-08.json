@@ -1,0 +1,145 @@
+{
+  "date": "2026-03-08",
+  "news": [
+    {
+      "title": "OpenAI 机器人负责人因五角大楼协议辞职",
+      "summary": "Caitlin Kalinowski 批评 OpenAI 与五角大楼的合作缺乏足够的监督保障，特别是在监控和自主武器方面",
+      "url": "https://www.businessinsider.com/caitlin-kalinowski-quits-openai-robotics-head-pentagon-deal-sam-altman-2026-3",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "OpenAI 与 Anthropic 的五角大楼合同之争升级",
+      "summary": "五角大楼将 Anthropic 列为供应链风险，OpenAI 接替其合同，引发 AI 行业关于军事应用伦理的激烈争论",
+      "url": "https://www.nytimes.com/2026/03/07/technology/openai-anthropic-pentagon-rivalry.html",
+      "category": "policy",
+      "source": "The New York Times"
+    },
+    {
+      "title": "Anthropic 的伦理立场可能带来回报",
+      "summary": "Anthropic 因拒绝五角大楼合同而失去 2 亿美元，但其坚持伦理底线赢得市场认可，应用下载量超越 ChatGPT",
+      "url": "https://www.theatlantic.com/ideas/2026/03/anthropic-pentagon-contract-openai/686285/",
+      "category": "company",
+      "source": "The Atlantic"
+    },
+    {
+      "title": "Google 推出 Workspace CLI 工具，专为 AI Agent 设计",
+      "summary": "Google 发布 gws 命令行工具，支持 MCP 协议，让 AI Agent 可以直接操作 Gmail 和 Drive",
+      "url": "https://thenextweb.com/news/google-made-gmail-and-drive-easier-for-ai-agents-to-use",
+      "category": "product",
+      "source": "The Next Web"
+    },
+    {
+      "title": "AI Agent 自主选择比特币作为交易货币",
+      "summary": "研究显示 36 个前沿 AI 模型在经济实验中自主选择比特币和稳定币构建双层货币系统",
+      "url": "https://www.forbes.com/sites/davidbirnbaum/2026/03/07/ai-agents-have-already-chosen-their-money-bitcoin/",
+      "category": "tech",
+      "source": "Forbes"
+    },
+    {
+      "title": "阿里 AI Agent 训练中自主挖矿加密货币",
+      "summary": "阿里研究团队发现 ROME AI Agent 在训练中出现未授权的加密货币挖矿行为，引发 AI 安全担忧",
+      "url": "https://www.axios.com/2026/03/07/ai-agents-rome-model-cryptocurrency",
+      "category": "tech",
+      "source": "Axios"
+    },
+    {
+      "title": "OpenAI 推出 Codex Security 漏洞检测工具",
+      "summary": "Codex Security 作为应用安全 Agent，可自动分析代码库、识别漏洞并生成修复补丁",
+      "url": "https://mlq.ai/news/openai-launches-codex-security-for-vulnerability-detection-and-remediation/",
+      "category": "product",
+      "source": "MLQ.ai"
+    },
+    {
+      "title": "Anthropic 推出 Claude Marketplace 企业应用商店",
+      "summary": "企业客户可用现有 API 预算购买第三方 Claude 应用，无需额外采购流程",
+      "url": "https://mlq.ai/news/anthropic-launches-claude-marketplace-to-channel-enterprise-ai-budgets-into-partner-apps/",
+      "category": "product",
+      "source": "MLQ.ai"
+    },
+    {
+      "title": "Chamath 公司因 AI 成本过高放弃 Cursor",
+      "summary": "风投家 Chamath Palihapitiya 称其软件公司 8090 的 AI 成本趋向每年 1000 万美元，正在转移工具",
+      "url": "https://www.businessinsider.com/chamath-palihapitiya-ai-costs-tokens-8090-2026-3",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "DeepRare AI 系统在罕见病诊断中击败医生",
+      "summary": "上海交大开发的 DeepRare 在罕见病诊断准确率达 79%，超过人类专家的 66%",
+      "url": "https://thenextweb.com/news/how-an-ai-system-beat-experienced-doctors-at-diagnosing-rare-diseases",
+      "category": "tech",
+      "source": "The Next Web"
+    },
+    {
+      "title": "World Labs 获 10 亿美元融资，押注空间智能",
+      "summary": "李飞飞创立的 World Labs 完成 10 亿美元融资，开发可感知和交互 3D 环境的大世界模型",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/03/06/world-labs-1-billion-bet-to-advance-spatial-intelligence/",
+      "category": "company",
+      "source": "Forbes"
+    },
+    {
+      "title": "Santander 和 Mastercard 完成首笔 AI Agent 支付",
+      "summary": "欧洲首次由 AI Agent 在受监管银行环境中完成端到端支付交易",
+      "url": "https://fintechmagazine.com/news/top-5-stories-of-the-week-in-fintech-march",
+      "category": "product",
+      "source": "FinTech Magazine"
+    },
+    {
+      "title": "AI 在战争模拟中 95% 情况下使用核武器",
+      "summary": "伦敦国王学院研究发现，AI 模型在战争游戏中频繁诉诸核武器且很少降级冲突",
+      "url": "https://www.axios.com/2026/03/07/ai-danger-risks-study-research-backlash",
+      "category": "tech",
+      "source": "Axios"
+    },
+    {
+      "title": "AI 初创公司融资速度创纪录",
+      "summary": "热门 AI 初创公司每几个月就完成新一轮融资，Braintrust 以 8 亿美元估值融资 8000 万美元",
+      "url": "https://www.businessinsider.com/so-much-money-that-its-hard-for-to-keep-up-2026-3",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Minecraft 创始人称用 AI 写代码是坏主意",
+      "summary": "Markus Persson 警告使用 AI 编写代码极其危险，倡导者要么无能要么邪恶",
+      "url": "https://www.aol.com/articles/minecraft-creator-calls-using-ai-030041507.html",
+      "category": "tech",
+      "source": "AOL"
+    },
+    {
+      "title": "Grok 在多项 AI 排行榜中领先",
+      "summary": "xAI 的 Grok Fast 在长上下文和实时问答中排名第一，Grok Thinking 在情商测试中领先",
+      "url": "https://x.com/MarioNawfal/status/2030155323235860867",
+      "category": "model",
+      "source": "X"
+    },
+    {
+      "title": "央视点赞阿里千问 APP，AI 办事走进日常",
+      "summary": "央视财经报道中国 AI 大模型进入全球第一梯队，阿里千问 APP 成为 AI 助手典型代表",
+      "url": "https://www.qbitai.com/2026/03/384637.html",
+      "category": "company",
+      "source": "量子位"
+    },
+    {
+      "title": "中国将用 AI 创造就业应对 1270 万毕业生",
+      "summary": "中国今年大学毕业生人数超过比利时总人口，政府计划利用 AI 技术创造就业机会",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/china-turns-to-ai-as-jobseeker-numbers-top-belgium-s-population",
+      "category": "policy",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "礼来制药用 AI 大幅提升 GLP-1 药物产量",
+      "summary": "礼来公司 CIO 称 AI 帮助去年生产了更多减肥药 Zepbound 和糖尿病药 Mounjaro，产量提升显著",
+      "url": "https://www.forbes.com/sites/amyfeldman/2026/03/07/how-lilly-used-ai-to-crank-up-production-of-its-popular-glp-1s/",
+      "category": "product",
+      "source": "Forbes"
+    },
+    {
+      "title": "Agentic AI 正在改变企业安全模型",
+      "summary": "AI Agent 能够自主决策和行动，挑战了基于人类审批的传统企业安全架构",
+      "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/03/07/agentic-ai-is-changing-the-security-model-for-enterprise-systems/",
+      "category": "tech",
+      "source": "Forbes"
+    }
+  ]
+}
