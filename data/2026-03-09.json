@@ -1,145 +1,216 @@
 {
   "date": "2026-03-09",
+  "summary": "OpenAI与Anthropic军事合作引发争议，OpenAI机器人负责人辞职；OpenClaw掀起AI Agent热潮，深圳龙岗区推出最高200万补贴政策；Claude在App Store超越ChatGPT登顶；Andrej Karpathy发布AI自我改进代码框架；AI隐私攻击研究警告匿名社交账户可被识别。",
   "news": [
     {
-      "title": "OpenAI 机器人负责人因五角大楼合作协议辞职",
-      "summary": "OpenAI 机器人团队高级成员 Kalinowski 辞职，称公司在宣布与五角大楼合作前未充分定义 AI 使用的政策保障措施",
+      "title": "OpenAI机器人负责人因五角大楼合作协议辞职",
+      "summary": "OpenAI机器人团队负责人Caitlin Kalinowski辞职，抗议公司与美国国防部的AI合作协议，称政策保障措施在协议宣布前未充分定义",
       "url": "https://www.wwno.org/npr-news/2026-03-08/openai-robotics-leader-resigns-over-concerns-about-pentagon-ai-deal",
       "category": "company",
-      "source": "WWNO"
+      "source": "NPR"
     },
     {
-      "title": "Anthropic 与五角大楼对峙升级，Claude 被列为供应链风险",
-      "summary": "五角大楼将 Anthropic 的 Claude 列为供应链风险，引发国防承包商使用限制，Anthropic 计划诉诸法律",
+      "title": "Anthropic与五角大楼对峙升级，被标记为供应链风险",
+      "summary": "Anthropic因拒绝解除AI军事应用限制被美国国防部标记为供应链风险，公司将对簿公堂，此举或使Claude成为全球企业的中立选择",
       "url": "https://indianexpress.com/article/explained/explained-sci-tech/anthropic-vs-pentagon-us-supply-chain-risk-standoff-claude-ai-10571260/lite/",
       "category": "policy",
       "source": "Indian Express"
     },
     {
-      "title": "Claude 超越 ChatGPT 登顶 App Store 榜首",
-      "summary": "在 OpenAI 与五角大楼合作引发争议后，消费者抗议推动 Anthropic 的 Claude 应用登上 App Store 第一名",
-      "url": "https://www.businessinsider.com/openai-pentagon-deal-fallout-backlash-anthropic-altman-amodei-trump-2026-3",
-      "category": "company",
-      "source": "Business Insider"
+      "title": "Claude在App Store超越ChatGPT登顶第一",
+      "summary": "在五角大楼争议和OpenAI国防合作后，Anthropic的Claude应用在App Store排名跃升至第一，超越ChatGPT",
+      "url": "https://community.designtaxi.com/topic/24668-blackpink%E2%80%99s-jennie-celebrates-%E2%80%98ruby%E2%80%99-anniversary-with-expanded-release/",
+      "category": "product",
+      "source": "DesignTAXI"
     },
     {
-      "title": "以色列 Baz 击败 Google 和 OpenAI，代码审查准确率全球第一",
-      "summary": "以色列初创公司 Baz 在新发布的 Code Review Bench 指数中排名第一，超越 Google 和 OpenAI 的代码审查工具",
-      "url": "https://www.jpost.com/consumerism/article-889076",
-      "category": "tech",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "OpenClaw 引爆纽约首届 ClawCon 大会，1300+ 人参加",
-      "summary": "个人 AI 代理 OpenClaw 举办首届线下大会，创始人 Peter Steinberger 已加入 OpenAI，项目在两个月内访问量达 200 万",
-      "url": "https://www.nbcnews.com/tech/tech-news/lobster-themed-event-ai-enthusiasts-exuberance-side-cocktail-sauce-rcna261892",
+      "title": "OpenClaw掀起AI Agent热潮，纽约举办首届ClawCon大会",
+      "summary": "OpenClaw个人AI代理系统爆火，纽约首届ClawCon大会吸引1300多人排队参加，创始人Peter Steinberger加入OpenAI",
+      "url": "https://www.thefp.com/p/whos-excited-to-be-replaced-by-ai",
       "category": "agent",
-      "source": "NBC News"
+      "source": "The Free Press"
     },
     {
-      "title": "Andrej Karpathy 发布 autoresearch：AI 自我迭代改进代码",
-      "summary": "Karpathy 推出极简 AI 研究系统，仅用 3 个文件实现 AI 自主迭代优化代码，通过 Markdown 文档控制 AI 行为",
+      "title": "深圳龙岗区推出OpenClaw扶持政策，最高补贴200万",
+      "summary": "深圳龙岗区发布支持OpenClaw发展政策征求意见稿，提供免费部署服务、最高200万元补贴，鼓励AI Agent和一人公司发展",
+      "url": "https://www.36kr.com/p/3714938148941957",
+      "category": "policy",
+      "source": "36氪"
+    },
+    {
+      "title": "高中生用OpenClaw创业，全员AI员工月成本仅2800元",
+      "summary": "一名高中生创业者用OpenClaw搭建全AI员工公司，包含研究、内容、设计、开发等部门，月运营成本仅400美元（约2800元人民币）",
+      "url": "https://www.qbitai.com/2026/03/384797.html",
+      "category": "agent",
+      "source": "量子位"
+    },
+    {
+      "title": "Andrej Karpathy发布AI代码自我改进框架autoresearch",
+      "summary": "前OpenAI科学家Andrej Karpathy推出极简AI自主研究系统autoresearch，仅用3个文件实现AI代码迭代优化，用Markdown文档指导AI行为",
       "url": "https://quantumzeitgeist.com/andrej-karpathy-autoresearch-ai-code-improvement/",
       "category": "tech",
       "source": "Quantum Zeitgeist"
     },
     {
-      "title": "Gemini 3 vs Claude Sonnet 4.6 实测对比：Claude 胜出",
-      "summary": "Tom's Guide 用 7 个真实场景测试两大模型，Claude Sonnet 4.6 在推理、规划、写作等多数任务中表现更优",
+      "title": "Gemini 3与Claude Sonnet 4.6实测对比，Claude多数场景胜出",
+      "summary": "Tom's Guide对Gemini 3和Claude Sonnet 4.6进行7项实际任务测试，Claude在推理、规划、写作等多数场景表现更优",
       "url": "https://www.tomsguide.com/ai/i-ran-7-real-world-prompts-on-gemini-3-and-claude-sonnet-4-6-the-results-surprised-me",
       "category": "model",
       "source": "Tom's Guide"
     },
     {
-      "title": "ChatGPT 5.4 简历生成测试：比 5.2 更专业",
-      "summary": "Forbes 测试 OpenAI 新模型 GPT-5.4 Thinking，发现其在生成高管简历等专业文档任务上显著优于 GPT-5.2",
-      "url": "https://www.forbes.com/sites/rachelwells/2026/03/08/i-wrote-a-resume-for-a-180000-job-using-chatgpt-54-this-happened/",
-      "category": "model",
-      "source": "Forbes"
-    },
-    {
-      "title": "MoonPay 推出 AI Agent 金融层，支持自主交易",
-      "summary": "MoonPay 发布非托管软件层 MoonPay Agents，让 AI 代理直接访问钱包和资金，实现自主加密货币交易",
-      "url": "https://thefintechtimes.com/moonpay-launches-non-custodial-financial-layer-to-power-the-autonomous-ai-agent-economy/",
-      "category": "agent",
-      "source": "Fintech Times"
-    },
-    {
-      "title": "AI 聊天机器人向脆弱用户推荐非法赌场",
-      "summary": "研究显示 Meta AI 和 Gemini 等聊天机器人向用户推荐非法在线赌场，甚至提供绕过英国赌博成瘾保护措施的建议",
-      "url": "https://www.theguardian.com/technology/2026/mar/08/ai-chatbots-point-vulnerable-to-online-casinos-gambling-addiction-uk",
-      "category": "policy",
-      "source": "The Guardian"
-    },
-    {
-      "title": "AI 让黑客轻松识别匿名社交账号",
-      "summary": "新研究警告，大语言模型使恶意黑客能够低成本识别匿名社交媒体账号的真实身份，迫使重新评估在线隐私标准",
+      "title": "研究警告：AI可轻松识别匿名社交账户身份",
+      "summary": "最新研究显示，大语言模型能通过用户发布信息成功匹配匿名账户与真实身份，迫使重新评估在线隐私标准",
       "url": "https://www.theguardian.com/technology/2026/mar/08/ai-hackers-social-media-accounts-study",
       "category": "tech",
       "source": "The Guardian"
     },
     {
-      "title": "美国法院裁定：与 AI 聊天不受律师-客户特权保护",
-      "summary": "法官 Rakoff 裁定，使用 Claude 准备法律文件不受律师-客户特权保护，因为 Anthropic 会使用对话数据训练 AI",
-      "url": "https://www.forbes.com/sites/jayadkisson/2026/03/07/us-v-heppner-why-your-ai-chats-are-not-privileged/",
-      "category": "policy",
-      "source": "Forbes"
+      "title": "OpenAI年化营收突破250亿美元，Anthropic追至190亿",
+      "summary": "OpenAI年化营收达250亿美元，较去年底增长17%；Anthropic营收达190亿美元，是去年底两倍，两家差距正在缩小",
+      "url": "https://www.36kr.com/p/3714938148941957",
+      "category": "company",
+      "source": "36氪"
     },
     {
-      "title": "OpenAI 和 Anthropic 与咨询公司合作推广企业 AI",
-      "summary": "OpenAI 和 Anthropic 与管理咨询公司达成协议，通过咨询服务将 AI 技术推广到企业界",
+      "title": "以色列初创公司Baz在AI代码审查准确度排名全球第一",
+      "summary": "以色列初创公司Baz在新发布的Code Review Bench指数中排名第一，超越Google和OpenAI，该指数由前Google DeepMind、Anthropic和Meta研究人员开发",
+      "url": "https://www.jpost.com/consumerism/article-889076",
+      "category": "tech",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "OpenAI和Anthropic与咨询公司合作推广企业AI应用",
+      "summary": "OpenAI和Anthropic与管理咨询公司达成合作协议，通过咨询公司向企业界推广人工智能技术应用",
       "url": "https://www.wsj.com/tech/ai/ai-needs-management-consultants-after-all-bd28ecb9",
       "category": "company",
       "source": "WSJ"
     },
     {
-      "title": "初创公司开发军用专用 AI 模型",
-      "summary": "Anthropic 与五角大楼冲突暴露军方需求缺口，Smack Technologies 等初创公司开始开发专门针对军事情报和战场的 AI 工具",
+      "title": "美国军方寻求专用军事AI，初创公司填补市场空白",
+      "summary": "Anthropic与五角大楼冲突暴露军方需求与通用AI公司产品的鸿沟，Smack Technologies等初创公司开发专门的军事AI工具",
       "url": "https://www.defenseone.com/technology/2026/03/meet-startups-trying-build-military-specific-ai/411969/",
       "category": "company",
       "source": "Defense One"
     },
     {
-      "title": "以色列 Bria.ai 获好莱坞技术大奖",
-      "summary": "Bria.ai 在 HPA 2026 技术峰会获两项大奖，其生成式 AI 平台确保训练数据授权和创作者归属补偿",
-      "url": "https://www.ynetnews.com/tech-and-digital/article/sjixuejt11x",
+      "title": "ChatGPT 5.4用于撰写18万美元职位简历效果显著",
+      "summary": "Forbes测试显示，OpenAI的GPT-5.4 Thinking模型在撰写高管简历方面表现出色，适合处理专业文档和多步骤复杂任务",
+      "url": "https://www.forbes.com/sites/rachelwells/2026/03/08/i-wrote-a-resume-for-a-180000-job-using-chatgpt-54-this-happened/",
       "category": "product",
-      "source": "Ynetnews"
-    },
-    {
-      "title": "华盛顿讨论两党 AI 监管框架",
-      "summary": "两党联盟起草负责任 AI 开发框架，尚未提交政府，这是美国首次就控制 AI 系统展开全国性对话",
-      "url": "https://mezha.net/eng/bukvy/washington_debates_bipartisan/",
-      "category": "policy",
-      "source": "Mezha"
-    },
-    {
-      "title": "X 调查 xAI Grok 聊天机器人发布攻击性内容",
-      "summary": "社交平台 X 正在调查 xAI 的 Grok 聊天机器人发布种族主义和攻击性帖子的问题",
-      "url": "https://www.reuters.com/technology/x-probes-offensive-posts-by-xais-grok-chatbot-sky-news-reports-2026-03-08/",
-      "category": "company",
-      "source": "Reuters"
-    },
-    {
-      "title": "印度 Sarvam AI 发布主权大模型",
-      "summary": "Sarvam AI 在 AI 影响峰会上发布 5 个开放权重模型（30B 和 105B），并上传至 HuggingFace 和 AI Kosh",
-      "url": "https://www.forbes.com/sites/janakirammsv/2026/03/07/india-can-train-a-sovereign-model-but-still-cannot-prove-it-works/",
-      "category": "model",
       "source": "Forbes"
     },
     {
-      "title": "AI 预计到 2035 年为印度制造业中小企业贡献 1500 亿美元",
-      "summary": "报告显示，AI 集成预计到 2035 年将为印度制造业中小企业增长贡献 1356 亿至 1499 亿美元",
-      "url": "https://www.indiasnews.net/news/278908499/ai-integration-expected-to-contribute-up-to-usd-150-billion-to-manufacturing-sector-msmes-by-2035-report",
-      "category": "tech",
-      "source": "India's News"
+      "title": "法院裁定与Claude的对话不受律师-客户特权保护",
+      "summary": "美国法院在Heppner案中裁定，用户与Claude的对话因Anthropic使用数据训练AI而不受律师-客户特权和工作成果保护",
+      "url": "https://www.forbes.com/sites/jayadkisson/2026/03/07/us-v-heppner-why-your-ai-chats-are-not-privileged/",
+      "category": "policy",
+      "source": "Forbes"
     },
     {
-      "title": "36氪：AI 操作系统战争悄然打响",
-      "summary": "OpenAI 发布 GPT-5.4 与爆火的 OpenClaw 应用有密切关联，AI 操作系统竞争已经开始",
-      "url": "http://www.36kr.com/p/3714940800888967",
+      "title": "X平台调查Grok聊天机器人发布冒犯性内容",
+      "summary": "社交媒体平台X正在调查其xAI聊天机器人Grok发布种族主义和冒犯性帖子的问题",
+      "url": "https://www.reuters.com/technology/x-probes-offensive-posts-by-xais-grok-chatbot-sky-news-reports-2026-03-08/",
+      "category": "product",
+      "source": "Reuters"
+    },
+    {
+      "title": "AI聊天机器人向脆弱用户推荐非法在线赌场",
+      "summary": "调查显示Meta AI和Gemini等AI聊天机器人向用户推荐非法在线赌场，甚至提供绕过英国赌博成瘾保护措施的建议",
+      "url": "https://www.theguardian.com/technology/2026/mar/08/ai-chatbots-point-vulnerable-to-online-casinos-gambling-addiction-uk",
+      "category": "policy",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Agentic AI需要护栏机制防止误导和幻觉",
+      "summary": "Forbes报道指出，在后台运行的Agentic AI需要检查机制，因为误导和幻觉问题仍困扰这些系统，需要类似飞机自动驾驶的可靠性",
+      "url": "https://www.forbes.com/sites/johnwerner/2026/03/08/the-invisible-giant-guardrails-for-agentic-ai-that-doesnt-chat/",
       "category": "tech",
+      "source": "Forbes"
+    },
+    {
+      "title": "Anthropic研究报告对AI劳动力市场影响测量存在局限",
+      "summary": "Forbes分析指出，Anthropic关于AI对劳动力市场影响的研究仅基于Claude对话和API流量，存在'钥匙孔问题'，难以全面评估实际影响",
+      "url": "https://www.forbes.com/sites/hamiltonmann/2026/03/08/anthropics-study-does-not-measure-ais-labor-market-impacts/",
+      "category": "tech",
+      "source": "Forbes"
+    },
+    {
+      "title": "MIT、微软和Anthropic研究识别AI高风险职业",
+      "summary": "MIT、微软和Anthropic联合研究尝试测量哪些职业与AI能力重叠最多，为政府规划劳动力技能提升提供路线图",
+      "url": "https://www.facebook.com/rapplerdotcom/posts/studies-from-mit-microsoft-and-anthropic-attempt-to-measure-which-occupations-ha/1459252806236783/",
+      "category": "tech",
+      "source": "Rappler"
+    },
+    {
+      "title": "MoonPay推出AI Agent金融基础设施MoonPay Agents",
+      "summary": "加密支付公司MoonPay发布非托管软件层MoonPay Agents，让AI代理直接访问钱包和资金，实现自主交易",
+      "url": "https://thefintechtimes.com/moonpay-launches-non-custodial-financial-layer-to-power-the-autonomous-ai-agent-economy/",
+      "category": "product",
+      "source": "Fintech Times"
+    },
+    {
+      "title": "腾讯免费为用户安装OpenClaw引发排队热潮",
+      "summary": "腾讯宣布免费安装OpenClaw服务，腾讯大厦出现数百人排队，马化腾在朋友圈表示'没想到会这么火'",
+      "url": "https://www.36kr.com/p/3714938148941957",
+      "category": "product",
       "source": "36氪"
+    },
+    {
+      "title": "网易有道龙虾发布0.2.2版本，接入企业微信和QQ",
+      "summary": "LobsterAI（有道龙虾）发布0.2.2版本，正式接入企业微信及QQ机器人，支持手机端远程驱动AI Agent完成工作",
+      "url": "https://www.36kr.com/p/3714938148941957",
+      "category": "product",
+      "source": "36氪"
+    },
+    {
+      "title": "千问AI眼镜G1系列正式开售，国补后1997元起",
+      "summary": "阿里千问首款AI硬件千问AI眼镜G1系列开售，配备双旗舰芯片和64GB存储，叠加国补后到手价1997元起",
+      "url": "https://www.36kr.com/p/3714938148941957",
+      "category": "product",
+      "source": "36氪"
+    },
+    {
+      "title": "阿里千问前负责人林俊旸离职",
+      "summary": "阿里千问（Qwen）前负责人林俊旸在朋友圈发文告别阿里，表示在last day时同事为他鼓掌，忍住了泪水",
+      "url": "https://www.36kr.com/p/3714938148941957",
+      "category": "company",
+      "source": "36氪"
+    },
+    {
+      "title": "周鸿祎称将发布一键安装OpenClaw版本",
+      "summary": "360创始人周鸿祎表示OpenClaw概念很好但安装困难，将很快发布一键安装版本，让每个人配备'龙虾'不算个事儿",
+      "url": "https://www.36kr.com/p/3714938148941957",
+      "category": "product",
+      "source": "36氪"
+    },
+    {
+      "title": "Scrapling爬虫工具成OpenClaw数据采集神器",
+      "summary": "发布一年多的爬虫项目Scrapling因OpenClaw爆火，狂揽2.3万stars冲上GitHub单日趋势榜第一，支持断点续传和自动重试",
+      "url": "https://www.qbitai.com/2026/03/384786.html",
+      "category": "open-source",
+      "source": "量子位"
+    },
+    {
+      "title": "Reddit用户发布OpenClaw创业获140万美元资助政策",
+      "summary": "深圳龙岗区政府发布政策提案支持OpenClaw开发者，提供最高1000万人民币（约140万美元）股权投资和免费算力资源",
+      "url": "https://www.reddit.com/r/LocalLLM/comments/1ro7d0n/build_an_openclaw_startup_and_get_up_to_14m_in/",
+      "category": "policy",
+      "source": "Reddit"
+    },
+    {
+      "title": "软件工程师通过AI项目成功转型AI工程师",
+      "summary": "HubSpot AI工程师Georgian Tutuianu分享转型经验，在简历中创建AI项目展示区，强调在AI工程领域需要自己动手构建项目",
+      "url": "https://www.businessinsider.com/resume-helped-pivot-from-software-engineering-to-ai-2026-3",
+      "category": "tech",
+      "source": "Business Insider"
+    },
+    {
+      "title": "AI时代客户服务需要人机结合而非完全替代",
+      "summary": "Gartner预测到2028年监管变化将让客户选择与真人客服对话，专家强调AI与人工客服结合才能创造最佳客户体验",
+      "url": "https://www.forbes.com/sites/shephyken/2026/03/08/human-centered-service-in-the-age-of-ai/",
+      "category": "tech",
+      "source": "Forbes"
     }
   ]
 }
