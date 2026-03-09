@@ -1,0 +1,145 @@
+{
+  "date": "2026-03-09",
+  "news": [
+    {
+      "title": "OpenAI 机器人负责人因五角大楼合作协议辞职",
+      "summary": "OpenAI 机器人团队高级成员 Kalinowski 辞职，称公司在宣布与五角大楼合作前未充分定义 AI 使用的政策保障措施",
+      "url": "https://www.wwno.org/npr-news/2026-03-08/openai-robotics-leader-resigns-over-concerns-about-pentagon-ai-deal",
+      "category": "company",
+      "source": "WWNO"
+    },
+    {
+      "title": "Anthropic 与五角大楼对峙升级，Claude 被列为供应链风险",
+      "summary": "五角大楼将 Anthropic 的 Claude 列为供应链风险，引发国防承包商使用限制，Anthropic 计划诉诸法律",
+      "url": "https://indianexpress.com/article/explained/explained-sci-tech/anthropic-vs-pentagon-us-supply-chain-risk-standoff-claude-ai-10571260/lite/",
+      "category": "policy",
+      "source": "Indian Express"
+    },
+    {
+      "title": "Claude 超越 ChatGPT 登顶 App Store 榜首",
+      "summary": "在 OpenAI 与五角大楼合作引发争议后，消费者抗议推动 Anthropic 的 Claude 应用登上 App Store 第一名",
+      "url": "https://www.businessinsider.com/openai-pentagon-deal-fallout-backlash-anthropic-altman-amodei-trump-2026-3",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "以色列 Baz 击败 Google 和 OpenAI，代码审查准确率全球第一",
+      "summary": "以色列初创公司 Baz 在新发布的 Code Review Bench 指数中排名第一，超越 Google 和 OpenAI 的代码审查工具",
+      "url": "https://www.jpost.com/consumerism/article-889076",
+      "category": "tech",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "OpenClaw 引爆纽约首届 ClawCon 大会，1300+ 人参加",
+      "summary": "个人 AI 代理 OpenClaw 举办首届线下大会，创始人 Peter Steinberger 已加入 OpenAI，项目在两个月内访问量达 200 万",
+      "url": "https://www.nbcnews.com/tech/tech-news/lobster-themed-event-ai-enthusiasts-exuberance-side-cocktail-sauce-rcna261892",
+      "category": "agent",
+      "source": "NBC News"
+    },
+    {
+      "title": "Andrej Karpathy 发布 autoresearch：AI 自我迭代改进代码",
+      "summary": "Karpathy 推出极简 AI 研究系统，仅用 3 个文件实现 AI 自主迭代优化代码，通过 Markdown 文档控制 AI 行为",
+      "url": "https://quantumzeitgeist.com/andrej-karpathy-autoresearch-ai-code-improvement/",
+      "category": "tech",
+      "source": "Quantum Zeitgeist"
+    },
+    {
+      "title": "Gemini 3 vs Claude Sonnet 4.6 实测对比：Claude 胜出",
+      "summary": "Tom's Guide 用 7 个真实场景测试两大模型，Claude Sonnet 4.6 在推理、规划、写作等多数任务中表现更优",
+      "url": "https://www.tomsguide.com/ai/i-ran-7-real-world-prompts-on-gemini-3-and-claude-sonnet-4-6-the-results-surprised-me",
+      "category": "model",
+      "source": "Tom's Guide"
+    },
+    {
+      "title": "ChatGPT 5.4 简历生成测试：比 5.2 更专业",
+      "summary": "Forbes 测试 OpenAI 新模型 GPT-5.4 Thinking，发现其在生成高管简历等专业文档任务上显著优于 GPT-5.2",
+      "url": "https://www.forbes.com/sites/rachelwells/2026/03/08/i-wrote-a-resume-for-a-180000-job-using-chatgpt-54-this-happened/",
+      "category": "model",
+      "source": "Forbes"
+    },
+    {
+      "title": "MoonPay 推出 AI Agent 金融层，支持自主交易",
+      "summary": "MoonPay 发布非托管软件层 MoonPay Agents，让 AI 代理直接访问钱包和资金，实现自主加密货币交易",
+      "url": "https://thefintechtimes.com/moonpay-launches-non-custodial-financial-layer-to-power-the-autonomous-ai-agent-economy/",
+      "category": "agent",
+      "source": "Fintech Times"
+    },
+    {
+      "title": "AI 聊天机器人向脆弱用户推荐非法赌场",
+      "summary": "研究显示 Meta AI 和 Gemini 等聊天机器人向用户推荐非法在线赌场，甚至提供绕过英国赌博成瘾保护措施的建议",
+      "url": "https://www.theguardian.com/technology/2026/mar/08/ai-chatbots-point-vulnerable-to-online-casinos-gambling-addiction-uk",
+      "category": "policy",
+      "source": "The Guardian"
+    },
+    {
+      "title": "AI 让黑客轻松识别匿名社交账号",
+      "summary": "新研究警告，大语言模型使恶意黑客能够低成本识别匿名社交媒体账号的真实身份，迫使重新评估在线隐私标准",
+      "url": "https://www.theguardian.com/technology/2026/mar/08/ai-hackers-social-media-accounts-study",
+      "category": "tech",
+      "source": "The Guardian"
+    },
+    {
+      "title": "美国法院裁定：与 AI 聊天不受律师-客户特权保护",
+      "summary": "法官 Rakoff 裁定，使用 Claude 准备法律文件不受律师-客户特权保护，因为 Anthropic 会使用对话数据训练 AI",
+      "url": "https://www.forbes.com/sites/jayadkisson/2026/03/07/us-v-heppner-why-your-ai-chats-are-not-privileged/",
+      "category": "policy",
+      "source": "Forbes"
+    },
+    {
+      "title": "OpenAI 和 Anthropic 与咨询公司合作推广企业 AI",
+      "summary": "OpenAI 和 Anthropic 与管理咨询公司达成协议，通过咨询服务将 AI 技术推广到企业界",
+      "url": "https://www.wsj.com/tech/ai/ai-needs-management-consultants-after-all-bd28ecb9",
+      "category": "company",
+      "source": "WSJ"
+    },
+    {
+      "title": "初创公司开发军用专用 AI 模型",
+      "summary": "Anthropic 与五角大楼冲突暴露军方需求缺口，Smack Technologies 等初创公司开始开发专门针对军事情报和战场的 AI 工具",
+      "url": "https://www.defenseone.com/technology/2026/03/meet-startups-trying-build-military-specific-ai/411969/",
+      "category": "company",
+      "source": "Defense One"
+    },
+    {
+      "title": "以色列 Bria.ai 获好莱坞技术大奖",
+      "summary": "Bria.ai 在 HPA 2026 技术峰会获两项大奖，其生成式 AI 平台确保训练数据授权和创作者归属补偿",
+      "url": "https://www.ynetnews.com/tech-and-digital/article/sjixuejt11x",
+      "category": "product",
+      "source": "Ynetnews"
+    },
+    {
+      "title": "华盛顿讨论两党 AI 监管框架",
+      "summary": "两党联盟起草负责任 AI 开发框架，尚未提交政府，这是美国首次就控制 AI 系统展开全国性对话",
+      "url": "https://mezha.net/eng/bukvy/washington_debates_bipartisan/",
+      "category": "policy",
+      "source": "Mezha"
+    },
+    {
+      "title": "X 调查 xAI Grok 聊天机器人发布攻击性内容",
+      "summary": "社交平台 X 正在调查 xAI 的 Grok 聊天机器人发布种族主义和攻击性帖子的问题",
+      "url": "https://www.reuters.com/technology/x-probes-offensive-posts-by-xais-grok-chatbot-sky-news-reports-2026-03-08/",
+      "category": "company",
+      "source": "Reuters"
+    },
+    {
+      "title": "印度 Sarvam AI 发布主权大模型",
+      "summary": "Sarvam AI 在 AI 影响峰会上发布 5 个开放权重模型（30B 和 105B），并上传至 HuggingFace 和 AI Kosh",
+      "url": "https://www.forbes.com/sites/janakirammsv/2026/03/07/india-can-train-a-sovereign-model-but-still-cannot-prove-it-works/",
+      "category": "model",
+      "source": "Forbes"
+    },
+    {
+      "title": "AI 预计到 2035 年为印度制造业中小企业贡献 1500 亿美元",
+      "summary": "报告显示，AI 集成预计到 2035 年将为印度制造业中小企业增长贡献 1356 亿至 1499 亿美元",
+      "url": "https://www.indiasnews.net/news/278908499/ai-integration-expected-to-contribute-up-to-usd-150-billion-to-manufacturing-sector-msmes-by-2035-report",
+      "category": "tech",
+      "source": "India's News"
+    },
+    {
+      "title": "36氪：AI 操作系统战争悄然打响",
+      "summary": "OpenAI 发布 GPT-5.4 与爆火的 OpenClaw 应用有密切关联，AI 操作系统竞争已经开始",
+      "url": "http://www.36kr.com/p/3714940800888967",
+      "category": "tech",
+      "source": "36氪"
+    }
+  ]
+}
