@@ -1,0 +1,216 @@
+{
+  "date": "2026-03-10",
+  "summary": "Anthropic 与五角大楼对簿公堂，OpenAI 收购安全公司 Promptfoo 强化 AI Agent 防护，微软推出基于 Claude 的 Copilot Cowork，OpenClaw 开源项目三个月获 26 万星标引发法律争议。",
+  "news": [
+    {
+      "title": "Anthropic 起诉五角大楼，拒绝 AI 用于大规模监控和自主武器",
+      "summary": "Anthropic 因拒绝让 Claude 用于大规模国内监控和全自主武器系统，被五角大楼列为供应链风险，CEO Dario Amodei 提起诉讼要求撤销该决定。",
+      "url": "https://www.reuters.com/world/anthropic-sues-block-pentagon-blacklisting-over-ai-use-restrictions-2026-03-09/",
+      "category": "policy",
+      "source": "Reuters"
+    },
+    {
+      "title": "OpenAI 收购 AI 安全公司 Promptfoo，强化 Agent 平台防护",
+      "summary": "OpenAI 收购拥有 12.5 万开发者的 AI 安全工具 Promptfoo，将其集成到 Frontier 企业 Agent 平台，提供自动化红队测试和安全评估能力。",
+      "url": "https://www.cnbc.com/2026/03/09/open-ai-cybersecurity-promptfoo-ai-agents.html",
+      "category": "company",
+      "source": "CNBC"
+    },
+    {
+      "title": "微软推出 Copilot Cowork，基于 Anthropic 技术打造 AI 协作助手",
+      "summary": "微软发布 Wave 3 产品线，包括基于 Claude Cowork 的 Copilot Cowork 和 E7 套件，5 月 1 日正式推出 Agent 365 平台，已创建超 50 万个 AI Agent。",
+      "url": "https://fortune.com/2026/03/09/microsoft-copilot-cowork-ai-agents-anthropic-e7-m365-saas/",
+      "category": "product",
+      "source": "Fortune"
+    },
+    {
+      "title": "OpenClaw 三个月获 26 万星标，引发 AI Agent 法律信托争议",
+      "summary": "开源项目 OpenClaw 凭借「让 AI 在电脑上真正干活」的理念迅速走红，其 Agent 可自主唤醒执行任务，引发关于 AI 作为受托人的法律讨论。",
+      "url": "https://news.bloomberglaw.com/legal-ops-and-tech/openclaw-raises-questions-on-ai-agents-acting-as-trustees",
+      "category": "open-source",
+      "source": "Bloomberg Law"
+    },
+    {
+      "title": "OpenAI、Google 员工联名支持 Anthropic 对抗五角大楼",
+      "summary": "超 30 名 OpenAI 和 Google DeepMind 员工提交法庭声明支持 Anthropic 诉讼，呼吁五角大楼撤销供应链风险标签，拒绝单方面使用 AI 系统。",
+      "url": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/",
+      "category": "policy",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI Codex Security 一个月发现 1.1 万个高危漏洞",
+      "summary": "OpenAI 的 AI 安全代理 Codex Security 在首月测试中扫描 120 万次提交，发现 792 个严重漏洞和 10,561 个高危问题，免费向开源项目提供。",
+      "url": "https://www.csoonline.com/article/4142354/openai-says-codex-security-found-11000-high-impact-bugs-in-a-month.html",
+      "category": "tech",
+      "source": "CSO Online"
+    },
+    {
+      "title": "Anthropic 推出代码审查工具，应对 AI 生成代码洪流",
+      "summary": "Anthropic 发布代码审查工具帮助企业处理 Claude Code 产生的大量 PR，Uber、Salesforce 等大客户已采用，配合 Claude Code Security 提供深度安全分析。",
+      "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
+      "category": "product",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI 机器人负责人因五角大楼协议辞职",
+      "summary": "OpenAI 硬件团队负责人 Caitlin Kalinowski 因反对公司与国防部的协议辞职，担心 AI 系统被用于监控和自主武器，此前曾领导 Meta AR 眼镜团队。",
+      "url": "https://www.therobotreport.com/openai-robotics-head-resigns-over-pentagon-deal/",
+      "category": "company",
+      "source": "The Robot Report"
+    },
+    {
+      "title": "中国深圳出台政策支持 OpenClaw 相关企业发展",
+      "summary": "深圳当局推出措施支持使用 OpenClaw 技术的企业，相关概念股上涨，彭博社报道称这是中国「智能经济」战略的一部分。",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/china-s-openclaw-tied-stocks-rise-on-policy-support-adoption",
+      "category": "policy",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "卡帕西开源 Agent 自进化训练框架 autoresearch",
+      "summary": "Andrej Karpathy 发布新开源项目 autoresearch，让 AI Agent 完全自主进行科研实验，只需在 Markdown 文档中写好指令，5 分钟一轮实验。",
+      "url": "https://www.qbitai.com/2026/03/384953.html",
+      "category": "open-source",
+      "source": "量子位"
+    },
+    {
+      "title": "上海魔联科技完成数千万元融资，加速 Agent 互联网基础设施建设",
+      "summary": "上海魔联科技获拼便宜和德鼎创新联合投资，资金将用于 Agent 互联网产品研发和商业化，专注 AI Agent 基础设施领域。",
+      "url": "https://m.36kr.com/p/3715369024680320",
+      "category": "company",
+      "source": "36氪"
+    },
+    {
+      "title": "InstallFix 攻击利用假冒 Claude Code 网站传播恶意软件",
+      "summary": "攻击者通过 Google 广告推广克隆的 Claude Code 安装页面，诱导用户执行恶意命令，分发 Cuckoo 信息窃取器，利用用户对 AI 工具的信任。",
+      "url": "https://www.securityweek.com/cloned-ai-tool-sites-distribute-malware-in-installfix-campaign/",
+      "category": "tech",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Nvidia 支持的 AI 数据中心公司 Nscale 估值达 146 亿美元",
+      "summary": "英国 AI 基础设施公司 Nscale 完成 20 亿美元 C 轮融资，Nvidia、Dell、Nokia 参投，计划在欧洲、北美和亚洲扩展 AI 数据中心。",
+      "url": "https://www.cnbc.com/2026/03/09/nscale-ai-data-center-nvidia-raise.html",
+      "category": "company",
+      "source": "CNBC"
+    },
+    {
+      "title": "Meta 投入 1350 亿美元建设 AI 基础设施，与 Nvidia 达成多年合作",
+      "summary": "Meta 宣布与 Nvidia 达成多年合作，采购数百万颗 Blackwell 和 Rubin GPU，每瓦性能提升 50 倍，用于提升广告定向精准度。",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/03/09/metas-most-efficient-ai-infrastructure-for-digital-intelligence/",
+      "category": "company",
+      "source": "Forbes"
+    },
+    {
+      "title": "英国制造业初创公司 Isembard 获 5000 万美元 A 轮融资",
+      "summary": "Isembard 计划 2026 年底前开设 25 家 AI 驱动的智能工厂，其专有系统 MasonOS 整合报价、调度、供应链和质量控制，采用特许经营模式扩张。",
+      "url": "https://www.theengineer.co.uk/content/news/uk-startup-isembard-lands-50m-series-a",
+      "category": "company",
+      "source": "The Engineer"
+    },
+    {
+      "title": "Bluesky CEO Jay Graber 卸任，WordPress 前 CEO 接任",
+      "summary": "社交平台 Bluesky CEO Jay Graber 宣布卸任，由 WordPress 母公司 Automattic 前 CEO Matt Schneider 接任，Bluesky 目前拥有约 4000 万用户。",
+      "url": "https://www.wired.com/story/bluesky-ceo-jay-graber-is-stepping-down/",
+      "category": "company",
+      "source": "WIRED"
+    },
+    {
+      "title": "OpenAI 面临里程碑式诉讼：ChatGPT 提供法律建议涉嫌无证执业",
+      "summary": "新诉讼指控 OpenAI 允许 ChatGPT 向用户提供法律建议、解释法律文件并协助起草法律文件，涉嫌无证从事律师业务，可能影响所有 AI 公司。",
+      "url": "https://www.forbes.com/sites/lanceeliot/2026/03/09/landmark-lawsuit-against-openai-for-allowing-chatgpt-to-provide-legal-advice-could-be-a-huge-game-changer-for-all-ai-makers/",
+      "category": "policy",
+      "source": "Forbes"
+    },
+    {
+      "title": "电信行业需为 Anthropic 困境做准备：6G 与自主武器的伦理挑战",
+      "summary": "Anthropic 与美国政府的冲突凸显 6G 标准中环境感知和自主机器控制功能可能被军方用于监控和武器系统，电信行业面临伦理选择。",
+      "url": "https://www.telecoms.com/5g-6g/telecoms-should-prepare-to-face-the-anthropic-dilemma",
+      "category": "policy",
+      "source": "Telecoms"
+    },
+    {
+      "title": "巴西 AI 初创基金 Shiva 融资 1000 万美元，专注小团队投资",
+      "summary": "巴西基金 Shiva 专注投资 1-3 人的 AI 初创团队，采用月度津贴模式，单个项目投资上限 30 万美元，已有约 30 家公司进入测试阶段。",
+      "url": "https://www.businessinsider.com/shiva-fund-10-m-small-ai-teams-impact-2026-3",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "AI 安全初创公司主导 2026 年网络安全创新奖",
+      "summary": "IT-Harvest 发布的 Cyber 150 榜单中，22% 获奖公司提供 AI 安全产品，Tenex.ai 以 318% 增长率位居榜首，Upwind 融资总额达 4.3 亿美元。",
+      "url": "https://www.infosecurity-magazine.com/news/ai-security-startups-cyber/",
+      "category": "company",
+      "source": "Infosecurity Magazine"
+    },
+    {
+      "title": "民调显示美国人对 AI 的厌恶程度超过 ICE 移民执法局",
+      "summary": "最新民调显示 AI 成为美国人最反感的话题之一，仅次于伊朗和民主党，AI 成瘾和数据中心水资源消耗引发公众担忧，多地考虑暂停新建 AI 数据中心。",
+      "url": "https://gizmodo.com/people-hate-ai-even-more-than-they-hate-ice-poll-finds-2000731438",
+      "category": "policy",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "XPrize 创始人发起 350 万美元竞赛，征集乐观科幻作品",
+      "summary": "Peter Diamandis 发起 Future Vision Xprize 竞赛，鼓励创作类似《星际迷航》的乐观科幻作品，展现人类与技术协作的未来，对抗反乌托邦叙事。",
+      "url": "https://techcrunch.com/2026/03/09/xprize-founder-peter-diamandis-launches-new-contest-to-manifest-a-new-star-trek/",
+      "category": "tech",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "iPhone 快捷指令让 Claude 变身个人助理，可通过短信交互",
+      "summary": "通过 Apple Shortcuts 自动化工具，用户可以像发短信一样与 Claude 交互，发送特定短语触发自动化流程，实现文章摘要、待办清单等功能。",
+      "url": "https://www.tomsguide.com/ai/i-can-text-claude-like-a-personal-assistant-now-this-iphone-shortcut-made-it-possible",
+      "category": "product",
+      "source": "Tom's Guide"
+    },
+    {
+      "title": "医疗 IT 大会：Agentic AI 接管医疗保健领域",
+      "summary": "HIMSS26 大会展示多款医疗 AI Agent 产品，Sword Health 推出全天候心理健康 AI Dawn，Singulr AI 发布 Agent Pulse 提供实时安全治理。",
+      "url": "https://hitconsultant.net/2026/03/09/himss26-pre-day-recap/",
+      "category": "product",
+      "source": "HIT Consultant"
+    },
+    {
+      "title": "Prismforce 在 ServiceNow 平台推出 AI 人才供应链解决方案",
+      "summary": "Prismforce 与 ServiceNow 合作推出基于技能的劳动力决策系统，将 AI Agent 嵌入 HR 工作流，实现实时人才管理和执行优化。",
+      "url": "https://www.devdiscourse.com/article/technology/3831313-revolutionizing-workforce-management-prismforces-ai-talent-solution-on-servicenow",
+      "category": "product",
+      "source": "Devdiscourse"
+    },
+    {
+      "title": "物流公司 Optimal Dynamics 推出 Scale AI Agent，自主谈判货运价格",
+      "summary": "Optimal Dynamics 发布 Scale 决策原生 Agent 解决方案，基于普林斯顿大学 40 年研究，可自主决定接受哪些货运订单并与托运人谈判价格。",
+      "url": "https://www.fleetowner.com/technology/news/55362395/optimal-dynamics-launches-scale-ai-agent-for-trucking-load-acceptance",
+      "category": "product",
+      "source": "FleetOwner"
+    },
+    {
+      "title": "Legalweek 2026：律所面临 AI 时代新竞争压力",
+      "summary": "法律科技大会指出律所面临来自企业法务部门内部化和法律科技公司直接提供服务的双重压力，AI 工具采用缓慢但个人使用率上升带来风险。",
+      "url": "https://www.law.com/legaltechnews/2026/03/09/legalweek-2026-day-1-new-competitive-pressures-for-law-firms-and-legal-techs-ai-slop-phase-/",
+      "category": "tech",
+      "source": "Law.com"
+    },
+    {
+      "title": "微软推出 99 美元 Office 365 E7 套餐，整合 Copilot AI",
+      "summary": "微软 5 月推出 E7 套餐，比 E5 贵 65%，包含 30 美元 Copilot、12 美元 Entra 身份工具和 15 美元 Agent 365 管理平台。",
+      "url": "https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html",
+      "category": "product",
+      "source": "CNBC"
+    },
+    {
+      "title": "企业 AI 最大风险不是模型，而是数据质量",
+      "summary": "随着企业部署 AI Agent 到核心业务，碎片化和不可靠的数据成为最大风险，威胁信任度、准确性和规模化能力，数据治理成为关键。",
+      "url": "https://www.ynetnews.com/tech-and-digital/article/hyllp2otbl",
+      "category": "tech",
+      "source": "Ynetnews"
+    },
+    {
+      "title": "大型语言模型与非 LLM 方法在医疗领域的应用差异研究",
+      "summary": "Nature 发表研究分析 19,123 篇 NLP 相关论文，发现 LLM 在开放式任务中有优势，而非 LLM 方法在信息提取任务中占主导地位，两者互补。",
+      "url": "https://www.nature.com/articles/s44401-026-00076-1",
+      "category": "tech",
+      "source": "Nature"
+    }
+  ]
+}
