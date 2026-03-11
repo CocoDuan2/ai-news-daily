@@ -1,0 +1,216 @@
+{
+  "date": "2026-03-11",
+  "summary": "Meta收购AI社交网络Moltbook，Yann LeCun新创AMI Labs融资10亿美元押注世界模型，OpenAI收购安全测试平台Promptfoo强化Agent安全，Anthropic起诉美国国防部引发行业声援",
+  "news": [
+    {
+      "title": "Meta收购AI Agent社交网络Moltbook",
+      "summary": "Meta宣布收购Moltbook，这是一个专为AI Agent设计的Reddit式社交平台，创始人将加入Meta超级智能实验室",
+      "url": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/",
+      "category": "company",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Yann LeCun创立AMI Labs融资10.3亿美元，押注世界模型",
+      "summary": "Meta前首席AI科学家Yann LeCun创立的AMI Labs完成10.3亿美元种子轮融资，估值35亿美元，专注开发理解物理世界的AI系统",
+      "url": "https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world/",
+      "category": "company",
+      "source": "WIRED"
+    },
+    {
+      "title": "OpenAI收购AI安全测试平台Promptfoo",
+      "summary": "OpenAI宣布收购Promptfoo，将其集成到Frontier平台，为AI Agent提供自动化安全测试和漏洞检测能力",
+      "url": "https://www.csoonline.com/article/4142896/openai-to-acquire-promptfoo-to-strengthen-ai-agent-security-testing.html",
+      "category": "company",
+      "source": "CSO Online"
+    },
+    {
+      "title": "Anthropic起诉美国国防部，OpenAI和Google员工联名声援",
+      "summary": "Anthropic因被列为供应链风险起诉美国国防部，超30名OpenAI和Google员工提交法庭之友意见书支持Anthropic立场",
+      "url": "https://www.businessinsider.com/anthropic-face-loss-in-dispute-with-pentagon-openai-2026-3",
+      "category": "policy",
+      "source": "Business Insider"
+    },
+    {
+      "title": "NVIDIA计划推出企业级AI Agent平台NemoClaw",
+      "summary": "NVIDIA正在开发开源AI Agent平台NemoClaw，面向企业客户，提供安全和隐私工具，支持员工任务自动化",
+      "url": "https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html",
+      "category": "product",
+      "source": "CNBC"
+    },
+    {
+      "title": "腾讯秘密启动微信AI Agent项目，对标阿里字节",
+      "summary": "腾讯正为微信开发新型AI Agent，试图在中国本土AI市场竞争中超越阿里巴巴和字节跳动",
+      "url": "https://www.36kr.com/newsflashes/3717326520022403",
+      "category": "company",
+      "source": "36氪"
+    },
+    {
+      "title": "腾讯「鹅虾」WorkBuddy紧急上线，兼容OpenClaw技能",
+      "summary": "腾讯推出WorkBuddy平台，支持接入QQ、飞书、钉钉，兼容OpenClaw技能，内置多种国产大模型",
+      "url": "https://www.qbitai.com/2026/03/385664.html",
+      "category": "product",
+      "source": "量子位"
+    },
+    {
+      "title": "Jeff Dean访谈：未来开发者人均50个AI Agent",
+      "summary": "Google AI负责人Jeff Dean预测，未来开发者将管理50个AI Agent，写需求将成为核心技能，低延迟将改变应用场景",
+      "url": "https://www.qbitai.com/2026/03/385569.html",
+      "category": "tech",
+      "source": "量子位"
+    },
+    {
+      "title": "AI预测权威承认低估AI进展速度",
+      "summary": "AI预测研究者Ajeya Cotra承认两个月前的预测已过时，Claude Opus 4.6在软件工程任务上的表现远超预期",
+      "url": "https://www.36kr.com/p/3716939126896009",
+      "category": "tech",
+      "source": "36氪"
+    },
+    {
+      "title": "中国Token出海：用便宜电力统治AI时代",
+      "summary": "中国凭借低成本电力优势，通过Token出海模式向全球输出算力，中国模型在OpenRouter平台占据61%消耗量",
+      "url": "https://www.36kr.com/p/3716669382915718",
+      "category": "tech",
+      "source": "36氪"
+    },
+    {
+      "title": "Epic推出Agent Factory平台和医疗基础模型Curiosity",
+      "summary": "Epic在HIMSS 2026发布Agent Factory平台，允许医疗机构构建定制AI Agent，并推出基于真实患者数据训练的Curiosity模型",
+      "url": "https://hitconsultant.net/2026/03/10/epic-ai-himss-2026-agent-factory-curiosity-foundation-models/",
+      "category": "product",
+      "source": "HIT Consultant"
+    },
+    {
+      "title": "Google为Workspace推出Gemini深度集成功能",
+      "summary": "Google在Docs、Sheets、Slides和Drive中推出Gemini驱动的内容生成工具，可从邮件、文件和聊天中提取信息",
+      "url": "https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/",
+      "category": "product",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Anthropic推出Claude Code Review自动代码审查工具",
+      "summary": "Anthropic为Claude Code推出代码审查功能，使用多Agent系统从不同角度检查代码，优先标记关键问题",
+      "url": "https://www.pcgamer.com/software/ai/anthropic-introduces-claude-code-review-so-you-dont-even-need-to-check-all-of-your-own-ai-slop/",
+      "category": "product",
+      "source": "PC Gamer"
+    },
+    {
+      "title": "OpenAI推出Codex Security漏洞扫描器",
+      "summary": "OpenAI发布AI驱动的软件漏洞扫描器Codex Security，过去30天已识别近800个关键漏洞和1万多个高危问题",
+      "url": "https://www.securityweek.com/openai-rolls-out-codex-security-vulnerability-scanner/",
+      "category": "product",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "恶意npm包GhostClaw伪装OpenClaw安装器窃取数据",
+      "summary": "研究人员发现名为@openclaw-ai/openclawai的恶意npm包，伪装成OpenClaw安装器，部署远程访问木马窃取凭证",
+      "url": "https://www.csoonline.com/article/4142922/devs-looking-for-openclaw-get-served-a-ghostclaw-rat.html",
+      "category": "tech",
+      "source": "CSO Online"
+    },
+    {
+      "title": "中国多地政府为OpenClaw创业提供高额补贴",
+      "summary": "无锡、深圳等中国城市为OpenClaw生态创业项目提供最高72万美元补贴、免费办公空间和住房支持",
+      "url": "https://www.businessinsider.com/china-openclaw-cash-subsidies-housing-office-startups-developers-raise-lobster-2026-3",
+      "category": "policy",
+      "source": "Business Insider"
+    },
+    {
+      "title": "AI Agent泛滥导致开源项目维护者不堪重负",
+      "summary": "OpenClaw等AI Agent自动提交大量低质量漏洞报告，开源软件维护者被迫关闭漏洞赏金计划",
+      "url": "https://www.axios.com/2026/03/10/ai-agents-spam-the-volunteers-securing-open-source-software",
+      "category": "tech",
+      "source": "Axios"
+    },
+    {
+      "title": "Accel VC：Cursor和Claude Code市场足够大可共存",
+      "summary": "Accel合伙人Miles Clements表示，AI辅助编程市场足够大，Cursor和Claude Code可以共存发展",
+      "url": "https://www.businessinsider.com/accel-vc-vibe-coding-both-cursor-claude-code-thrive-agents-2026-3",
+      "category": "tech",
+      "source": "Business Insider"
+    },
+    {
+      "title": "节奏跳吧科技用AI重构人体运动数字化",
+      "summary": "上海节奏跳吧科技通过舞蹈APP收集高质量人体运动数据，为具身智能和机器人训练提供数据支持",
+      "url": "https://m.36kr.com/p/3709953126183299",
+      "category": "company",
+      "source": "36氪"
+    },
+    {
+      "title": "瑞典法律AI创业公司Legora融资5.5亿美元",
+      "summary": "法律AI创业公司Legora完成5.5亿美元D轮融资，估值55.5亿美元，加速美国市场扩张",
+      "url": "https://www.reuters.com/business/finance/legal-ai-startup-legora-raises-550-million-speed-up-us-expansion-2026-03-10/",
+      "category": "company",
+      "source": "Reuters"
+    },
+    {
+      "title": "Mandiant创始人推出AI原生安全创业公司Armadin",
+      "summary": "Mandiant创始人Kevin Mandia推出新创业公司Armadin，完成1.899亿美元种子轮和A轮融资，专注AI原生网络安全",
+      "url": "https://techcrunch.com/2026/03/10/mandiants-founder-just-raised-190m-for-his-autonomous-ai-agent-security-startup/",
+      "category": "company",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "数据安全创业公司Jazz融资6100万美元",
+      "summary": "AI驱动的数据丢失防护创业公司Jazz完成6100万美元种子轮和A轮融资，提供基于意图和上下文的DLP解决方案",
+      "url": "https://www.securityweek.com/jazz-emerges-from-stealth-with-61m-in-funding-for-ai-powered-dlp/",
+      "category": "company",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "心理健康创业公司Grow Therapy估值达30亿美元",
+      "summary": "Sequoia Capital支持的心理健康创业公司Grow Therapy完成1.5亿美元融资，估值达30亿美元",
+      "url": "https://www.modernhealthcare.com/health-tech/mh-top-funding-grow-therapy-cognito-therapeutics/",
+      "category": "company",
+      "source": "Modern Healthcare"
+    },
+    {
+      "title": "Google为五角大楼推出Agent Designer工具",
+      "summary": "Google为Gemini for Government推出Agent Designer功能，允许300万军方员工构建用于非机密任务的AI Agent",
+      "url": "https://www.forbes.com/sites/the-prompt/2026/03/10/as-anthropic-sues-ai-workers-unite-behind-it/",
+      "category": "product",
+      "source": "Forbes"
+    },
+    {
+      "title": "Yann LeCun的AMI Labs任命Alexandre LeBrun为CEO",
+      "summary": "前Nabla CEO Alexandre LeBrun加入AMI Labs担任CEO，与Yann LeCun共同推进世界模型研究",
+      "url": "https://www.businessinsider.com/yann-lecun-ai-startup-new-ceo-billion-ami-labs-2026-3",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Nabla与AMI Labs建立独家战略合作",
+      "summary": "临床AI公司Nabla获得AMI Labs世界模型的优先访问权，计划用于构建医疗领域的Agentic AI系统",
+      "url": "https://hitconsultant.net/2026/03/10/nabla-ami-labs-world-models-agentic-ai-healthcare/",
+      "category": "company",
+      "source": "HIT Consultant"
+    },
+    {
+      "title": "Karpathy发布autoresearch：AI Agent优化ML训练",
+      "summary": "Andrej Karpathy发布autoresearch项目，AI Agent可在夜间自主优化机器学习训练循环",
+      "url": "https://www.reddit.com/r/ProductHunters/comments/1rqaimo/i_opensourced_an_ai_agent_that_builds_other_ai/",
+      "category": "open-source",
+      "source": "Reddit"
+    },
+    {
+      "title": "Google发布Gemini Embedding 2多模态嵌入模型",
+      "summary": "Google推出Gemini Embedding 2，支持文本、图像、视频等多模态嵌入，统一处理不同类型数据",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rq5f6c/google_just_released_gemini_embedding_2_one_model/",
+      "category": "model",
+      "source": "Reddit"
+    },
+    {
+      "title": "Microsoft修复83个漏洞，包括Azure MCP Server提权漏洞",
+      "summary": "微软3月补丁日修复83个漏洞，其中包括Azure MCP Server Tools的权限提升漏洞CVE-2026-26118",
+      "url": "https://www.securityweek.com/microsoft-patches-83-vulnerabilities/",
+      "category": "tech",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Bluesky CEO Jay Graber卸任，Toni Schneider接任临时负责人",
+      "summary": "Bluesky首席执行官Jay Graber宣布卸任，前WordPress.com CEO Toni Schneider担任临时负责人",
+      "url": "https://community.designtaxi.com/topic/24758-bluesky-ceo-jay-graber-steps-down-toni-schneider-named-interim-leader/",
+      "category": "company",
+      "source": "DesignTAXI"
+    }
+  ]
+}
