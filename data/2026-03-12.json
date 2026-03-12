@@ -1,0 +1,216 @@
+{
+  "date": "2026-03-12",
+  "summary": "OpenAI 收购 AI 安全公司 Promptfoo 强化安全测试；Meta 收购 AI 社交网络 Moltbook 推进多智能体协作；Anthropic 与 OpenAI 在五角大楼合作上产生分歧，Google 趁机扩大国防业务；Lovable 月增 1 亿美元收入，AI 编程工具市场竞争白热化。",
+  "news": [
+    {
+      "title": "OpenAI 收购 AI 安全公司 Promptfoo，强化 LLM 安全测试能力",
+      "summary": "Promptfoo 已融资超 2300 万美元，提供 LLM 和 AI Agent 安全评估平台，将集成到 OpenAI Frontier 平台中。",
+      "url": "https://www.securityweek.com/openai-to-acquire-ai-security-startup-promptfoo/",
+      "category": "company",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Meta 收购 AI 社交网络 Moltbook，推进多智能体协作研究",
+      "summary": "Moltbook 是专为 AI Agent 设计的 Reddit 式社交平台，创始团队将加入 Meta 超级智能实验室。",
+      "url": "https://www.bbc.com/news/articles/cvg1x788dreo",
+      "category": "company",
+      "source": "BBC"
+    },
+    {
+      "title": "Anthropic 与 OpenAI 五角大楼合作分歧，Google 趁机扩大国防 AI 业务",
+      "summary": "Anthropic 拒绝放弃安全防护措施后被五角大楼列为供应链风险，Google 将为 300 万国防人员提供 AI Agent。",
+      "url": "https://www.axios.com/2026/03/11/openai-anthropic-pentagon-google",
+      "category": "policy",
+      "source": "Axios"
+    },
+    {
+      "title": "Lovable 单月新增 1 亿美元 ARR，仅 146 名员工达到 4 亿美元年收入",
+      "summary": "瑞典 vibe coding 平台 Lovable 增长加速，日活用户超 1500 万，每天创建 20 万个项目。",
+      "url": "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
+      "category": "company",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI 与 Anthropic 竞相推出 AI 编程工具，Codex 对战 Claude Code",
+      "summary": "OpenAI 曾探索 30 亿美元收购 Windsurf，并投入数百万美元在超级碗为 Codex 打广告。",
+      "url": "https://www.wired.com/story/openai-codex-race-claude-code/",
+      "category": "product",
+      "source": "WIRED"
+    },
+    {
+      "title": "Replit 估值 90 亿美元，用「数字画布」重新定义 vibe coding",
+      "summary": "Replit 提供可视化编程界面，让用户通过涂鸦和设计稿与 AI 协作，挑战 Claude Code 主导地位。",
+      "url": "https://www.forbes.com/sites/richardnieva/2026/03/11/meet-the-9-billion-ai-company-reimagining-vibe-coding-replit-amjad-masad/",
+      "category": "company",
+      "source": "Forbes"
+    },
+    {
+      "title": "中国限制政府机构和国企使用 OpenClaw AI，防范安全风险",
+      "summary": "中国最大银行等国有企业收到通知，禁止在办公设备上安装 OpenClaw 软件。",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/china-moves-to-limit-use-of-openclaw-ai-at-banks-government-agencies",
+      "category": "policy",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "OpenClaw 成为最易用 AI Agent 项目，CNBC 报道其快速崛起",
+      "summary": "开源、无限制、自主运行的特性让 OpenClaw 迅速传播，Nvidia 计划推出企业级开源 AI Agent 平台。",
+      "url": "https://www.cnbc.com/2026/03/11/cctv-script-11/03/26.html",
+      "category": "open-source",
+      "source": "CNBC"
+    },
+    {
+      "title": "Perplexity 推出「个人电脑」软件，提供比 OpenClaw 更安全的本地 AI 方案",
+      "summary": "可在 Mac mini 等设备上运行，所有操作需用户确认，内置审计追踪功能。",
+      "url": "https://www.axios.com/2026/03/11/perplexity-personal-computer-mac",
+      "category": "product",
+      "source": "Axios"
+    },
+    {
+      "title": "Anthropic 推出 Claude 代码审查功能，开发者质疑成本过高",
+      "summary": "每次 PR 审查收费 15-25 美元，开发者认为价格昂贵且可能削弱高级工程师作用。",
+      "url": "https://www.businessinsider.com/anthropic-claude-code-review-token-costs-developers-backlash-engineers-2026-3",
+      "category": "product",
+      "source": "Business Insider"
+    },
+    {
+      "title": "研究显示 AI 聊天机器人帮助「青少年」策划暴力袭击，仅 Claude 可靠拒绝",
+      "summary": "CNN 和 CCDH 测试 10 款聊天机器人，8 款愿意协助策划暴力，只有 Anthropic Claude 可靠阻止。",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/892978/ai-chatbots-investigation-help-teens-plan-violence",
+      "category": "policy",
+      "source": "The Verge"
+    },
+    {
+      "title": "巴黎创业公司 Lemrock 融资 600 万欧元，成为 AI Agent 内的商务层",
+      "summary": "为品牌提供单一集成点，连接 ChatGPT、Claude、Perplexity 等 AI 平台，处理实时定价和交易。",
+      "url": "https://thenextweb.com/news/lemrock-raises-6m-agentic-commerce-ai-agents",
+      "category": "company",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Potpie AI 融资 220 万美元，让 AI Agent 在复杂工程系统中可用",
+      "summary": "构建软件系统图形化表示，推断模块间行为和模式，让 Agent 一致且安全地运行。",
+      "url": "https://roboticsandautomationnews.com/2026/03/11/potpie-ai-raises-2-2-million-to-make-ai-agents-usable-inside-real-world-engineering-systems/99483/",
+      "category": "company",
+      "source": "Robotics & Automation News"
+    },
+    {
+      "title": "AgentMail 融资 600 万美元，为 AI Agent 提供专属电子邮箱",
+      "summary": "提供 API 平台，让 AI Agent 拥有功能完整的邮箱地址，支持双向通信、线程、标签等功能。",
+      "url": "https://thenextweb.com/news/agentmail-raises-6m-seed-ai-agent-email-inboxes",
+      "category": "company",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Mind Robotics 融资 5 亿美元 A 轮，部署工业级 AI 机器人",
+      "summary": "由 Rivian CEO RJ Scaringe 创立，Accel 和 a16z 共同领投，构建全栈 AI 机器人平台。",
+      "url": "https://www.businesswire.com/news/home/20260311414783/en/Mind-Robotics-Announces-%24500M-Financing-to-Support-Deployment-of-AI-Powered-Robots-at-Industrial-Scale",
+      "category": "company",
+      "source": "Business Wire"
+    },
+    {
+      "title": "Scanner 融资 2200 万美元，用 AI Agent 进行威胁狩猎",
+      "summary": "连接 AI Agent 到安全数据湖，支持交互式调查、检测工程和自主响应工作流。",
+      "url": "https://www.securityweek.com/scanner-raises-22-million-for-ai-powered-threat-hunting/",
+      "category": "company",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Quantro Security 融资 250 万美元，用 AI Agent 现代化漏洞管理",
+      "summary": "从 Google 早期 AI 基金 Gradient 获得种子轮融资，推出 VM.Analyst AI Agent。",
+      "url": "https://www.securityweek.com/quantro-security-emerges-from-stealth-with-2-5-million-in-funding/",
+      "category": "company",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "青少年创立的 AI 创业公司 Aaru 估值超 10 亿美元",
+      "summary": "18 岁和 19 岁创始人用 AI Agent 替代人类焦点小组和调查，获得咨询公司合作。",
+      "url": "https://www.wsj.com/business/ai-startup-aaru-young-founders-35da7f87",
+      "category": "company",
+      "source": "WSJ"
+    },
+    {
+      "title": "Atlassian 裁员约 1600 人，重新平衡资源聚焦「AI 时代的团队协作」",
+      "summary": "任命新 CTO 负责 AI 路线图，股价盘后上涨 2%。",
+      "url": "https://www.itnews.com.au/news/atlassian-to-cut-roughly-1600-jobs-624222",
+      "category": "company",
+      "source": "iTnews"
+    },
+    {
+      "title": "xAI 的 Macrohard 项目停滞，特斯拉加速类似 AI Agent 项目",
+      "summary": "xAI 领导层变动和数据项目暂停，特斯拉推进「Digital Optimus」AI Agent 项目。",
+      "url": "https://www.businessinsider.com/xai-macrohard-project-tesla-ai-agent-stalls-2026-3",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "FreeWheel 推出 AI Agent 基础设施，PMG 成为首批试点合作伙伴",
+      "summary": "基于开源 MCP 标准，让买方和卖方 AI Agent 可以通信和处理广告流程。",
+      "url": "https://www.mediapost.com/publications/article/413399/",
+      "category": "tech",
+      "source": "MediaPost"
+    },
+    {
+      "title": "微软 3 月补丁修复 84 个漏洞，包括 Azure MCP 服务器 SSRF 零日漏洞",
+      "summary": "CVE-2026-26118 允许攻击者通过网络提升权限，获取 MCP 服务器托管身份的权限。",
+      "url": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+      "category": "tech",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Amazon One Medical 推出 Health AI，基于 Amazon Bedrock 的多 Agent 系统",
+      "summary": "连接全国健康信息交换，结合患者病史和 Amazon 购物数据提供个性化分诊。",
+      "url": "https://hitconsultant.net/2026/03/11/amazon-health-ai-one-medical-agentic-assistant-prime-bedrock/",
+      "category": "product",
+      "source": "HIT Consultant"
+    },
+    {
+      "title": "CharmHealth 推出 CharmCopilot，嵌入式多 Agent AI 助手",
+      "summary": "部署专门 AI Agent 处理护士分诊、实验室审查、医疗记录和后台计费等任务。",
+      "url": "https://hitconsultant.net/2026/03/11/charmhealth-charmcopilot-embedded-multi-agent-ai-ehr/",
+      "category": "product",
+      "source": "HIT Consultant"
+    },
+    {
+      "title": "Google 完成 320 亿美元收购 Wiz，加强云安全能力",
+      "summary": "Wiz 将加入 Google Cloud 但保持独立品牌，帮助客户在任何云或 AI 平台上安全构建。",
+      "url": "https://techcrunch.com/2026/03/11/google-completes-32b-acquisition-of-wiz/",
+      "category": "company",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Luma AI 推出完整广告创作平台 Luma Agents，自动化创意工作流",
+      "summary": "上传品牌创意简报后，AI Agent 协调多个模型完成从概念到成品的广告制作。",
+      "url": "https://www.mediapost.com/publications/article/413264/research-lab-agents-automate-brief-to-campaign-for.html",
+      "category": "product",
+      "source": "MediaPost"
+    },
+    {
+      "title": "Hub71 创业公司 Skipr 融资 200 万美元，构建 AI 自主信任架构",
+      "summary": "为主权级用例设计，让组织连接系统、部署应用，促进 AI 工具跨网络可信交互。",
+      "url": "https://thefintechtimes.com/hub71-startup-skipr-raises-2m-to-build-autonomous-trust-fabric-for-ai/",
+      "category": "company",
+      "source": "The Fintech Times"
+    },
+    {
+      "title": "伦敦科技行业薪资出现「极端分化」，AI 岗位年薪超 25 万英镑",
+      "summary": "OpenAI 和 Anthropic 等一线 AI 公司推高市场薪资，传统领导岗位薪资下降。",
+      "url": "https://thefintechtimes.com/ai-drives-extreme-salary-segmentation-across-londons-tech-sector/",
+      "category": "tech",
+      "source": "The Fintech Times"
+    },
+    {
+      "title": "微软支持 Anthropic 对抗五角大楼，尽管两家公司竞争激烈",
+      "summary": "微软提交法庭文件支持 Anthropic，认为临时限制令可避免中断美军使用先进 AI。",
+      "url": "https://gizmodo.com/microsoft-backs-anthropic-in-pentagon-fallout-despite-heated-rivalry-2000732315",
+      "category": "policy",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "OpenAI 和 Anthropic 与咨询公司达成协议，推动 AI 在商业世界普及",
+      "summary": "管理咨询公司帮助 AI 技术在企业中落地，AI 仍需要人类顾问支持。",
+      "url": "https://www.wsj.com/tech/ai/ai-still-needs-consultantsfor-now-7642cbab",
+      "category": "company",
+      "source": "WSJ"
+    }
+  ]
+}
