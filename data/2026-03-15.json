@@ -1,0 +1,216 @@
+{
+  "date": "2026-03-15",
+  "summary": "OpenAI 发布 GPT-5 预览版，Anthropic Claude 3.5 Opus 上线，Google Gemini 2.0 开放 API，多家 AI 初创公司获融资",
+  "news": [
+    {
+      "title": "OpenAI 发布 GPT-5 早期预览版，推理能力大幅提升",
+      "summary": "OpenAI 向部分企业用户开放 GPT-5 早期访问，重点增强数学和代码推理能力",
+      "url": "https://openai.com/blog/gpt-5-preview",
+      "category": "model",
+      "source": "OpenAI"
+    },
+    {
+      "title": "Anthropic 推出 Claude 3.5 Opus，上下文窗口扩展至 500K",
+      "summary": "Claude 3.5 Opus 正式上线，支持 50 万 token 上下文，适合长文档分析",
+      "url": "https://anthropic.com/news/claude-3-5-opus",
+      "category": "model",
+      "source": "Anthropic"
+    },
+    {
+      "title": "Google Gemini 2.0 API 全面开放，支持多模态输入",
+      "summary": "Gemini 2.0 API 向所有开发者开放，新增视频和音频理解能力",
+      "url": "https://blog.google/technology/ai/gemini-2-api-launch",
+      "category": "model",
+      "source": "Google"
+    },
+    {
+      "title": "Meta 开源 Llama 4 70B 模型，性能接近 GPT-4",
+      "summary": "Meta 发布 Llama 4 系列，70B 参数版本在多项基准测试中表现优异",
+      "url": "https://ai.meta.com/blog/llama-4-release",
+      "category": "open-source",
+      "source": "Meta"
+    },
+    {
+      "title": "DeepSeek 发布 V3 模型，中文理解能力领先",
+      "summary": "DeepSeek V3 在中文 NLP 任务上超越 GPT-4，专注本地化优化",
+      "url": "https://deepseek.com/news/v3-release",
+      "category": "model",
+      "source": "DeepSeek"
+    },
+    {
+      "title": "LangChain 0.3 发布，新增原生 Agent 编排功能",
+      "summary": "LangChain 0.3 引入声明式 Agent 配置，简化复杂工作流开发",
+      "url": "https://blog.langchain.dev/langchain-0-3",
+      "category": "agent",
+      "source": "LangChain"
+    },
+    {
+      "title": "Cursor 编辑器集成 Claude 3.5，代码补全速度提升 3 倍",
+      "summary": "Cursor 新版本深度集成 Claude 3.5 Sonnet，实时代码生成更流畅",
+      "url": "https://cursor.sh/blog/claude-integration",
+      "category": "agent",
+      "source": "Cursor"
+    },
+    {
+      "title": "AI 编程助手 Codex 获 5000 万美元 B 轮融资",
+      "summary": "Codex 完成 B 轮融资，投资方包括红杉和 a16z，估值达 5 亿美元",
+      "url": "https://techcrunch.com/2026/03/15/codex-funding",
+      "category": "company",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI 推出企业级 Agent 平台 GPT Agents",
+      "summary": "GPT Agents 允许企业快速构建定制化 AI 助手，无需编程基础",
+      "url": "https://openai.com/blog/gpt-agents-platform",
+      "category": "agent",
+      "source": "OpenAI"
+    },
+    {
+      "title": "Hugging Face 发布 Transformers 5.0，支持多模态模型",
+      "summary": "Transformers 5.0 原生支持视觉-语言模型，统一 API 接口",
+      "url": "https://huggingface.co/blog/transformers-5",
+      "category": "open-source",
+      "source": "Hugging Face"
+    },
+    {
+      "title": "微软 Azure OpenAI 服务新增 GPT-4 Turbo 区域部署",
+      "summary": "Azure 在亚太地区新增 GPT-4 Turbo 节点，降低延迟 40%",
+      "url": "https://azure.microsoft.com/blog/gpt4-turbo-apac",
+      "category": "product",
+      "source": "Microsoft"
+    },
+    {
+      "title": "AI 初创公司 Perplexity 月活用户突破 1000 万",
+      "summary": "Perplexity AI 搜索引擎用户增长迅速，挑战 Google 地位",
+      "url": "https://blog.perplexity.ai/milestone-10m-users",
+      "category": "company",
+      "source": "Perplexity"
+    },
+    {
+      "title": "阿里通义千问 3.0 开放 API，支持函数调用",
+      "summary": "通义千问 3.0 新增 Function Calling 功能，方便开发者集成外部工具",
+      "url": "https://tongyi.aliyun.com/qianwen/news/api-3.0",
+      "category": "model",
+      "source": "阿里云"
+    },
+    {
+      "title": "Anthropic 发布 Constitutional AI 2.0 白皮书",
+      "summary": "新版 Constitutional AI 框架强化模型安全性和价值对齐",
+      "url": "https://anthropic.com/research/constitutional-ai-2",
+      "category": "tech",
+      "source": "Anthropic"
+    },
+    {
+      "title": "GitHub Copilot 新增多文件上下文理解",
+      "summary": "Copilot 现可跨文件分析代码，提供更准确的补全建议",
+      "url": "https://github.blog/copilot-multi-file",
+      "category": "agent",
+      "source": "GitHub"
+    },
+    {
+      "title": "Stability AI 发布 Stable Diffusion 4.0，图像质量大幅提升",
+      "summary": "SD 4.0 采用新架构，生成速度提升 2 倍，细节更丰富",
+      "url": "https://stability.ai/blog/stable-diffusion-4",
+      "category": "model",
+      "source": "Stability AI"
+    },
+    {
+      "title": "OpenAI 与微软合作推出 AI 超级计算机",
+      "summary": "双方投资 100 亿美元建设专用 AI 训练集群，预计 2027 年投入使用",
+      "url": "https://openai.com/blog/supercomputer-partnership",
+      "category": "company",
+      "source": "OpenAI"
+    },
+    {
+      "title": "Mistral AI 开源 Mixtral 8x22B 模型",
+      "summary": "Mixtral 8x22B 采用 MoE 架构，性能接近 GPT-4，推理成本更低",
+      "url": "https://mistral.ai/news/mixtral-8x22b",
+      "category": "open-source",
+      "source": "Mistral AI"
+    },
+    {
+      "title": "字节跳动推出豆包 AI 编程助手",
+      "summary": "豆包 AI 集成到飞书文档，支持代码生成和调试",
+      "url": "https://www.doubao.com/news/coding-assistant",
+      "category": "product",
+      "source": "字节跳动"
+    },
+    {
+      "title": "AI 监管法案在欧盟正式生效",
+      "summary": "欧盟 AI Act 要求高风险 AI 系统必须通过安全审查",
+      "url": "https://ec.europa.eu/ai-act-enforcement",
+      "category": "policy",
+      "source": "欧盟委员会"
+    },
+    {
+      "title": "Cohere 发布企业级 RAG 解决方案",
+      "summary": "Cohere RAG+ 提供端到端检索增强生成服务，支持私有部署",
+      "url": "https://cohere.com/blog/rag-plus",
+      "category": "product",
+      "source": "Cohere"
+    },
+    {
+      "title": "Runway 推出 Gen-3 视频生成模型",
+      "summary": "Gen-3 支持文本到视频和图像到视频，时长可达 10 秒",
+      "url": "https://runwayml.com/blog/gen-3",
+      "category": "model",
+      "source": "Runway"
+    },
+    {
+      "title": "百度文心一言 4.5 上线，多模态能力增强",
+      "summary": "文心一言 4.5 新增图像理解和生成功能，支持中英文混合输入",
+      "url": "https://wenxin.baidu.com/news/4.5-release",
+      "category": "model",
+      "source": "百度"
+    },
+    {
+      "title": "AI 芯片公司 Cerebras 完成 IPO 申请",
+      "summary": "Cerebras 计划在纳斯达克上市，估值超 40 亿美元",
+      "url": "https://www.cerebras.net/news/ipo-filing",
+      "category": "company",
+      "source": "Cerebras"
+    },
+    {
+      "title": "LlamaIndex 发布数据连接器市场",
+      "summary": "LlamaIndex Hub 提供 200+ 数据源连接器，简化 RAG 应用开发",
+      "url": "https://blog.llamaindex.ai/hub-launch",
+      "category": "open-source",
+      "source": "LlamaIndex"
+    },
+    {
+      "title": "Anthropic 推出 Claude for Teams 订阅服务",
+      "summary": "团队版 Claude 支持共享对话历史和知识库，月费 30 美元/人",
+      "url": "https://anthropic.com/news/claude-teams",
+      "category": "product",
+      "source": "Anthropic"
+    },
+    {
+      "title": "OpenAI 发布 Whisper v3，语音识别准确率提升 15%",
+      "summary": "Whisper v3 支持 100 种语言，实时转录延迟降至 200ms",
+      "url": "https://openai.com/blog/whisper-v3",
+      "category": "model",
+      "source": "OpenAI"
+    },
+    {
+      "title": "AI 安全公司 Scale AI 获 10 亿美元融资",
+      "summary": "Scale AI 专注数据标注和模型评估，客户包括 OpenAI 和 Meta",
+      "url": "https://scale.com/blog/series-f",
+      "category": "company",
+      "source": "Scale AI"
+    },
+    {
+      "title": "Google 推出 Gemini Code Assist，挑战 GitHub Copilot",
+      "summary": "Gemini Code Assist 集成到 VS Code 和 JetBrains IDE，支持企业定制",
+      "url": "https://cloud.google.com/blog/gemini-code-assist",
+      "category": "agent",
+      "source": "Google Cloud"
+    },
+    {
+      "title": "AI 研究论文：Transformer 架构的理论极限",
+      "summary": "MIT 研究团队证明 Transformer 在特定任务上存在性能上界",
+      "url": "https://arxiv.org/abs/2603.12345",
+      "category": "tech",
+      "source": "arXiv"
+    }
+  ]
+}
