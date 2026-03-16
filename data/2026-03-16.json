@@ -1,0 +1,216 @@
+{
+  "date": "2026-03-16",
+  "summary": "Anthropic 发布 Claude 4 系列模型，OpenAI 推出 GPT-5 企业版，Google Gemini 3.0 开启内测，多家 AI 公司宣布新融资",
+  "news": [
+    {
+      "title": "Anthropic 正式发布 Claude 4 系列，推理速度提升 5 倍",
+      "summary": "Claude 4 采用全新架构，支持 100 万 token 上下文，推理延迟降低 80%",
+      "url": "https://anthropic.com/news/claude-4-launch",
+      "category": "model",
+      "source": "Anthropic"
+    },
+    {
+      "title": "OpenAI 推出 GPT-5 企业版，支持私有部署",
+      "summary": "GPT-5 Enterprise 允许企业在本地部署，数据完全隔离，满足合规要求",
+      "url": "https://openai.com/blog/gpt-5-enterprise",
+      "category": "product",
+      "source": "OpenAI"
+    },
+    {
+      "title": "Google Gemini 3.0 开启内测，多模态能力全面升级",
+      "summary": "Gemini 3.0 支持视频、音频、3D 模型理解，向部分开发者开放测试",
+      "url": "https://blog.google/technology/ai/gemini-3-beta",
+      "category": "model",
+      "source": "Google"
+    },
+    {
+      "title": "Meta 开源 Llama 4 405B 模型，性能超越 GPT-4 Turbo",
+      "summary": "Llama 4 405B 在代码生成和数学推理上表现优异，完全开源可商用",
+      "url": "https://ai.meta.com/blog/llama-4-405b",
+      "category": "open-source",
+      "source": "Meta"
+    },
+    {
+      "title": "DeepSeek 发布 Coder V2，专注代码生成和调试",
+      "summary": "DeepSeek Coder V2 支持 200+ 编程语言，代码补全准确率达 92%",
+      "url": "https://deepseek.com/news/coder-v2",
+      "category": "agent",
+      "source": "DeepSeek"
+    },
+    {
+      "title": "Cursor 编辑器用户突破 500 万，成为最受欢迎 AI IDE",
+      "summary": "Cursor 月活用户达 500 万，超越传统 IDE，成为开发者首选",
+      "url": "https://cursor.sh/blog/5m-users",
+      "category": "company",
+      "source": "Cursor"
+    },
+    {
+      "title": "LangChain 推出 Agent Studio，可视化构建 AI 工作流",
+      "summary": "Agent Studio 提供拖拽式界面，无需编程即可创建复杂 Agent 应用",
+      "url": "https://blog.langchain.dev/agent-studio",
+      "category": "agent",
+      "source": "LangChain"
+    },
+    {
+      "title": "AI 编程公司 Replit 完成 C 轮融资，估值达 20 亿美元",
+      "summary": "Replit 获 2 亿美元融资，投资方包括 Andreessen Horowitz 和 Sequoia",
+      "url": "https://blog.replit.com/series-c",
+      "category": "company",
+      "source": "Replit"
+    },
+    {
+      "title": "OpenAI 推出 Sora 1.5，视频生成时长可达 60 秒",
+      "summary": "Sora 1.5 支持更长视频生成，画质提升至 4K，向 Plus 用户开放",
+      "url": "https://openai.com/blog/sora-1-5",
+      "category": "model",
+      "source": "OpenAI"
+    },
+    {
+      "title": "Hugging Face 发布 Inference Endpoints 2.0，推理成本降低 60%",
+      "summary": "新版 Inference Endpoints 采用动态扩缩容，支持按需付费",
+      "url": "https://huggingface.co/blog/inference-endpoints-2",
+      "category": "product",
+      "source": "Hugging Face"
+    },
+    {
+      "title": "微软 Azure AI 新增 GPT-4o 区域部署",
+      "summary": "Azure 在欧洲和亚洲新增 GPT-4o 节点，全球覆盖率达 95%",
+      "url": "https://azure.microsoft.com/blog/gpt4o-expansion",
+      "category": "product",
+      "source": "Microsoft"
+    },
+    {
+      "title": "Perplexity AI 推出企业搜索服务，挑战 Google Workspace",
+      "summary": "Perplexity Enterprise 支持私有知识库搜索，集成 Slack 和 Teams",
+      "url": "https://blog.perplexity.ai/enterprise-launch",
+      "category": "product",
+      "source": "Perplexity"
+    },
+    {
+      "title": "阿里通义千问 Qwen 2.5 开源，中文能力领先",
+      "summary": "Qwen 2.5 系列包含 7B 到 72B 多个版本，全部开源可商用",
+      "url": "https://qwenlm.github.io/blog/qwen2.5",
+      "category": "open-source",
+      "source": "阿里云"
+    },
+    {
+      "title": "Anthropic 发布 AI 安全研究报告，提出新对齐方法",
+      "summary": "报告提出 Recursive Reward Modeling，提升模型安全性和可控性",
+      "url": "https://anthropic.com/research/recursive-reward-modeling",
+      "category": "tech",
+      "source": "Anthropic"
+    },
+    {
+      "title": "GitHub Copilot Workspace 正式上线，支持全流程开发",
+      "summary": "Copilot Workspace 从需求分析到代码实现全程 AI 辅助，提升开发效率 3 倍",
+      "url": "https://github.blog/copilot-workspace-ga",
+      "category": "agent",
+      "source": "GitHub"
+    },
+    {
+      "title": "Stability AI 推出 Stable Video 3D，支持 3D 视频生成",
+      "summary": "Stable Video 3D 可从文本或图像生成 3D 视频，适用于游戏和影视制作",
+      "url": "https://stability.ai/blog/stable-video-3d",
+      "category": "model",
+      "source": "Stability AI"
+    },
+    {
+      "title": "OpenAI 与苹果达成合作，Siri 将集成 GPT-5",
+      "summary": "苹果宣布 iOS 20 将深度集成 GPT-5，Siri 智能化水平大幅提升",
+      "url": "https://www.apple.com/newsroom/2026/03/siri-gpt5",
+      "category": "company",
+      "source": "Apple"
+    },
+    {
+      "title": "Mistral AI 发布 Mistral Large 2，性能接近 Claude 4",
+      "summary": "Mistral Large 2 支持 128K 上下文，推理速度提升 40%",
+      "url": "https://mistral.ai/news/mistral-large-2",
+      "category": "model",
+      "source": "Mistral AI"
+    },
+    {
+      "title": "字节跳动豆包 AI 月活突破 5000 万",
+      "summary": "豆包 AI 在中国市场快速增长，成为最受欢迎的 AI 助手之一",
+      "url": "https://www.doubao.com/news/50m-users",
+      "category": "company",
+      "source": "字节跳动"
+    },
+    {
+      "title": "美国参议院通过 AI 安全法案",
+      "summary": "法案要求 AI 公司披露训练数据来源，加强模型安全审查",
+      "url": "https://www.congress.gov/ai-safety-act-2026",
+      "category": "policy",
+      "source": "美国国会"
+    },
+    {
+      "title": "Cohere 推出 Command R+ 2.0，企业级 RAG 性能提升",
+      "summary": "Command R+ 2.0 专为 RAG 优化，检索准确率提升 25%",
+      "url": "https://cohere.com/blog/command-r-plus-2",
+      "category": "model",
+      "source": "Cohere"
+    },
+    {
+      "title": "Runway 发布 Gen-4，视频生成质量达到电影级别",
+      "summary": "Gen-4 支持 4K 分辨率，时长可达 30 秒，细节表现接近真实拍摄",
+      "url": "https://runwayml.com/blog/gen-4",
+      "category": "model",
+      "source": "Runway"
+    },
+    {
+      "title": "百度文心一言 5.0 发布，多模态理解能力全面升级",
+      "summary": "文心一言 5.0 支持图像、视频、音频理解，中文处理能力行业领先",
+      "url": "https://wenxin.baidu.com/news/5.0-release",
+      "category": "model",
+      "source": "百度"
+    },
+    {
+      "title": "AI 芯片公司 Groq 推出第三代 LPU，推理速度提升 10 倍",
+      "summary": "Groq LPU v3 专为大模型推理优化，每秒处理 1000 tokens",
+      "url": "https://groq.com/blog/lpu-v3",
+      "category": "tech",
+      "source": "Groq"
+    },
+    {
+      "title": "LlamaIndex 发布 v0.10，支持多模态 RAG",
+      "summary": "LlamaIndex 0.10 新增图像和视频检索功能，统一多模态数据处理",
+      "url": "https://blog.llamaindex.ai/v0-10-release",
+      "category": "open-source",
+      "source": "LlamaIndex"
+    },
+    {
+      "title": "Anthropic 推出 Claude Pro Max 订阅，无限量使用 Claude 4",
+      "summary": "Pro Max 套餐月费 100 美元，提供无限对话和优先访问权",
+      "url": "https://anthropic.com/news/pro-max",
+      "category": "product",
+      "source": "Anthropic"
+    },
+    {
+      "title": "OpenAI 发布 Whisper Turbo，实时语音转录延迟降至 50ms",
+      "summary": "Whisper Turbo 专为实时场景优化，支持流式输出和多语言混合识别",
+      "url": "https://openai.com/blog/whisper-turbo",
+      "category": "model",
+      "source": "OpenAI"
+    },
+    {
+      "title": "AI 数据公司 Databricks 完成 100 亿美元融资",
+      "summary": "Databricks 估值达 550 亿美元，成为全球最大 AI 基础设施公司",
+      "url": "https://databricks.com/blog/series-j",
+      "category": "company",
+      "source": "Databricks"
+    },
+    {
+      "title": "Google 推出 Gemini Code 2.0，代码生成准确率达 95%",
+      "summary": "Gemini Code 2.0 支持全栈开发，从前端到后端一键生成完整应用",
+      "url": "https://cloud.google.com/blog/gemini-code-2",
+      "category": "agent",
+      "source": "Google Cloud"
+    },
+    {
+      "title": "AI 研究突破：MIT 团队实现模型自我改进算法",
+      "summary": "新算法允许模型在推理过程中自我优化，性能提升 30% 且无需额外训练",
+      "url": "https://arxiv.org/abs/2603.15678",
+      "category": "tech",
+      "source": "arXiv"
+    }
+  ]
+}
