@@ -1,0 +1,188 @@
+{
+  "date": "2026-03-17",
+  "summary": "Nvidia GTC 大会发布 NemoClaw 和 Vera CPU，全面押注 AI Agent；Meta 收购 Moltbook 并计划裁员 20%；OpenAI 与私募基金洽谈企业 AI 合资；百科全书起诉 OpenAI 侵权",
+  "news": [
+    {
+      "title": "Nvidia 发布 NemoClaw 平台，解决 OpenClaw 安全问题",
+      "summary": "Nvidia CEO 黄仁勋在 GTC 大会宣布推出 NemoClaw，企业级 OpenClaw 平台，内置隐私和安全控制，称"每家公司都需要 OpenClaw 策略"",
+      "url": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
+      "category": "product",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Nvidia 推出 Vera CPU，专为 AI Agent 设计",
+      "summary": "全球首款专为 Agentic AI 打造的处理器，能效提升 2 倍、速度快 50%，Cursor 等编程工具已采用",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai",
+      "category": "tech",
+      "source": "Nvidia"
+    },
+    {
+      "title": "Nvidia 宣布全球 AI 实验室联盟 Nemotron Coalition",
+      "summary": "联合全球顶尖 AI 实验室推进开源前沿模型，通过共享研究、数据和算力加速创新",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-nemotron-coalition-of-leading-global-ai-labs-to-advance-open-frontier-models",
+      "category": "open-source",
+      "source": "Nvidia"
+    },
+    {
+      "title": "Meta 收购 AI Agent 社交网络 Moltbook",
+      "summary": "Meta 收购专为 AI Agent 设计的 Reddit 式社交平台 Moltbook，创始人加入超级智能实验室，控制 AI 社交图谱基础设施",
+      "url": "https://www.mediapost.com/publications/article/413407/why-metas-moltbook-acquisition-changes-all.html",
+      "category": "company",
+      "source": "MediaPost"
+    },
+    {
+      "title": "Meta 计划裁员 20% 应对 AI 基础设施成本",
+      "summary": "路透社报道 Meta 考虑裁员超 1.6 万人（约 20% 员工），以抵消 AI 基础设施投入，2026 年资本支出预算达 1350 亿美元",
+      "url": "https://coincentral.com/meta-stock-what-a-20-workforce-cut-could-mean-for-earnings/",
+      "category": "company",
+      "source": "CoinCentral"
+    },
+    {
+      "title": "Meta 与 Nebius 签署 270 亿美元 AI 算力协议",
+      "summary": "Meta 与云服务商 Nebius 达成 5 年 270 亿美元协议，提供 GPU 即服务，首批部署 Nvidia Vera Rubin 平台",
+      "url": "https://www.fool.com/investing/2026/03/16/meta-just-signed-a-27-billion-artificial-intellige/",
+      "category": "company",
+      "source": "The Motley Fool"
+    },
+    {
+      "title": "OpenAI 与私募基金洽谈成立企业 AI 合资公司",
+      "summary": "OpenAI 与 TPG、Bain Capital 等私募基金商谈成立合资企业，向其投资组合公司分销企业产品，竞争 IPO 前市场份额",
+      "url": "https://finance.yahoo.com/news/exclusive-openai-courts-private-equity-132509339.html",
+      "category": "company",
+      "source": "Reuters"
+    },
+    {
+      "title": "大英百科全书和韦氏词典起诉 OpenAI 侵权",
+      "summary": "Encyclopedia Britannica 和 Merriam-Webster 起诉 OpenAI"大规模版权侵权"，指控其未经许可抓取近 10 万篇文章训练模型",
+      "url": "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/",
+      "category": "policy",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "OpenAI 因加拿大枪击案被起诉",
+      "summary": "Tumbler Ridge 枪击案受害者母亲起诉 OpenAI，称其忽视枪手与 ChatGPT 对话中的警告信号",
+      "url": "https://community.designtaxi.com/topic/25043-openai-faces-lawsuit-after-mother-of-tumbler-ridge-victim-says-it-ignored-warning-signs-in-the-mass-shooters-chatgpt-conversations/",
+      "category": "policy",
+      "source": "DesignTAXI"
+    },
+    {
+      "title": "AWS Bedrock 代码解释器曝安全漏洞",
+      "summary": "安全研究人员演示通过 DNS 查询从 AWS Bedrock AgentCore 代码解释器沙箱模式中窃取数据的方法",
+      "url": "https://www.infosecurity-magazine.com/news/security-flaw-aws-bedrock/",
+      "category": "tech",
+      "source": "Infosecurity Magazine"
+    },
+    {
+      "title": "Anthropic 与私募基金洽谈 Claude 合资企业",
+      "summary": "Anthropic 与 Blackstone、Permira 等私募基金商谈成立合资企业，向其投资组合公司销售 Claude AI 技术",
+      "url": "https://finance.yahoo.com/news/exclusive-openai-courts-private-equity-132509339.html",
+      "category": "company",
+      "source": "Reuters"
+    },
+    {
+      "title": "Google Maps 集成 Gemini AI 对话搜索和 3D 导航",
+      "summary": "Google Maps 推出十年来最大导航更新，集成 Gemini AI 的 Ask Maps 对话功能和沉浸式 3D 导航",
+      "url": "https://www.forbes.com/sites/anishasircar/2026/03/16/google-maps-adds-gemini-ai-with-conversational-search-and-3d-immersive-navigation/",
+      "category": "product",
+      "source": "Forbes"
+    },
+    {
+      "title": "Lovable 高管称 OpenAI 和 Anthropic 是最大竞争对手",
+      "summary": "Lovable 增长主管表示更担心 OpenAI 和 Anthropic 等大公司，而非 Cursor 等 vibe coding 初创公司",
+      "url": "https://www.businessinsider.com/lovable-growth-exec-openai-anthropic-competition-cursor-replit-vibe-coding-2026-3",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Ramp 产品负责人：不用 AI 编程的员工可能表现不佳",
+      "summary": "320 亿美元金融科技公司 Ramp 产品负责人称员工需 AI 原生，公司 50% 代码由 AI 生成，3 月将达 80%",
+      "url": "https://www.businessinsider.com/vibe-coding-ai-tools-underperforming-ramp-tech-2026-3",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Vodafone 用 AI Agent 将 RFP 流程从 30 天缩至几分钟",
+      "summary": "微软称 Vodafone、AT&T 等电信巨头部署数百个 AI Agent，Vodafone 用 Agent 自动化 RFI/RFP 流程，从 10-30 天缩至几分钟",
+      "url": "https://www.rcrwireless.com/20260316/ai/microsoft-agents-vodafone",
+      "category": "product",
+      "source": "RCR Wireless"
+    },
+    {
+      "title": "中国用户掀起 OpenClaw 热潮：炒股、相亲、养电子宠物",
+      "summary": "中国用户在腾讯和百度总部排队安装 OpenClaw，用其炒股、相亲、养数字宠物，"养龙虾"成社交媒体热词",
+      "url": "https://www.businessinsider.com/china-openclaw-craze-lobster-stock-trading-blind-dates-cyber-pets-2026-3",
+      "category": "product",
+      "source": "Business Insider"
+    },
+    {
+      "title": "智谱发布首个"龙虾特供"模型 GLM-5-Turbo",
+      "summary": "智谱推出专为 OpenClaw 优化的 GLM-5-Turbo 模型，强化工具调用和多智能体协同，推出企业龙虾套餐",
+      "url": "https://www.qbitai.com/2026/03/388352.html",
+      "category": "model",
+      "source": "量子位"
+    },
+    {
+      "title": "Mistral AI 发布首个开源 Lean 4 代码 Agent Leanstral",
+      "summary": "Mistral AI 推出 Leanstral，首个开源 Lean 4 代码 Agent，高效模型表现超越其参数量级",
+      "url": "https://www.reddit.com/r/MistralAI/comments/1rvkkkz/model_release_leanstral/",
+      "category": "open-source",
+      "source": "Reddit"
+    },
+    {
+      "title": "意大利 AI 初创 Alomana 融资 400 万欧元",
+      "summary": "米兰 AI 初创 Alomana 完成 400 万欧元种子轮，产品 Alo 为企业提供跨数据、文档、应用和代码的自主 AI 工作流",
+      "url": "https://thenextweb.com/news/italian-ai-startup-alomana-raises-e4m",
+      "category": "company",
+      "source": "The Next Web"
+    },
+    {
+      "title": "数据中心冷却公司 Frore 融资 1.43 亿美元成独角兽",
+      "summary": "半导体初创 Frore Systems 完成 1.43 亿美元 D 轮融资，估值 16.4 亿美元，专注 AI 芯片液冷系统",
+      "url": "https://techcrunch.com/2026/03/16/another-deep-tech-chip-startup-becomes-a-unicorn-frore-hits-1-64b/",
+      "category": "company",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Nvidia 支持的 AI 初创将在韩国投资数十亿建数据中心",
+      "summary": "Nvidia 支持的美国 AI 初创 Reflection AI 将与韩国合作伙伴投资数十亿美元建 AI 数据中心，对抗中国",
+      "url": "https://www.wsj.com/tech/ai/nvidia-backed-ai-startup-to-spend-billions-on-korea-data-center-to-combat-china-f945a326",
+      "category": "company",
+      "source": "WSJ"
+    },
+    {
+      "title": "Luma AI 推出 AI Agent 自动化广告创作平台",
+      "summary": "Luma AI 发布完整广告创作平台 Luma Agents，从创意简报到投放全流程自动化，协调多家 AI 模型",
+      "url": "https://www.mediapost.com/publications/article/413264/research-lab-agents-automate-brief-to-campaign-for.html",
+      "category": "product",
+      "source": "MediaPost"
+    },
+    {
+      "title": "Seedtag 推出神经上下文智能 AI Agent 平台",
+      "summary": "Seedtag 发布 Agentic AI 平台，用神经上下文智能技术帮品牌和代理商规划激活媒体活动，从简报到投放全自动",
+      "url": "https://www.mediapost.com/publications/article/413501/ai-will-soon-run-an-entire-ad-campaign.html",
+      "category": "product",
+      "source": "MediaPost"
+    },
+    {
+      "title": "Perplexity 推出 Mac mini 本地 AI Agent Personal Computer",
+      "summary": "Perplexity 在开发者大会发布 Personal Computer，在 Mac mini 本地运行 24 小时 AI Agent，完全访问本地文件和应用",
+      "url": "https://www.mediapost.com/publications/article/413433/perplexity-turns-mac-mini-into-24-hour-agent-despi.html",
+      "category": "product",
+      "source": "MediaPost"
+    },
+    {
+      "title": "加州北州大学与 MindHYVE 合作用 AI Agent 个性化药学教育",
+      "summary": "加州北州大学药学院与 MindHYVE.ai 合作，将 Agentic AI 平台 ArthurAI 引入高级课程，提供个性化指导",
+      "url": "https://www.govtech.com/education/higher-ed/agentic-ai-platform-to-personalize-pharmacy-education-at-cnu",
+      "category": "product",
+      "source": "GovTech"
+    },
+    {
+      "title": "SK Telecom 要求员工开发自己的 AI Agent",
+      "summary": "韩国 SK 电信新任 CEO 推动员工开发个人 AI Agent，即使无编程经验也能用 b2b AI 助手 A. 创建",
+      "url": "https://www.telecoms.com/ai/skt-chief-wants-staff-to-develop-their-own-ai-agents",
+      "category": "company",
+      "source": "Telecoms"
+    }
+  ]
+}
