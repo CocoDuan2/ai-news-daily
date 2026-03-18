@@ -1,0 +1,216 @@
+{
+  "date": "2026-03-18",
+  "summary": "OpenClaw 成为史上最火开源项目，Nvidia 推出企业版 NemoClaw；OpenAI 发布 GPT-5.4 mini/nano 加速编码战；Anthropic 企业收入持续增长，不受五角大楼标签影响；中国科技巨头百度、阿里巴巴争相推出 AI Agent 平台。",
+  "news": [
+    {
+      "title": "Nvidia CEO：OpenClaw 是「史上最成功开源项目」，推出企业版 NemoClaw",
+      "summary": "黄仁勋称 OpenClaw 是「人类历史上最大、最受欢迎、最成功的开源项目」，Nvidia 发布 NemoClaw 为其添加企业级安全和隐私防护。",
+      "url": "https://www.cnbc.com/2026/03/17/nvidia-ceo-jensen-huang-says-openclaw-is-definitely-the-next-chatgpt.html",
+      "category": "agent",
+      "source": "CNBC"
+    },
+    {
+      "title": "OpenAI 发布 GPT-5.4 mini 和 nano，速度翻倍主攻编码市场",
+      "summary": "GPT-5.4 mini 速度是前代两倍以上，专为编辑和调试代码设计；nano 更小更快，用于数据分类和提取等基础任务。",
+      "url": "https://www.cnet.com/tech/services-and-software/openai-gpt-5-4-nano-mini-release/",
+      "category": "model",
+      "source": "CNET"
+    },
+    {
+      "title": "OpenAI 战略转向：全力聚焦企业生产力，放弃「支线任务」",
+      "summary": "OpenAI 内部会议透露将专注企业和生产力市场，应用主管称 Claude 的成功是「警钟」，不能被支线任务分心。",
+      "url": "https://gizmodo.com/openai-reportedly-pivoting-to-a-focus-on-business-and-productivity-only-2000734341",
+      "category": "company",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "OpenAI 与 AWS 达成协议，向美国政府销售 AI 产品",
+      "summary": "OpenAI 通过 AWS 向美国政府提供机密和非机密工作的 AI 产品，扩大联邦业务版图，进入 Anthropic 的主场。",
+      "url": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
+      "category": "company",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Anthropic 企业收入持续增长，不受五角大楼供应链风险标签影响",
+      "summary": "多家财富 500 强企业表示不会改变与 Anthropic 的合同，企业收入持续增长，Anthropic 成为企业首选 AI 供应商。",
+      "url": "https://www.axios.com/2026/03/17/anthropic-pentagon-google-tech",
+      "category": "company",
+      "source": "Axios"
+    },
+    {
+      "title": "五角大楼开发 Anthropic 替代方案，准备放弃 Claude",
+      "summary": "五角大楼首席数字和 AI 官员透露正在构建工具替代 Anthropic 的 AI，因合同条款分歧无法达成一致。",
+      "url": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+      "category": "policy",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "百度推出 AI Agent 全家桶，加入中国 OpenClaw 热潮",
+      "summary": "百度发布一系列 AI 产品，利用 OpenClaw 开源框架，与阿里巴巴、腾讯竞争 AI Agent 市场。",
+      "url": "https://www.reuters.com/business/media-telecom/baidu-joins-chinas-openclaw-frenzy-with-new-ai-agents-2026-03-17/",
+      "category": "company",
+      "source": "Reuters"
+    },
+    {
+      "title": "阿里巴巴推出企业 AI Agent 平台 Wukong，计划集成 Slack 和 Teams",
+      "summary": "阿里巴巴发布企业级 AI Agent 工具 Wukong，同时宣布重组，成立阿里巴巴 Token Hub 业务集团统筹 AI 业务。",
+      "url": "https://www.cnbc.com/2026/03/17/alibaba-wukong-ai-enterprise-tool-restructuring-qwen-exits.html",
+      "category": "product",
+      "source": "CNBC"
+    },
+    {
+      "title": "Google 向美国所有用户开放个性化 Gemini AI",
+      "summary": "Google 的 Personal Intelligence 功能现向美国所有免费用户开放，可连接 Gmail、照片、YouTube 等应用提供个性化回复。",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/896107/google-expands-personal-intelligence",
+      "category": "product",
+      "source": "The Verge"
+    },
+    {
+      "title": "Nvidia CEO 预测 AI 繁荣下一阶段将带来 1 万亿美元订单",
+      "summary": "黄仁勋表示 AI 行业仍处于初期，预计年底前将带来 1 万亿美元订单，但面临 Google、Meta 等自研芯片的竞争。",
+      "url": "https://www.ien.com/artificial-intelligence/news/22962758/nvidia-ceo-says-next-phase-of-ai-boom-will-bring-1-trillion-in-orders-next-year",
+      "category": "company",
+      "source": "Industrial Equipment News"
+    },
+    {
+      "title": "IBM 完成收购 Confluent，打造实时数据驱动的企业 AI 平台",
+      "summary": "IBM 完成对数据流平台 Confluent 的收购，为 AI 模型和 Agent 提供实时、可信的数据基础，服务超 6500 家企业。",
+      "url": "https://newsroom.ibm.com/2026-03-17-ibm-completes-acquisition-of-confluent,-making-real-time-data-the-engine-of-enterprise-ai-and-agents",
+      "category": "company",
+      "source": "IBM Newsroom"
+    },
+    {
+      "title": "Microsoft 重组 Copilot 团队，应对 Google Gemini 和 Anthropic Claude 竞争",
+      "summary": "微软重组 AI 团队，让 AI 负责人专注模型开发和超级智能，应对 Google Gemini 和 Anthropic Claude Cowork 的竞争压力。",
+      "url": "https://www.itnews.com.au/news/microsoft-rejigs-copilot-teams-624367",
+      "category": "company",
+      "source": "iTnews"
+    },
+    {
+      "title": "科技巨头向开源安全投资 1250 万美元",
+      "summary": "Anthropic、AWS、Google、Microsoft、OpenAI 等向 Linux 基金会捐赠 1250 万美元，支持开源软件安全长期发展。",
+      "url": "https://www.securityweek.com/tech-giants-invest-12-5-million-in-open-source-security/",
+      "category": "open-source",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "CursorJack 攻击路径暴露 AI 开发环境代码执行风险",
+      "summary": "安全研究人员发现 Cursor IDE 中 MCP 深度链接可被滥用，通过操纵安装链接执行恶意代码。",
+      "url": "https://www.infosecurity-magazine.com/news/cursor-jack-attack-path-ai/",
+      "category": "tech",
+      "source": "Infosecurity Magazine"
+    },
+    {
+      "title": "AWS Bedrock 沙箱隔离存在 DNS 逃逸漏洞",
+      "summary": "BeyondTrust 研究人员发现 AWS Bedrock AgentCore 的隔离环境可通过 DNS 查询进行数据泄露和命令执行，AWS 称这是预期功能。",
+      "url": "https://www.csoonline.com/article/4146202/aws-bedrocks-isolated-sandbox-comes-with-a-dns-escape-hatch.html",
+      "category": "tech",
+      "source": "CSO Online"
+    },
+    {
+      "title": "运行时监控成为 AI Agent 安全新前沿",
+      "summary": "安全领导者表示监控 Agent 在企业系统内的行为可能是 CISO 面临的下一个重大挑战，需要新的安全策略。",
+      "url": "https://www.csoonline.com/article/4145127/runtime-the-new-frontier-of-ai-agent-security.html",
+      "category": "tech",
+      "source": "CSO Online"
+    },
+    {
+      "title": "联邦法院裁定 Perplexity AI 购物 Agent 暂停令",
+      "summary": "联邦上诉法院暂停加州法官阻止 Perplexity 在亚马逊使用 AI 购物 Agent 的命令，案件涉及账户访问授权争议。",
+      "url": "https://cyberscoop.com/perplexity-comet-ai-shopping-agent-amazon-lawsuit-ninth-circuit-stay/",
+      "category": "policy",
+      "source": "CyberScoop"
+    },
+    {
+      "title": "IQVIA 推出 IQVIA.ai，基于 Nvidia 的统一 Agentic AI 平台",
+      "summary": "IQVIA 在 Nvidia GTC 上发布 IQVIA.ai，结合 Nvidia Nemotron 和 NeMo Agent Toolkit，为生命科学组织提供 AI 平台。",
+      "url": "https://www.biospace.com/press-releases/iqvia-unveils-iqvia-ai-a-unified-agentic-ai-platform-powered-by-nvidia-to-improve-efficiency-and-decision-making-across-life-sciences",
+      "category": "product",
+      "source": "BioSpace"
+    },
+    {
+      "title": "AWS 命名 12 家欧洲 AI 初创公司为 2026 年先锋",
+      "summary": "AWS 选出 12 家欧洲 AI 初创公司，涵盖海洋测绘、白血病诊断、空袭预测等领域，承诺提供 10 亿美元云积分支持。",
+      "url": "https://thenextweb.com/news/aws-pioneers-2026-european-ai-startups-cohort",
+      "category": "company",
+      "source": "The Next Web"
+    },
+    {
+      "title": "FreeWheel 推出 AI Agent 基础设施，支持广告链自动化",
+      "summary": "FreeWheel 推出基于 MCP 标准的 AI Agent 基础设施，允许买方和卖方 Agent 无需定制集成即可通信和交易。",
+      "url": "https://www.mediapost.com/publications/article/413399/agentic-agency-tech-take-stronger-position-in-ad-c.html",
+      "category": "product",
+      "source": "MediaPost"
+    },
+    {
+      "title": "Google 为 AI Agent 跨企业边界做准备",
+      "summary": "Google 高管表示当 Agent 跨企业边界行动时，需要新的安全系统、身份验证和数据共享策略。",
+      "url": "https://www.mediapost.com/publications/article/413557/google-preparing-for-ai-agents-to-leave-the-buildi.html?edition=141948",
+      "category": "tech",
+      "source": "MediaPost"
+    },
+    {
+      "title": "澳大利亚联邦银行部署两个 AI Agent 提升网络防御",
+      "summary": "CBA 构建了两个 AI Agent 支持威胁狩猎和上下文收集，威胁检测平均时间缩短数小时。",
+      "url": "https://www.itnews.com.au/news/cba-builds-two-ai-agents-to-boost-cyber-defences-624356",
+      "category": "product",
+      "source": "iTnews"
+    },
+    {
+      "title": "小型边缘计算机可帮助自动驾驶汽车在农村地区运行",
+      "summary": "华盛顿州立大学研究表明，运行压缩 LLM 的小型边缘计算机可为自动驾驶汽车提供有效的实时决策能力。",
+      "url": "https://techxplore.com/news/2026-03-small-edge-cars-rural-areas.html",
+      "category": "tech",
+      "source": "Tech Xplore"
+    },
+    {
+      "title": "Blify 获得 210 万美元融资，将 AI 原生培训带入 Slack 和 Teams",
+      "summary": "巴黎初创公司 Blify 完成 210 万美元种子轮融资，开发 AI 原生学习操作系统，通过 Slack、Teams 等工具提供培训。",
+      "url": "http://thenextweb.com/news/blify-21m-pre-seed-ai-learning-platform",
+      "category": "company",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Mastercard 以最高 18 亿美元收购稳定币公司 BVNK",
+      "summary": "Mastercard 宣布收购稳定币基础设施初创公司 BVNK，收购价最高 18 亿美元，包括 3 亿美元或有付款。",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-17/mastercard-to-buy-stablecoin-startup-bvnk-for-up-to-1-8-billion",
+      "category": "company",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "法学教授使用 AI 构建教学工具模拟法庭场景",
+      "summary": "法学院教授可使用 AI 工具在 1-2 小时内构建教学原型，通过模拟法庭场景帮助学生提高法律推理和技能。",
+      "url": "https://www.thomsonreuters.com/en-us/posts/legal/ai-law-professors/",
+      "category": "product",
+      "source": "Thomson Reuters"
+    },
+    {
+      "title": "通用 AI 模型在会计工作流中准确率最高 77%",
+      "summary": "DualEntry 测试 19 个通用 AI 模型在 101 个会计工作流中的表现，最高准确率仅 77.3%，显示专业领域仍需改进。",
+      "url": "https://www.accountingtoday.com/news/generalist-ai-model-accuracy-tops-out-at-77-for-accounting",
+      "category": "tech",
+      "source": "Accounting Today"
+    },
+    {
+      "title": "华为称 Agentic AI 时代将改变网络构建方式",
+      "summary": "华为在产品发布会上表示 AI Agent 的快速出现正在重塑网络拓扑思维，推出 RAN Agent 实现意图驱动的网络自动化。",
+      "url": "https://totaltele.com/the-agentic-ai-era-will-transform-how-we-build-networks/",
+      "category": "tech",
+      "source": "Total Telecom"
+    },
+    {
+      "title": "中美 AI 竞争中的算力差距正在扩大",
+      "summary": "专家称美国顶级 AI 实验室领先中国 6-7 个月，主要归因于算力瓶颈，若完全限制中国算力访问，领先优势可扩大至 18-24 个月。",
+      "url": "https://www.politico.com/newsletters/digital-future-daily/2026/03/17/the-compute-gap-shaping-the-us-china-ai-rivalry-00833103",
+      "category": "policy",
+      "source": "Politico"
+    },
+    {
+      "title": "Nature 研究：LLM 认知偏差更少不一定是更好的决策者",
+      "summary": "Nature Machine Intelligence 发表研究指出，显示较少认知偏差的 LLM 不一定是更好的决策者，挑战现有评估标准。",
+      "url": "https://www.nature.com/articles/s42256-026-01208-w",
+      "category": "tech",
+      "source": "Nature"
+    }
+  ]
+}
