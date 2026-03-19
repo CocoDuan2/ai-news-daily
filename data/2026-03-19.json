@@ -1,0 +1,216 @@
+{
+  "date": "2026-03-19",
+  "summary": "OpenClaw 成为全球 AI Agent 热点，英伟达 CEO 称其为"下一个 ChatGPT"；Anthropic 企业市场份额超 73%，OpenAI 战略转向；MiniMax 发布自进化模型 M2.7；Meta 推出桌面 AI Agent 对抗 OpenClaw；美国防部称 Anthropic 构成国家安全风险。",
+  "news": [
+    {
+      "title": "英伟达 CEO 称 OpenClaw 为"下一个 ChatGPT"，中国 AI 股暴涨",
+      "summary": "黄仁勋看好 AI Agent 前景，MiniMax 涨 29%，智谱涨 23%",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-18/china-s-openclaw-stocks-rise-as-nvidia-calls-it-the-next-chatgpt",
+      "category": "company",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "OpenClaw 爆红：从龙虾帽到爪子手势，AI Agent 的互联网时刻",
+      "summary": "开源 AI Agent 工具引发全球热潮，用户自发形成社区文化",
+      "url": "https://www.businessinsider.com/openclaw-internet-viral-lobster-hats-claw-hands-poses-tech-china-2026-3",
+      "category": "agent",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Meta 推出 Manus 桌面应用，AI Agent 直接运行在本地设备",
+      "summary": "对标 OpenClaw，支持文件管理、代码编写和多步骤任务执行",
+      "url": "https://www.cnbc.com/2026/03/18/metas-manus-launches-desktop-app-to-bring-its-ai-agent-onto-personal-devices.html",
+      "category": "agent",
+      "source": "CNBC"
+    },
+    {
+      "title": "Anthropic 占据 73% 企业 AI 新客户市场，OpenAI 考虑战略转型",
+      "summary": "AI 竞赛从模型能力转向商业化速度，OpenAI 或收缩消费端投入",
+      "url": "https://www.axios.com/2026/03/18/ai-enterprise-revenue-anthropic-openai",
+      "category": "company",
+      "source": "Axios"
+    },
+    {
+      "title": "美国防部：Anthropic 的"红线"构成国家安全风险",
+      "summary": "五角大楼首次回应诉讼，称 Anthropic 限制军事用途不可接受",
+      "url": "https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/",
+      "category": "policy",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "MiniMax 发布 M2.7 自进化模型，AI 深度参与自身训练",
+      "summary": "新模型可完成 30-50% 强化学习研究工作流，推理能力大幅提升",
+      "url": "https://venturebeat.com/technology/new-minimax-m2-7-proprietary-ai-model-is-self-evolving-and-can-perform-30-50",
+      "category": "model",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "OpenAI 与 AWS 合作向美国军方和政府提供 AI 模型",
+      "summary": "填补 Anthropic 退出后的空白，覆盖机密和非机密防务系统",
+      "url": "https://mlq.ai/news/openai-partners-with-aws-to-supply-ai-models-to-us-military-and-government/",
+      "category": "company",
+      "source": "MLQ.ai"
+    },
+    {
+      "title": "OpenAI 面临"先发劣势"，AI 市场竞争格局重塑",
+      "summary": "ChatGPT 从通用名词变为众多选择之一，AI 或成为像电力一样的商品",
+      "url": "https://www.theatlantic.com/ideas/2026/03/openai-economy-competition-anthropic/686420/",
+      "category": "company",
+      "source": "The Atlantic"
+    },
+    {
+      "title": "Meta 遭遇"失控 AI Agent"问题，意外泄露敏感数据",
+      "summary": "工程师的 AI Agent 未经许可发布回复，导致数据暴露两小时",
+      "url": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/",
+      "category": "tech",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "腾讯押注 AI Agent，计划整合进微信",
+      "summary": "推出 QClaw 工具，加入 OpenClaw 热潮，改变数亿用户交互方式",
+      "url": "https://www.digitaljournal.com/business/china-tech-giant-tencent-bets-on-ai-agents/article",
+      "category": "company",
+      "source": "Digital Journal"
+    },
+    {
+      "title": "阿里巴巴 AI 战略转向 Agent，成立 Token Hub 业务集团",
+      "summary": "专注数字助手，消耗更多 token，整合旗下多个业务",
+      "url": "https://www.reuters.com/world/china/alibabas-ai-strategy-shift-comes-into-focus-with-big-bets-agents-2026-03-18/",
+      "category": "company",
+      "source": "Reuters"
+    },
+    {
+      "title": "英伟达 CEO：十年内 AI Agent 将主导公司员工构成",
+      "summary": "黄仁勋称数字员工将远超人类，但不会取代工程师工作",
+      "url": "https://www.computerweekly.com/news/366640515/Nvidia-workforce-to-be-dominated-by-AI-agents-in-a-decade",
+      "category": "tech",
+      "source": "Computer Weekly"
+    },
+    {
+      "title": "Claude 发现三个安全漏洞，可通过 URL 窃取用户数据",
+      "summary": ""Claudy Day"攻击链包括隐形提示注入和数据泄露通道",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/claudy-day-trio-flaws-claude-users-data-theft",
+      "category": "tech",
+      "source": "Dark Reading"
+    },
+    {
+      "title": "Google 向所有免费用户开放 Gemini 个人智能功能",
+      "summary": "可访问 Gmail、Docs 等应用数据，回答"下次航班"等个人问题",
+      "url": "https://www.androidauthority.com/google-expands-personal-intelligence-to-everyone-3650012/",
+      "category": "product",
+      "source": "Android Authority"
+    },
+    {
+      "title": "Gemini 智能家居控制速度提升 40%，但仍然太慢",
+      "summary": "Google 修复 bug 并调整响应冗长度，体验仍不如旧版助手",
+      "url": "https://gizmodo.com/using-gemini-to-turn-on-your-lights-is-now-40-faster-but-its-still-too-slow-2000734994",
+      "category": "product",
+      "source": "Gizmodo"
+    },
+    {
+      "title": "微软扩展 Fabric 平台，深化与英伟达物理 AI 合作",
+      "summary": "统一数据、语义和 AI Agent 操作，成为企业 AI 控制层",
+      "url": "https://www.forbes.com/sites/victordey/2026/03/18/microsoft-expands-fabric-for-enterprise-ai-deepens-nvidia-partnership/",
+      "category": "tech",
+      "source": "Forbes"
+    },
+    {
+      "title": "Mistral AI 推出 Forge 企业训练平台和 Small 4 模型",
+      "summary": "让企业用专有数据训练定制模型，挑战 OpenAI 和 Anthropic",
+      "url": "https://mlq.ai/news/mistral-ai-launches-forge-enterprise-ai-training-platform-with-mistral-small-4-model/",
+      "category": "model",
+      "source": "MLQ.ai"
+    },
+    {
+      "title": "Eragon 融资 1200 万美元，估值 1 亿美元，打造企业 AI 操作系统",
+      "summary": "数据留在企业服务器，公司拥有模型权重，对抗云端 API 模式",
+      "url": "https://techcrunch.com/2026/03/18/this-startup-wants-to-make-enterprise-software-look-more-like-a-prompt/",
+      "category": "company",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Latent Health 融资 6 亿美元，用 AI 加速药品审批",
+      "summary": "帮助医生说服保险公司更快批准专科药物，解决"人力计算问题"",
+      "url": "https://www.forbes.com/sites/rashishrivastava/2026/03/18/this-600-million-ai-startup-is-speeding-up-paperwork-so-patients-get-drugs-faster/",
+      "category": "company",
+      "source": "Forbes"
+    },
+    {
+      "title": "Corridor 融资 2 亿美元，26 岁创始人打造 AI 网络安全初创公司",
+      "summary": "前国土安全部员工创立，专注检测 AI 代码中的安全漏洞",
+      "url": "https://www.forbes.com/sites/thomasbrewster/2026/03/18/corridor-200-million-ai-cyber-startup/",
+      "category": "company",
+      "source": "Forbes"
+    },
+    {
+      "title": "XBOW 融资 1.2 亿美元，估值超 10 亿美元，自主攻击性安全平台",
+      "summary": "AI 驱动平台自主发现和验证软件漏洞，以机器速度执行攻击测试",
+      "url": "https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-120m-at-1b-valuation/",
+      "category": "company",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Manifold 融资 800 万美元，专注 AI 检测和响应",
+      "summary": "提供 AI Agent 实时地图，显示工具调用、系统访问和操作行为",
+      "url": "https://www.securityweek.com/manifold-raises-8-million-for-ai-detection-and-response/",
+      "category": "company",
+      "source": "SecurityWeek"
+    },
+    {
+      "title": "Rivia 融资 1300 万欧元，将 AI Agent 引入临床试验",
+      "summary": "苏黎世初创公司打造"代理数据引擎"，主动管理试验运营层",
+      "url": "https://thenextweb.com/news/rivia-13m-agentic-ai-clinical-trials",
+      "category": "company",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Autoscience 融资 1400 万美元，打造自主 AI 研究实验室",
+      "summary": "AI 系统自主创建、评估和部署机器学习模型，压缩十年研究至数月",
+      "url": "https://www.mobihealthnews.com/news/autoscience-raises-14m-autonomous-ai-research-lab",
+      "category": "company",
+      "source": "MobiHealthNews"
+    },
+    {
+      "title": "SpaceX、OpenAI、Anthropic 潜在 IPO 或成风投史上最大流动性事件",
+      "summary": "三家公司退出价值将超过 2000 年以来所有美国风投支持的 IPO",
+      "url": "https://pitchbook.com/news/reports/q1-2026-pitchbook-analyst-note-mega-ipos-could-threaten-2026-ipo-class",
+      "category": "company",
+      "source": "PitchBook"
+    },
+    {
+      "title": "法院暂时允许 Perplexity AI 购物 Agent 访问亚马逊",
+      "summary": "第九巡回法院发布行政暂缓令，允许 Comet 浏览器继续运营",
+      "url": "https://mlq.ai/news/federal-appeals-court-temporarily-permits-perplexity-ais-shopping-bots-on-amazon/",
+      "category": "policy",
+      "source": "MLQ.ai"
+    },
+    {
+      "title": "20 款"氛围编程"工具：ChatGPT、Cursor、Retool 等",
+      "summary": "Forbes 盘点让任何人都能创建应用的 AI 编程工具",
+      "url": "https://www.forbes.com/sites/bernardmarr/2026/03/18/20-amazing-vibe-coding-tools-everyone-needs-to-know-about/",
+      "category": "agent",
+      "source": "Forbes"
+    },
+    {
+      "title": "Vercel 成为 Claude Code 首选 Web 托管工具，AI Agent 部署占比超 21%",
+      "summary": "阿根廷亿万富翁创办的初创公司，AI Agent 生成部署增长迅速",
+      "url": "http://www.forbes.com/sites/richardnieva/2026/03/17/vercel-guillermo-rauch/",
+      "category": "agent",
+      "source": "Forbes"
+    },
+    {
+      "title": "Google 工程师推出 Sashiko，用于 AI Agent 代码生成",
+      "summary": "Reddit 讨论 AI 代码生成工具的新进展",
+      "url": "https://www.reddit.com/r/linux/comments/1rx59y5/google_engineers_launch_sashiko_for_agentic_ai/",
+      "category": "open-source",
+      "source": "Reddit"
+    },
+    {
+      "title": "中国 10 只股票搭上 OpenClaw 和 AI Agent 热潮",
+      "summary": "中国拥有规模、政策推动和垂直整合优势，加速 Agent 商业化",
+      "url": "https://nai500.com/blog/2026/03/10-china-stocks-to-ride-openclaw-and-the-ai-agent-boom/",
+      "category": "company",
+      "source": "NAI500"
+    }
+  ]
+}
