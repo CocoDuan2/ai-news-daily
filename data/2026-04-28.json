@@ -1,0 +1,216 @@
+{
+  "date": "2026-04-28",
+  "summary": "Manus 收购被中国叫停，OpenAI 松绑微软独家协议，DeepSeek 延续价格战，Google 内外同时加码 AI 助手与军方合作，Agent 正从模型演示转向治理、权限与基础设施竞争。",
+  "news": [
+    {
+      "title": "中国叫停 Meta 收购 Manus",
+      "summary": "中国监管部门要求撤回 Meta 对 Manus 的约 20 亿美元收购，AI 核心技术跨境流动再次被拉到聚光灯下。",
+      "url": "https://www.cnn.com/2026/04/27/tech/china-blocks-meta-manus-intl-hnk",
+      "category": "policy",
+      "source": "CNN"
+    },
+    {
+      "title": "OpenAI 松绑微软独家权利，为 IPO 铺路",
+      "summary": "OpenAI 与微软重签协议，Azure 不再拥有排他性，营收分成也改为设定上限和期限。",
+      "url": "https://pitchbook.com/news/articles/openai-loosens-microsofts-grip-ahead-of-ipo-push",
+      "category": "company",
+      "source": "PitchBook"
+    },
+    {
+      "title": "前 DeepMind 研究员创业公司创下 11 亿美元种子轮纪录",
+      "summary": "David Silver 创立的 Ineffable Intelligence 拿下 11 亿美元种子融资，强化学习路线再次得到顶级资本背书。",
+      "url": "https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html",
+      "category": "company",
+      "source": "CNBC"
+    },
+    {
+      "title": "DeepSeek 新模型亮相，但资本市场反应冷静",
+      "summary": "Reuters 指出 DeepSeek 新一代模型预览未再现去年的轰动，市场开始更看重商业化与持续交付。",
+      "url": "https://www.reuters.com/world/china/deepseeks-new-ai-model-does-not-wow-markets-fast-changing-industry-2026-04-27/",
+      "category": "model",
+      "source": "Reuters"
+    },
+    {
+      "title": "DeepSeek 下调新模型价格，继续打成本牌",
+      "summary": "DeepSeek 为新模型推出更低定价，性能继续冲击开源阵营高位，价格战仍是中国模型市场主旋律。",
+      "url": "https://www.reuters.com/world/china/chinas-deepseek-slashes-prices-new-ai-model-2026-04-27/",
+      "category": "model",
+      "source": "Reuters"
+    },
+    {
+      "title": "OpenAI 被曝筹备 AI 手机，希望用 Agent 替代 App",
+      "summary": "分析师称 OpenAI 正与联发科、高通和立讯等伙伴探索 AI 手机，核心思路是让 Agent 直接接管跨应用任务。",
+      "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+      "category": "product",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Adobe 在 Firefly 公测创意 Agent，并计划接入 Claude",
+      "summary": "Adobe 开始测试 Firefly 内置智能助手，还准备把轻量版能力放进 Claude 等第三方聊天界面。",
+      "url": "https://www.axios.com/2026/04/27/adobe-agentic-ai-firefly-claude",
+      "category": "product",
+      "source": "Axios"
+    },
+    {
+      "title": "Xero 与 Anthropic 达成多年合作，把 Claude 引入财务工作流",
+      "summary": "Xero 将用 Claude 驱动 JAX 智能体，目标是把报销、支付和税务等任务变成可对话、可执行的自动流程。",
+      "url": "https://thefintechtimes.com/accounting-moves-to-the-age-of-the-agent-with-xero-anthropic-partnership/",
+      "category": "company",
+      "source": "The Fintech Times"
+    },
+    {
+      "title": "约 600 名 Google 员工联名反对为五角大楼提供机密 AI",
+      "summary": "Google 员工要求 CEO Sundar Pichai 拒绝机密军事 AI 订单，担心模型被用于缺乏监督的高风险用途。",
+      "url": "https://www.washingtonpost.com/technology/2026/04/27/google-employees-letter-ai-pentagon/",
+      "category": "policy",
+      "source": "The Washington Post"
+    },
+    {
+      "title": "五角大楼把 Gemini 3.1 Pro 接入 GenAI.mil，平台已生成超 10 万个 Agent",
+      "summary": "美国国防部表示 GenAI.mil 用户已大量使用 Google 最新模型和 Agent Designer，军方 AI 平台加速普及。",
+      "url": "https://www.defenseone.com/defense-systems/2026/04/pentagon-adds-googles-latest-model-genaimil-usage-soars/413126/?oref=d1-featured-river-top",
+      "category": "policy",
+      "source": "Defense One"
+    },
+    {
+      "title": "Gemini App 准备上线“主动协助”功能",
+      "summary": "Google 正在为 Gemini 测试 Proactive Assistance，可结合日历、邮件、通知和屏幕内容给出个性化建议。",
+      "url": "https://9to5google.com/2026/04/27/gemini-proactive-assistance/",
+      "category": "product",
+      "source": "9to5Google"
+    },
+    {
+      "title": "欧盟要求 Google 进一步开放 Android 的 AI 助手入口",
+      "summary": "欧盟认为 Gemini 在 Android 上享有过多系统级特权，可能要求 Google 向第三方 AI 助手开放更多接口。",
+      "url": "https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/",
+      "category": "policy",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Meta 将记录员工屏幕和键鼠行为，用来训练电脑操作型 AI",
+      "summary": "Meta 准备在美国员工电脑上安装追踪软件，以采集真实操作轨迹，训练能代替人类点点点的 Agent。",
+      "url": "https://www.aol.com/finance/meta-start-tracking-employees-screens-185346929.html",
+      "category": "company",
+      "source": "AOL"
+    },
+    {
+      "title": "美国网络安全机构仍拿不到最强 AI 攻防模型",
+      "summary": "Forbes 报道 CISA 员工尚无法使用 Anthropic 与 OpenAI 最新网络安全模型，影响关键基础设施防护效率。",
+      "url": "https://www.forbes.com/sites/thomasbrewster/2026/04/27/us-cyber-agency-doesnt-have-access-to-advanced-ai-hacking-tools/",
+      "category": "policy",
+      "source": "Forbes"
+    },
+    {
+      "title": "微软修补 Entra 中“Agent ID 管理员”权限越界漏洞",
+      "summary": "研究人员发现该角色可接管无关服务主体，具备潜在租户级提权风险，说明 Agent 基础设施安全仍在补课。",
+      "url": "https://www.csoonline.com/article/4163708/microsoft-patched-an-agent-only-role-that-was-not.html",
+      "category": "tech",
+      "source": "CSO Online"
+    },
+    {
+      "title": "犹他州试点 Claude Code，开发者四周平均省下 40 小时",
+      "summary": "州政府在 11 个机构测试 Claude Code，开发者反馈明显提速，公共部门开始认真评估代码 Agent 的 ROI。",
+      "url": "https://www.govtech.com/artificial-intelligence/an-ai-magic-moment-accelerates-it-development-in-utah",
+      "category": "product",
+      "source": "GovTech"
+    },
+    {
+      "title": "Accenture 将向 74.3 万员工全面铺开 Microsoft Copilot",
+      "summary": "这是目前企业级 Copilot 最大部署之一，显示大公司正在把 AI 助手从试点推向全员标配。",
+      "url": "https://www.itnews.com.au/news/accenture-to-roll-out-copilot-to-all-743000-employees-625396",
+      "category": "company",
+      "source": "iTnews"
+    },
+    {
+      "title": "迪士尼内部仪表盘曝光 Claude 与 Cursor 使用热度",
+      "summary": "Business Insider 报道迪士尼技术团队已有近 4800 人被纳入 AI 使用统计，企业开始精细追踪 token 成本。",
+      "url": "https://www.businessinsider.com/how-disney-tech-employees-are-using-ai-claude-cursor-tokens-2026-4",
+      "category": "company",
+      "source": "Business Insider"
+    },
+    {
+      "title": "中国大陆云基础设施支出同比增长 26%，AI 与 Agent 成主引擎",
+      "summary": "Omdia 数据显示，中国云支出恢复增长，企业私有化部署和 Agent 落地正在带动算力、存储与数据库需求。",
+      "url": "https://www.lightreading.com/ai-machine-learning/mainland-china-cloud-infrastructure-spending-rises-26-in-q4-2025-driven-by-ai-and-agent-growth-omdia",
+      "category": "tech",
+      "source": "Light Reading"
+    },
+    {
+      "title": "中国创业公司推出 43 美元夹式麦克风，语音直连 OpenClaw Agent",
+      "summary": "CNBC 报道杭州初创公司 EinClaw 已开始出货，把 AI Agent 从屏幕里往真实硬件上推。",
+      "url": "https://www.cnbc.com/2026/04/27/china-ai-hardware-shipping-einclaw-style3d-vw-alibaba.html",
+      "category": "product",
+      "source": "CNBC"
+    },
+    {
+      "title": "Google 开源官方 Agent Skills 仓库",
+      "summary": "Google 发布面向云平台的官方 Skills 代码库，覆盖 BigQuery、Cloud Run、GKE 等服务，方便 Agent 直接调用。",
+      "url": "https://eu.36kr.com/zh/p/3784801777032201",
+      "category": "open-source",
+      "source": "36氪"
+    },
+    {
+      "title": "WPS 多维表格把 Agent 写进业务流程",
+      "summary": "金山办公发布新一代多维表格，强调 AI 先生成脚本再由人审核执行，用“确定性外壳”解决业务数据风险。",
+      "url": "https://eu.36kr.com/zh/p/3785184882613253",
+      "category": "product",
+      "source": "36氪"
+    },
+    {
+      "title": "AI 使用量正变成中国大厂员工的新 KPI",
+      "summary": "36氪 报道微博、小米、阿里、字节等公司把 AI 编程和 token 消耗纳入考核，提效开始变成刚性指标。",
+      "url": "https://m.36kr.com/p/3784892079927808",
+      "category": "company",
+      "source": "36氪"
+    },
+    {
+      "title": "楼天城：Harness 会成为这个时代最关键的能力",
+      "summary": "量子位专访中，楼天城认为 AI 进入“会自己演进”的阶段后，人类最重要的工作将是驾驭而非替代它。",
+      "url": "https://www.qbitai.com/2026/04/408578.html",
+      "category": "tech",
+      "source": "量子位"
+    },
+    {
+      "title": "Anthropic、OpenAI、Google、微软都把控制层当成产品",
+      "summary": "从托管 Agent 到开源 SDK，再到云端运行时，Harness 正从幕后工程变成新的收费层和竞争面。",
+      "url": "https://m.36kr.com/p/3784801596939521",
+      "category": "tech",
+      "source": "36氪"
+    },
+    {
+      "title": "InfoQ：智能体工程的隐性技术债正在累积",
+      "summary": "InfoQ 指出，Agent 系统真正难的不是演示效果，而是可维护性、可观测性、权限边界和长期治理。",
+      "url": "https://www.infoq.cn/article/VOvh1yB2SrSccjqwABw3?utm_source=rss&utm_medium=article",
+      "category": "tech",
+      "source": "InfoQ"
+    },
+    {
+      "title": "蚂蚁灵波开源 LingBot-World-Fast，把世界模型做到可实时交互",
+      "summary": "蚂蚁开源实时世界模型方案，意味着 AI 不只会看和说，也开始在更接近环境反馈的层面“试玩世界”。",
+      "url": "https://www.infoq.cn/article/rkoWDHOOb2VFyIGKwuym?utm_source=rss&utm_medium=article",
+      "category": "open-source",
+      "source": "InfoQ"
+    },
+    {
+      "title": "案例称全面换用 DeepSeek V4 后，模型账单最多可降九成",
+      "summary": "InfoQ 报道有团队把模型栈切到 DeepSeek V4 后，成本显著下降，说明价格与可用性正在重塑模型采购逻辑。",
+      "url": "https://www.infoq.cn/article/e4UXTsCToLXsRVEWNUqW?utm_source=rss&utm_medium=article",
+      "category": "model",
+      "source": "InfoQ"
+    },
+    {
+      "title": "Skye 想把 iPhone 主屏做成 Agent 入口，发布前先拿到投资",
+      "summary": "Skye 试图用小组件重构 iPhone 首页，把“打开 App”改写为“先让 AI 代办”，已积累大批等待用户。",
+      "url": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+      "category": "product",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Magnite 推出媒体采购 Agent，迪士尼与阳狮参与合作",
+      "summary": "广告技术公司开始把 AI 直接推向媒介购买环节，营销行业也进入 Agent 化的实际部署阶段。",
+      "url": "https://adage.com/media/media-buying-planning/aa-magnite-launches-buyer-agent/",
+      "category": "product",
+      "source": "Ad Age"
+    }
+  ]
+}
