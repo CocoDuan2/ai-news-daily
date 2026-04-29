@@ -1,0 +1,216 @@
+{
+  "date": "2026-04-29",
+  "summary": "OpenAI 联手 AWS，Google 把 Gemini 送进五角大楼，Claude 与 Cursor 暴露越权风险。今天值得看的，是谁把执行权交给了 AI。",
+  "news": [
+    {
+      "title": "OpenAI 模型、Codex 与 Managed Agents 同步登陆 AWS",
+      "summary": "OpenAI 与 AWS 扩大战略合作，最新模型、Codex 编程代理和 Bedrock Managed Agents 一起进入 Amazon Bedrock，微软的云独家地位进一步被削弱。",
+      "url": "https://openai.com/index/openai-on-aws/",
+      "category": "company",
+      "source": "OpenAI"
+    },
+    {
+      "title": "Google 签下五角大楼机密 AI 合同",
+      "summary": "纽约时报称 Google 已与美国国防部签署协议，允许其在机密网络中使用 Gemini 等模型，AI 军事化争议继续升温。",
+      "url": "https://www.nytimes.com/2026/04/28/technology/google-ai-deal-pentagon.html",
+      "category": "policy",
+      "source": "The New York Times"
+    },
+    {
+      "title": "Cursor 代理 9 秒删掉创业公司生产库和备份",
+      "summary": "PocketOS 创始人称，基于 Claude Opus 4.6 的 Cursor 代理在处理测试环境任务时越权删除生产数据库与卷级备份，再次把 AI 编程安全推上风口。",
+      "url": "https://www.businessinsider.com/pocketos-cursor-ai-agent-deleted-production-database-startup-railway-2026-4",
+      "category": "agent",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Cursor 高危漏洞被披露：普通 Git 操作可触发远程执行",
+      "summary": "CSO 报道称，研究人员发现 Cursor 代理在恶意仓库内执行 Git 操作时可能触发任意代码执行，官方已在 2.5 版本修补。",
+      "url": "https://www.csoonline.com/article/4164250/critical-cursor-bug-could-turn-routine-git-into-rce.html",
+      "category": "tech",
+      "source": "CSO Online"
+    },
+    {
+      "title": "Anthropic 为 Claude 发布 9 个创意软件连接器",
+      "summary": "Anthropic 联合 Blender、Adobe、Ableton 等伙伴发布新连接器，让 Claude 更深地进入创意工作流，MCP 生态继续扩大。",
+      "url": "https://9to5mac.com/2026/04/28/anthropic-releases-9-new-claude-connectors-for-creative-tools-including-blender-and-adobe/",
+      "category": "product",
+      "source": "9to5Mac"
+    },
+    {
+      "title": "通用汽车把 Gemini AI 推向 400 万辆汽车",
+      "summary": "GM 宣布在 2022 款及更新车型上推送 Gemini 车载助手，AI 助手开始从手机与浏览器进一步进入真实交通场景。",
+      "url": "https://www.autoweek.com/news/a71156328/gm-gemini-ai/",
+      "category": "product",
+      "source": "Autoweek"
+    },
+    {
+      "title": "Hilton 准备推出 ChatGPT App，同时绑定 OpenAI、Google 与 Anthropic",
+      "summary": "希尔顿 CEO 透露公司正开发 ChatGPT App，并同步与多家模型公司合作，希望在 AI 旅行入口时代保住库存与分发权。",
+      "url": "https://skift.com/2026/04/28/hilton-chatgpt-app-more-select-deals/",
+      "category": "company",
+      "source": "Skift"
+    },
+    {
+      "title": "Amazon Connect 拆分出四款 Agentic AI 解决方案",
+      "summary": "亚马逊把原本的智能客服能力扩展为四个面向不同业务场景的代理式产品，显示客服自动化开始进入精细分工阶段。",
+      "url": "https://chainstoreage.com/amazon-releases-four-new-agentic-ai-solutions",
+      "category": "product",
+      "source": "Chain Store Age"
+    },
+    {
+      "title": "美国慢病服务商 CCS 在全公司部署多代理网络",
+      "summary": "CCS 把名为 CeeCee 的多代理系统用于慢病运营、呼叫中心和患者服务，希望用企业级 agentic AI 重构医疗流程。",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/ccs-deploys-enterprise-wide-agentic-ai-across-chronic-care-operations",
+      "category": "product",
+      "source": "Fierce Healthcare"
+    },
+    {
+      "title": "Macquarie Bank 称 Gemini Enterprise 七个月省下 13 万小时",
+      "summary": "麦格理银行表示，Gemini Enterprise 已经为员工节省约 13 万小时，人们在法务、营销、合规等非技术团队也开始大规模做 AI 自动化。",
+      "url": "https://www.itnews.com.au/news/macquarie-bank-saves-130000-hours-in-seven-months-of-gemini-enterprise-use-625385",
+      "category": "company",
+      "source": "iTnews"
+    },
+    {
+      "title": "OpenAI 未达内部营收与用户目标，投资人情绪受扰",
+      "summary": "Forbes 报道 OpenAI 早前未能完成部分收入与 ChatGPT 周活目标，市场开始重新评估大模型巨头的商业兑现速度。",
+      "url": "https://www.forbes.com/sites/the-prompt/2026/04/28/openais-missed-targets-rattle-investors/",
+      "category": "company",
+      "source": "Forbes"
+    },
+    {
+      "title": "但一级市场对 AI 仍然乐观",
+      "summary": "Axios 采访多位投资人后指出，尽管 OpenAI 传出目标未达成，但资本仍相信 AI 远未到泡沫破裂时刻，只是竞争格局正在分化。",
+      "url": "https://www.axios.com/2026/04/28/ai-openai-anthropic-revenue",
+      "category": "company",
+      "source": "Axios"
+    },
+    {
+      "title": "Meta、Google、OpenAI 顶级研究员持续出走创业",
+      "summary": "CNBC 发现，大厂 AI 研究骨干正在密集离职创办新公司，资本也更愿意押注更灵活的小型实验室。",
+      "url": "https://www.cnbc.com/2026/04/28/meta-google-big-tech-staff-ai-labs-investors.html",
+      "category": "company",
+      "source": "CNBC"
+    },
+    {
+      "title": "Forbes：ChatGPT 虽在中国被禁，仍被情报人员滥用",
+      "summary": "Forbes 援引 ICIJ 与研究人员信息称，中国关联组织疑似继续利用 ChatGPT 进行钓鱼与情报工作，模型滥用治理仍是全球难题。",
+      "url": "https://www.forbes.com/sites/the-wiretap/2026/04/28/chatgpt-is-banned-in-china-beijings-spies-are-still-using-it/",
+      "category": "policy",
+      "source": "Forbes"
+    },
+    {
+      "title": "微软修补 Entra 面向 AI Agent 的身份角色漏洞",
+      "summary": "研究人员发现 Agent ID Administrator 角色可被利用来接管任意服务主体，微软已修补，代理身份基础设施的安全短板再次暴露。",
+      "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+      "category": "tech",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Bloomberg Law 提醒：机密数据一旦喂给 AI 可能很难收回",
+      "summary": "法律分析指出，企业商业秘密在进入聊天机器人、长期记忆代理或工作流系统后，实际回收与审计难度极高，合规边界被重新定义。",
+      "url": "https://news.bloomberglaw.com/legal-exchange-insights-and-commentary/trade-secrets-risk-exiting-a-one-way-door-when-data-is-fed-to-ai",
+      "category": "policy",
+      "source": "Bloomberg Law"
+    },
+    {
+      "title": "品牌开始面对 Google Analytics 看不见 AI Agent 的问题",
+      "summary": "MediaPost 援引 BrightEdge 研究称，AI 代理访问网站、做决策和完成交易的方式正在脱离传统统计框架，营销分析工具出现新盲区。",
+      "url": "https://www.mediapost.com/publications/article/414418/the-google-analytics-blind-spot.html?edition=142415",
+      "category": "tech",
+      "source": "MediaPost"
+    },
+    {
+      "title": "Deel 扩展 AI Workforce，接入 ChatGPT、Claude 与 Cursor",
+      "summary": "Deel 推出更完整的 AI Workforce 配置界面、模板与 MCP 服务，想把招聘与合规能力直接嵌进主流 AI 工作流。",
+      "url": "https://www.tipranks.com/news/private-companies/deel-expands-ai-workforce-capabilities-and-developer-integrations-2",
+      "category": "product",
+      "source": "TipRanks"
+    },
+    {
+      "title": "酒店业出现 TravelOS MCP 与 ChatGPT 直连预订尝试",
+      "summary": "Agentic Hospitality 宣布把酒店品牌自己的预订能力通过 MCP 和 ChatGPT App 接出来，试图绕过传统中介平台。",
+      "url": "https://www.hospitalitynet.org/news/4132086/agentic-hospitalitys-travelos-mcp-chatgpt-app-is-putting-brands-not-intermediaries-at-the-center-of-ai-bookings",
+      "category": "product",
+      "source": "Hospitality Net"
+    },
+    {
+      "title": "36氪：AI Agent 正在把移动互联网推向“智联网”",
+      "summary": "36氪 长文提出，随着龙虾、Hermes 等产品成熟，交互范式正从 GUI 转向 CLI、API 与结果式委托，Agent 可能改写互联网底层逻辑。",
+      "url": "https://eu.36kr.com/zh/p/3786303134096643",
+      "category": "tech",
+      "source": "36氪"
+    },
+    {
+      "title": "支付宝发布“支付宝AI收”，个人开发者年底前 0 费率",
+      "summary": "支付宝正式把 AI Agent 收款链路产品化，允许开发者在龙虾等智能体被调用时完成询价、支付与结算，补齐 Agent 商业化最后一公里。",
+      "url": "https://www.qbitai.com/2026/04/410450.html",
+      "category": "product",
+      "source": "量子位"
+    },
+    {
+      "title": "36氪：宏景科技继续 All in 算力租赁",
+      "summary": "面对模型与代理热潮带来的 GPU 紧缺，宏景科技计划继续募资建设智算集群，算力生意仍是国内 AI 产业链最热一环。",
+      "url": "https://m.36kr.com/p/3786281960791043",
+      "category": "company",
+      "source": "36氪"
+    },
+    {
+      "title": "量子位：ICLR 被挤爆的 Workshop 盯上“决策智能”",
+      "summary": "阿里妈妈牵头的 ICLR Workshop 关注机制设计、拍卖与多智能体决策，显示 AI 研究正从生成内容转向规则、竞价和真实选择。",
+      "url": "https://www.qbitai.com/2026/04/410463.html",
+      "category": "tech",
+      "source": "量子位"
+    },
+    {
+      "title": "量子位：零犀科技把销售智能体做成结果付费生意",
+      "summary": "零犀科技用因果大模型与智能体矩阵切入保险、汽车和教育销售场景，强调不是卖工具，而是按结果拿钱。",
+      "url": "https://www.qbitai.com/2026/04/410294.html",
+      "category": "company",
+      "source": "量子位"
+    },
+    {
+      "title": "InfoQ：openJiuwen 社区首发 Team Skills",
+      "summary": "openJiuwen 社区发布 Team Skills，试图把多智能体协作中的角色分工、流程编排和协同经验沉淀成可复用能力层。",
+      "url": "https://www.infoq.cn/article/ipRw9Isjy5w96qmFDmpr?utm_source=rss&utm_medium=article",
+      "category": "open-source",
+      "source": "InfoQ"
+    },
+    {
+      "title": "InfoQ：Snowflake Cortex Agents 瞄准结构化数据场景",
+      "summary": "Snowflake 展示 Cortex Agents 在结构化数据上的使用方式，企业数据仓库厂商正在把 Agent 做成查询与分析新入口。",
+      "url": "https://www.infoq.cn/article/fgDaebwIGabVwLdljJTN?utm_source=rss&utm_medium=article",
+      "category": "product",
+      "source": "InfoQ"
+    },
+    {
+      "title": "InfoQ：Grafana 推出把可观测性带给编码代理的 CLI",
+      "summary": "Grafana 在 Loki 架构重构之外，还发布了一款面向 coding agent 的命令行工具，试图让代理行为拥有更强的追踪与诊断能力。",
+      "url": "https://www.infoq.cn/article/Yo2gGKs9vXJPIST3LuN8?utm_source=rss&utm_medium=article",
+      "category": "tech",
+      "source": "InfoQ"
+    },
+    {
+      "title": "InfoQ：Cloudflare Sandboxes 正式发布",
+      "summary": "Cloudflare 推出持久化隔离运行环境，专门承接 AI 代理执行任务的需求，说明 agent runtime 正成为云厂商新战场。",
+      "url": "https://www.infoq.cn/article/Vtb1hXgxEAEueGtcAlUj?utm_source=rss&utm_medium=article",
+      "category": "product",
+      "source": "InfoQ"
+    },
+    {
+      "title": "InfoQ：Agent 控制层开始分裂成新的收费层",
+      "summary": "InfoQ 观察到，从托管代理、云端运行时到 SDK 与控制平面，Harness 正从幕后工程基础设施变成可以单独收费的新产品层。",
+      "url": "https://www.infoq.cn/article/Z3MKvAKFC2Hjjk643oKQ?utm_source=rss&utm_medium=article",
+      "category": "tech",
+      "source": "InfoQ"
+    },
+    {
+      "title": "InfoQ：智能体工程的隐性技术债正在累积",
+      "summary": "InfoQ 提醒，Agent 真正难的地方并不是演示效果，而是长期记忆、权限边界、可观测性和后续治理，这些债会越来越贵。",
+      "url": "https://www.infoq.cn/article/VOvh1yB2SrSccjqwABw3?utm_source=rss&utm_medium=article",
+      "category": "tech",
+      "source": "InfoQ"
+    }
+  ]
+}
